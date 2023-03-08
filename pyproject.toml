@@ -1,0 +1,85 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ruff-usage-aggregate"
+description = ''
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Aarni Koskela", email = "akx@iki.fi" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "click~=8.0",
+  "diskcache~=5.4",
+  "envparse~=0.2",
+  "httpx~=0.23",
+  "tqdm~=4.65",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+histogram = ["numpy"]
+
+[project.scripts]
+ruff-usage-aggregate = "ruff_usage_aggregate.__main__:main"
+
+[project.urls]
+Documentation = "https://github.com/akx/ruff-usage-aggregate#readme"
+Issues = "https://github.com/akx/ruff-usage-aggregate/issues"
+Source = "https://github.com/akx/ruff-usage-aggregate"
+
+[tool.hatch.version]
+path = "ruff_usage_aggregate/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+]
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=ruff_usage_aggregate --cov=tests {args}"
+no-cov = "cov --no-cov {args}"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310", "311"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "ruff_usage_aggregate/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+select = [
+    "B",
+    "C",
+    "COM",
+    "E",
+    "F",
+    "I",
+    "UP",
+]
+
+[tool.black]
+line-length = 120

@@ -1,0 +1,7 @@
+*.py[cod]
+.env
+.vscode
+/*urls.txt
+/.cache
+/.coverage
+dist
