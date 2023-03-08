@@ -15,7 +15,7 @@ The major workflow is:
 
 1. Find files to scan.
    - `scan-github-search` (or other data sources, to be implemented) to find possible candidate TOML files.
-     - To use this, you'll need to set the `GITHUB_TOKEN` environment variable to a GitHub API token. You can also
+     - To use this, you'll need to set the `RUA_GITHUB_TOKEN` environment variable to a GitHub API token. You can also
        place it in a file called `.env` in the working directory.
    - See the section below for how to get more URLs by hand, if/when that's not enough.
 2. Download the files.
