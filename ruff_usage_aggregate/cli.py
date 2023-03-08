@@ -79,3 +79,14 @@ def scan_tomls(context: click.Context, output_format: str):
         from ruff_usage_aggregate.format.top_markdown import format_top_markdown
 
         print(format_top_markdown(sr))
+
+
+@main.command()
+@click.pass_context
+def dump_downloaded_tomls(context: click.Context):
+    """
+    Dump downloaded TOMLs as JSON.
+    """
+    from ruff_usage_aggregate.actions.scan_tomls import get_downloaded_tomls
+
+    print(json.dumps(dict(get_downloaded_tomls(context.obj["cache"]))))
