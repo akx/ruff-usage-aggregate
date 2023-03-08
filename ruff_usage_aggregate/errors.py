@@ -1,0 +1,2 @@
+class NotRuffyError(Exception):
+    pass

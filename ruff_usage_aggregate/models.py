@@ -5,6 +5,7 @@ import logging
 from collections import Counter
 
 from ruff_usage_aggregate.constants import UNSET
+from ruff_usage_aggregate.errors import NotRuffyError
 
 log = logging.getLogger(__name__)
 
@@ -50,6 +51,7 @@ class RuffConfig:
     extend_select: set[str] = dataclasses.field(default_factory=set)
     fixable: set[str] = dataclasses.field(default_factory=set)
     ignore: set[str] = dataclasses.field(default_factory=set)
+    exclude: set[str] = dataclasses.field(default_factory=set)
     line_length: int | None = None
     per_file_ignores: dict[str, set[str]] = dataclasses.field(default_factory=dict)
     select: set[str] = dataclasses.field(default_factory=set)
@@ -58,30 +60,47 @@ class RuffConfig:
 
     @classmethod
     def from_toml_section(cls, url: str, ruff_section: dict):
+        processed = set()
         ruff_section = ruff_section.copy()  # we'll mutate this
         rc = RuffConfig(url)
         if isinstance(select := ruff_section.pop("select", None), list):
             rc.select.update(select)
+            processed.add("select")
         if isinstance(extend_select := ruff_section.pop("extend-select", None), list):
             rc.extend_select.update(extend_select)
+            processed.add("extend-select")
         if isinstance(ignore := ruff_section.pop("ignore", None), list):
             rc.ignore.update(ignore)
+            processed.add("ignore")
         if isinstance(extend_ignore := ruff_section.pop("extend-ignore", None), list):
             rc.extend_ignore.update(extend_ignore)
+            processed.add("extend-ignore")
+        if isinstance(exclude := ruff_section.pop("exclude", None), list):
+            rc.exclude.update(exclude)
+            processed.add("exclude")
         if isinstance(line_length := ruff_section.pop("line-length", None), int):
             rc.line_length = line_length
+            processed.add("line-length")
         if isinstance(line_length := ruff_section.pop("max-line-length", None), int):
             rc.line_length = line_length
+            processed.add("max-line-length")
         if isinstance(target_version := ruff_section.pop("target-version", None), str):
             rc.target_version = target_version
+            processed.add("target-version")
         if isinstance(unfixable := ruff_section.pop("unfixable", None), list):
             rc.unfixable.update(unfixable)
+            processed.add("unfixable")
         if isinstance(fixable := ruff_section.pop("fixable", None), list):
             rc.fixable.update(fixable)
+            processed.add("fixable")
         if isinstance(per_file_ignores := ruff_section.pop("per-file-ignores", None), dict):
             for file, ignores in per_file_ignores.items():
                 if isinstance(ignores, list):
                     rc.per_file_ignores[file] = set(ignores)
+            processed.add("per-file-ignores")
+
+        if not processed:
+            raise NotRuffyError(f"Invalid ruff section: {ruff_section}")
 
         if ruff_section:
             log.debug("Unprocessed: %r", ruff_section)

@@ -3,6 +3,7 @@ import tomllib
 
 import diskcache
 
+from ruff_usage_aggregate.errors import NotRuffyError
 from ruff_usage_aggregate.models import RuffConfig, ScanResult
 
 log = logging.getLogger(__name__)
@@ -29,8 +30,19 @@ def get_downloaded_tomls(cache: diskcache.Cache):
 def scan_tomls(cache: diskcache.Cache) -> ScanResult:
     sr = ScanResult()
     for url, toml in get_downloaded_tomls(cache):
-        ruff_section = toml.get("tool", {}).get("ruff")
+        if url.endswith("ruff.toml"):
+            # for a ruff.toml, the whole shebang is the config
+            ruff_section = toml
+        else:  # otherwise assume pyproject.toml
+            ruff_section = toml.get("tool", {}).get("ruff")
         if not isinstance(ruff_section, dict):
             continue
-        sr.configs.append(RuffConfig.from_toml_section(url=url, ruff_section=ruff_section))
+        if not ruff_section:
+            continue
+        try:
+            rc = RuffConfig.from_toml_section(url=url, ruff_section=ruff_section)
+        except NotRuffyError:
+            log.exception(f"Not ruffy: {url}")
+            continue
+        sr.configs.append(rc)
     return sr
