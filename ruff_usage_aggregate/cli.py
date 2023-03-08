@@ -64,6 +64,18 @@ def download_tomls_from_file(context: click.Context):
 
 
 @main.command()
+@click.pass_context
+def download_tomls_from_known_repos(context: click.Context):
+    """
+    Download TOMLs from the known repos data.
+    """
+    from ruff_usage_aggregate.actions.toml_download import download_tomls_from_known_repos
+
+    download_tomls_from_known_repos(context.obj["cache"])
+
+
+
+@main.command()
 @click.option("--output-format", "-o", type=click.Choice(["json", "top-markdown"]), required=True)
 @click.pass_context
 def scan_tomls(context: click.Context, output_format: str):

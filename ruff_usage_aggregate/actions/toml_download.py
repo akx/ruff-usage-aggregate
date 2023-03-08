@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import re
 
 import diskcache
@@ -71,3 +72,37 @@ def download_tomls_from_file(cache: diskcache.Cache, file):
             if not url:
                 continue
             maybe_download_url(client, cache, url)
+
+
+def download_tomls_from_known_repos(cache: diskcache.Cache):
+    from ruff_usage_aggregate.data.known_repos import known_repos
+    with httpx.Client() as client:
+        for repo in known_repos:
+            for url in [
+                f"https://api.github.com/repos/{repo}/contents/pyproject.toml",
+                f"https://api.github.com/repos/{repo}/contents/ruff.toml",
+            ]:
+                _process_github_contents_url(cache, client, url, repo)
+
+
+def _process_github_contents_url(cache, client, content_url, repo):
+    resp = client.get(content_url)
+    if resp.status_code == 404:
+        print("404", content_url)
+        return
+    resp.raise_for_status()
+    data = resp.json()
+    # pseudo-URL for cache key because the contents/ API
+    # doesn't resolve the ref name to a canonical commit SHA
+    url = f"~{repo}/{data['sha']}/pyproject.toml"
+    cache_key = f"toml:{url}"
+    if cache_key in cache:
+        return
+    if data.get("content"):
+        if data["encoding"] != "base64":
+            raise ValueError(f"Unknown encoding: {data['encoding']}")
+        content = base64.b64decode(data["content"]).decode("utf-8")
+        cache[cache_key] = content
+        print("Got:", cache_key)
+    else:
+        print("No content...", content_url, data)
