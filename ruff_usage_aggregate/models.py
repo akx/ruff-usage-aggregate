@@ -41,6 +41,22 @@ class ScanResult:
             aggregated["fields_set"].update(config.fields_set)
         return aggregated
 
+    def get_value_set_counters(self) -> dict:
+        keys = {
+            "extend_ignore",
+            "extend_select",
+            "fields_set",
+            "fixable",
+            "ignore",
+            "select",
+            "unfixable",
+        }
+        value_sets = {key: Counter() for key in keys}
+        for config in self.configs:
+            for key in keys:
+                value_sets[key][frozenset(getattr(config, key))] += 1
+        return value_sets
+
 
 @dataclasses.dataclass()
 class RuffConfig:
