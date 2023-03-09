@@ -1,7 +1,6 @@
-import random
 import time
+from collections.abc import Iterable
 
-import diskcache
 import httpx
 
 from ruff_usage_aggregate.helpers import sleep_with_progress
@@ -9,19 +8,11 @@ from ruff_usage_aggregate.helpers import sleep_with_progress
 
 def scan_github_search(
     *,
-    cache: diskcache.Cache,
     github_token: str,
-    min_page: int = 1,
-    max_page: int = 20,
-    shuffle: bool = False,
-):
+) -> Iterable[dict]:
     # This does seem to quickly end up in a rate-limiting limbo (at around page 11 for me).
-    timestamp = int(time.time())
-    pages = list(range(min_page, max_page + 1))
-    if shuffle:
-        random.shuffle(pages)
     with httpx.Client() as client:
-        for page in pages:
+        for page in range(1, 11):
             while True:
                 print(f"Fetching page {page}")
                 resp = client.get(
@@ -55,7 +46,6 @@ def scan_github_search(
                 print(resp.status_code)
                 resp.raise_for_status()
             data = resp.json()
-            cache_key = f"scan_github:{timestamp}:{page}"
-            cache[cache_key] = data
+            yield data
             if not data.get("items"):
                 break

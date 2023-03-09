@@ -1,7 +1,9 @@
 *.py[cod]
 .env
 .vscode
+/*.jsonl
 /*urls.txt
 /.cache
 /.coverage
+/tomls*
 dist

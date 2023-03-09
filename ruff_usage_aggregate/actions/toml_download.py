@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+import logging
 import re
+from pathlib import Path
 
-import diskcache
 import httpx
+
+log = logging.getLogger(__name__)
 
 
 def convert_github_url_to_raw_url(url: str | None) -> str | None:
@@ -20,54 +23,48 @@ def convert_github_url_to_raw_url(url: str | None) -> str | None:
     return None
 
 
-def scan_cache_for_download_urls(cache: diskcache.Cache):
-    """
-    Find GitHub blob download URLs for TOML files from the cache.
-    """
-    for key in cache.iterkeys():
-        if key.startswith("scan_github:"):
-            data = cache[key]
-            for item in data["items"]:
-                download_url = convert_github_url_to_raw_url(
-                    item.get("download_url") or item.get("html_url"),
+def download_tomls(
+    output_directory: Path,
+    data: list[dict],
+    github_token: str | None = None,
+):
+    with httpx.Client() as client:
+        for datum in data:
+            if "owner" in datum and "repo" in datum and "path" in datum:
+                download_from_github_datum(
+                    client=client,
+                    output_directory=output_directory,
+                    datum=datum,
+                    github_token=github_token,
                 )
-                if not download_url:
-                    print(f"Unknown item: {item}")
-                    continue
-                yield download_url
+            else:
+                print("Skipping:", datum)
 
 
-def maybe_download_url(client: httpx.Client, cache: diskcache.Cache, url: str):
-    # Remove fragment from URL first...
-    url, _, _ = url.partition("#")
-    if not url.endswith(".toml"):
+def download_from_github_datum(
+    client: httpx.Client,
+    output_directory: Path,
+    datum: dict,
+    github_token: str | None = None,
+):
+    repo = f"{datum['owner']}/{datum['repo']}"
+    storage_filename = output_directory / f"github/{repo}/{datum['path']}".replace("/", "#")
+    if storage_filename.exists():
+        log.debug("Already got: %s", storage_filename)
         return
-    cache_key = f"toml:{url}"
-    if cache_key in cache:
+    if datum.get("ref"):
+        url = f"https://raw.githubusercontent.com/{repo}/{datum['ref']}/{datum['path']}"
+        resp = client.get(url)
+    else:
+        url = f"https://api.github.com/repos/{repo}/contents/{datum['path']}"
+        headers = {"Accept": "application/vnd.github.raw"}
+        if github_token:
+            headers["Authorization"] = f"Bearer {github_token}"
+        resp = client.get(url, headers=headers)
+    if resp.status_code == 404:
+        log.warning("Got 404 for %s (URL %s)", datum, url)
         return
-    print(f"Fetching {url}")
-    resp = client.get(url)
+    if resp.status_code == 200:
+        storage_filename.write_bytes(resp.content)
+        log.info("Downloaded: %s from %s", datum, url)
     resp.raise_for_status()
-    cache[cache_key] = resp.content.decode("utf-8")
-
-
-def download_tomls_from_cache(cache: diskcache.Cache):
-    """
-    Download TOML files that have yet to be downloaded.
-    """
-    with httpx.Client() as client:
-        for url in scan_cache_for_download_urls(cache):
-            maybe_download_url(client, cache, url)
-
-
-def download_tomls_from_file(cache: diskcache.Cache, file):
-    """
-    Download TOML files that have yet to be downloaded.
-    """
-    with httpx.Client() as client:
-        for line in file:
-            line = line.strip()
-            url = convert_github_url_to_raw_url(line)
-            if not url:
-                continue
-            maybe_download_url(client, cache, url)
