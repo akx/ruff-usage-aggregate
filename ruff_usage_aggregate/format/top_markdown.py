@@ -81,7 +81,7 @@ def format_table_and_rest(
 
     if total_count:
         print(f"| Name | Count | % of {total_count} |", file=sio)
-        print("| ---- | ----- | - |", file=sio)
+        print("| --- | --- | --- |", file=sio)
     else:
         print("| Name | Count |", file=sio)
         print("| ---- | ----- |", file=sio)
@@ -96,7 +96,7 @@ def format_table_and_rest(
             formatted_count = str(count)
         if total_count:
             bar = format_bar(count, total_count, 15)
-            print(f"| {format_values(values)} | {formatted_count} | {count / total_count:.1%} {bar} |", file=sio)
+            print(f"| {format_values(values)} | {formatted_count} | `{bar}` {count / total_count:.1%} |", file=sio)
         else:
             print(f"| {format_values(values)} | {formatted_count} |", file=sio)
     print(file=sio)

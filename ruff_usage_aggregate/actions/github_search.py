@@ -1,3 +1,4 @@
+import logging
 import time
 from collections.abc import Iterable
 
@@ -5,12 +6,13 @@ import httpx
 
 from ruff_usage_aggregate.helpers import sleep_with_progress
 
+log = logging.getLogger(__name__)
+
 
 def scan_github_search(
     *,
     github_token: str,
 ) -> Iterable[dict]:
-    # This does seem to quickly end up in a rate-limiting limbo (at around page 11 for me).
     with httpx.Client() as client:
         for page in range(1, 11):
             while True:
@@ -48,4 +50,5 @@ def scan_github_search(
             data = resp.json()
             yield data
             if not data.get("items"):
+                log.info("Ran out of items.")
                 break

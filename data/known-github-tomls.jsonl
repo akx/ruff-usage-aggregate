@@ -1,6 +1,7 @@
 {"owner": "3coins", "path": "pyproject.toml", "repo": "jupyter_server"}
 {"owner": "AFM-SPM", "path": "pyproject.toml", "repo": "TopoStats"}
 {"owner": "ARM-DOE", "path": "pyproject.toml", "repo": "pyart"}
+{"owner": "Aarhus-Psychiatry-Research", "path": "pyproject.toml", "repo": "psycop-model-training"}
 {"owner": "AtsushiSakai", "path": "ruff.toml", "repo": "PythonRobotics"}
 {"owner": "Avasam", "path": "pyproject.toml", "repo": "speedrun.com_global_scoreboard_webapp"}
 {"owner": "Bing-su", "path": "pyproject.toml", "repo": "sdsim"}
@@ -50,6 +51,7 @@
 {"owner": "PythonBiellaGroup", "path": "pyproject.toml", "repo": "Actions"}
 {"owner": "RRosio", "path": "pyproject.toml", "repo": "jupyterlab"}
 {"owner": "SEKOIA-IO", "path": "pyproject.toml", "repo": "sekoia-automation-sdk"}
+{"owner": "Saegl", "path": "pyproject.toml", "repo": "vkf"}
 {"owner": "SigureMo", "path": "scripts/pyproject.toml", "repo": "ruff"}
 {"owner": "Snowflake-Labs", "path": "pyproject.toml", "repo": "snowcli"}
 {"owner": "Starry-OvO", "path": "pyproject.toml", "repo": "aiotieba"}
@@ -79,6 +81,7 @@
 {"owner": "alisterburt", "path": "pyproject.toml", "repo": "torch-cubic-b-spline-grid"}
 {"owner": "alteryx", "path": "pyproject.toml", "repo": "featuretools"}
 {"owner": "andersy005", "path": "pyproject.toml", "repo": "brouillons-quotidien"}
+{"owner": "andredias", "path": "pyproject.toml", "repo": "transfer"}
 {"owner": "andrewthetechie", "path": "pyproject.toml", "repo": "route53-operator"}
 {"owner": "angr", "path": "pyproject.toml", "repo": "angr"}
 {"owner": "angr", "path": "pyproject.toml", "repo": "pyvex"}
@@ -105,6 +108,7 @@
 {"owner": "blink1073", "path": "pyproject.toml", "repo": "jupyterlab"}
 {"owner": "bluerobotics", "path": "pyproject.toml", "repo": "BlueOS-docker"}
 {"owner": "bokeh", "path": "pyproject.toml", "repo": "bokeh"}
+{"owner": "brettcannon", "path": "pyproject.toml", "repo": "microvenv"}
 {"owner": "byceps", "path": "pyproject.toml", "repo": "byceps"}
 {"owner": "caniko", "path": "pyproject.toml", "repo": "pydantic-numpy"}
 {"owner": "canonical", "path": "pyproject.toml", "repo": "kafka-k8s-operator"}
@@ -228,6 +232,7 @@
 {"owner": "lucidfrontier45", "path": "pyproject.toml", "repo": "cython_obfuscate_example"}
 {"owner": "lukasz-migas", "path": "pyproject.toml", "repo": "qtreload"}
 {"owner": "mad-lab-fau", "path": "pyproject.toml", "repo": "tpcp"}
+{"owner": "mar10", "path": "pyproject.toml", "repo": "nutree"}
 {"owner": "materialsproject", "path": "pyproject.toml", "repo": "jobflow"}
 {"owner": "matplotlib", "path": "pyproject.toml", "repo": "matplotlib"}
 {"owner": "matrix-org", "path": "pyproject.toml", "repo": "sydent"}
@@ -275,6 +280,7 @@
 {"owner": "pangeo-data", "path": "pyproject.toml", "repo": "zarr-proxy"}
 {"owner": "paquiteau", "path": "pyproject.toml", "repo": "mri-nufft"}
 {"owner": "pdm-project", "path": "pyproject.toml", "repo": "pdm"}
+{"owner": "petereon", "path": "pyproject.toml", "repo": "king_check"}
 {"owner": "pexip", "path": "pyproject.toml", "repo": "os-python-cryptography"}
 {"owner": "pieper", "path": "pyproject.toml", "repo": "dicomsort"}
 {"owner": "pikepdf", "path": "pyproject.toml", "repo": "pikepdf"}
@@ -296,6 +302,7 @@
 {"owner": "pypa", "path": "pyproject.toml", "repo": "cibuildwheel"}
 {"owner": "pypa", "path": "pyproject.toml", "repo": "hatch"}
 {"owner": "pypa", "path": "pyproject.toml", "repo": "pip-audit"}
+{"owner": "pypa", "path": "pyproject.toml", "repo": "pipx"}
 {"owner": "pytask-dev", "path": "pyproject.toml", "repo": "pytask-julia"}
 {"owner": "python-babel", "path": "pyproject.toml", "repo": "babel"}
 {"owner": "python-telegram-bot", "path": "pyproject.toml", "repo": "python-telegram-bot"}
@@ -310,6 +317,8 @@
 {"owner": "roma-glushko", "path": "coredis/issue149/pyproject.toml", "repo": "issue-reports"}
 {"owner": "roma-glushko", "path": "tilt/5978/pyproject.toml", "repo": "issue-reports"}
 {"owner": "rotki", "path": "pyproject.toml", "repo": "rotki"}
+{"owner": "ryanwebster90", "path": "hatch.toml", "repo": "snip-dedup"}
+{"owner": "ryanwebster90", "path": "ruff.toml", "repo": "snip-dedup"}
 {"owner": "saleor", "path": "pyproject.toml", "repo": "saleor"}
 {"owner": "samuelcolvin", "path": "pyproject.toml", "repo": "pytest-pretty"}
 {"owner": "sanders41", "path": "pyproject.toml", "repo": "sas7bdat-converter"}
@@ -360,6 +369,12 @@
 {"owner": "wolfv", "path": "pyproject.toml", "repo": "jupyter_releaser"}
 {"owner": "xarantolus", "path": "pyproject.toml", "repo": "zulip"}
 {"owner": "xarray-contrib", "path": "pyproject.toml", "repo": "xvec"}
+{"owner": "xrkk", "path": "ailment/pyproject.toml", "repo": "my-angr-dev"}
+{"owner": "xrkk", "path": "angr-management/pyproject.toml", "repo": "my-angr-dev"}
+{"owner": "xrkk", "path": "angr/pyproject.toml", "repo": "my-angr-dev"}
+{"owner": "xrkk", "path": "archinfo/pyproject.toml", "repo": "my-angr-dev"}
+{"owner": "xrkk", "path": "cle/pyproject.toml", "repo": "my-angr-dev"}
+{"owner": "xrkk", "path": "pyvex/pyproject.toml", "repo": "my-angr-dev"}
 {"owner": "yezz123", "path": "pyproject.toml", "repo": "authx"}
 {"owner": "yezz123", "path": "pyproject.toml", "repo": "fastapi-class"}
 {"owner": "z3z1ma", "path": "pyproject.toml", "repo": "alto"}

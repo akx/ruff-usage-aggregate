@@ -107,7 +107,8 @@ def download_tomls(
     if not output_directory:
         output_directory = f"./tomls_{int(time.time())}"
         print(f"Writing to {output_directory}")
-        os.makedirs(output_directory, exist_ok=True)
+
+    os.makedirs(output_directory, exist_ok=True)
 
     download_tomls(
         output_directory=Path(output_directory),
