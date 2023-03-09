@@ -1,3 +1,4 @@
+import csv
 import json
 import logging
 import sys
@@ -98,3 +99,18 @@ def dump_downloaded_tomls(context: click.Context):
     from ruff_usage_aggregate.actions.scan_tomls import get_downloaded_tomls
 
     print(json.dumps(dict(get_downloaded_tomls(context.obj["cache"]))))
+
+
+@main.command()
+@click.pass_context
+def dump_downloaded_toml_github_csv(context: click.Context):
+    """
+    Dump owner/repo/path of downloaded and validated TOMLs as CSV.
+    """
+    from ruff_usage_aggregate.actions.scan_tomls import get_valid_tomls_github_owner_repo_path
+
+    cache = context.obj["cache"]
+    cw = csv.writer(sys.stdout)
+    cw.writerow(["owner", "repo", "path"])
+    for owner, repo, path in sorted(get_valid_tomls_github_owner_repo_path(cache)):
+        cw.writerow([owner, repo, path])
