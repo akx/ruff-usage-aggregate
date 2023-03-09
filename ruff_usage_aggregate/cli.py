@@ -74,7 +74,15 @@ def scan_tomls(context: click.Context, output_format: str):
 
     sr = scan_tomls(context.obj["cache"])
     if output_format == "json":
-        print(json.dumps(sr.aggregate(), indent=2))
+        sorted_value_sets = {
+            key: [(sorted(c_key), value) for c_key, value in counter.most_common()]
+            for key, counter in sr.get_value_set_counters().items()
+        }
+        jsonable = {
+            "aggregate": sr.aggregate(),
+            "value_sets": sorted_value_sets,
+        }
+        print(json.dumps(jsonable, indent=2))
     elif output_format == "top-markdown":
         from ruff_usage_aggregate.format.top_markdown import format_top_markdown
 
