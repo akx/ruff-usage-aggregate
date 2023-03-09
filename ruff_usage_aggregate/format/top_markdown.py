@@ -95,8 +95,8 @@ def format_table_and_rest(
         else:
             formatted_count = str(count)
         if total_count:
-            bar = format_bar(multi_count, total_count, 20)
-            print(f"| {format_values(values)} | {formatted_count} | {multi_count / total_count:.1%} {bar} |", file=sio)
+            bar = format_bar(count, total_count, 15)
+            print(f"| {format_values(values)} | {formatted_count} | {count / total_count:.1%} {bar} |", file=sio)
         else:
             print(f"| {format_values(values)} | {formatted_count} |", file=sio)
     print(file=sio)
