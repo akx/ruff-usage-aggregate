@@ -2,18 +2,7 @@ import statistics
 from collections import Counter
 from io import StringIO
 
-
-def format_bar(value: float, max_value: float, width: int) -> str:
-    w = width * value / max_value
-    w_i, w_f = int(w), w - int(w)
-    bar = "\u2588" * w_i
-    if w_f > 0.75:
-        bar += "\u258A"
-    elif w_f > 0.5:
-        bar += "\u258C"
-    elif w_f > 0.25:
-        bar += "\u258E"
-    return bar.ljust(width, "\u2581")
+from ruff_usage_aggregate.format.helpers import format_bar
 
 
 def format_stats_and_histogram(sio: StringIO, counter: Counter, bar_width=20, bins=10):
