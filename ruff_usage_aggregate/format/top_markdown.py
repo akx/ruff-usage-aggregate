@@ -61,4 +61,6 @@ def format_top_markdown(sr: ScanResult) -> str:
     format_counters(sio, [agg["line_length"]])
     print("# Target version\n", file=sio)
     format_counters(sio, [agg["target_version"]])
+    print("# Fields set in configuration\n", file=sio)
+    format_counters(sio, [agg["fields_set"]])
     return sio.getvalue()

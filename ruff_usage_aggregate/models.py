@@ -25,6 +25,7 @@ class ScanResult:
             "select": Counter(),
             "target_version": Counter(),
             "unfixable": Counter(),
+            "fields_set": Counter(),
         }
         for config in self.configs:
             aggregated["extend_ignore"].update(config.extend_ignore or [UNSET])
@@ -37,6 +38,7 @@ class ScanResult:
             aggregated["unfixable"].update(config.unfixable or [UNSET])
             for ignores in config.per_file_ignores.values():
                 aggregated["per_file_ignores"].update(ignores)
+            aggregated["fields_set"].update(config.fields_set)
         return aggregated
 
 
@@ -57,52 +59,52 @@ class RuffConfig:
     select: set[str] = dataclasses.field(default_factory=set)
     target_version: str | None = None
     unfixable: set[str] = dataclasses.field(default_factory=set)
+    fields_set: set[str] = dataclasses.field(default_factory=set)
 
     @classmethod
     def from_toml_section(cls, url: str, ruff_section: dict):
-        processed = set()
         ruff_section = ruff_section.copy()  # we'll mutate this
         rc = RuffConfig(url)
         if isinstance(select := ruff_section.pop("select", None), list):
             rc.select.update(select)
-            processed.add("select")
+            rc.fields_set.add("select")
         if isinstance(extend_select := ruff_section.pop("extend-select", None), list):
             rc.extend_select.update(extend_select)
-            processed.add("extend-select")
+            rc.fields_set.add("extend-select")
         if isinstance(ignore := ruff_section.pop("ignore", None), list):
             rc.ignore.update(ignore)
-            processed.add("ignore")
+            rc.fields_set.add("ignore")
         if isinstance(extend_ignore := ruff_section.pop("extend-ignore", None), list):
             rc.extend_ignore.update(extend_ignore)
-            processed.add("extend-ignore")
+            rc.fields_set.add("extend-ignore")
         if isinstance(exclude := ruff_section.pop("exclude", None), list):
             rc.exclude.update(exclude)
-            processed.add("exclude")
+            rc.fields_set.add("exclude")
         if isinstance(line_length := ruff_section.pop("line-length", None), int):
             rc.line_length = line_length
-            processed.add("line-length")
+            rc.fields_set.add("line-length")
         if isinstance(line_length := ruff_section.pop("max-line-length", None), int):
             rc.line_length = line_length
-            processed.add("max-line-length")
+            rc.fields_set.add("max-line-length")
         if isinstance(target_version := ruff_section.pop("target-version", None), str):
             rc.target_version = target_version
-            processed.add("target-version")
+            rc.fields_set.add("target-version")
         if isinstance(unfixable := ruff_section.pop("unfixable", None), list):
             rc.unfixable.update(unfixable)
-            processed.add("unfixable")
+            rc.fields_set.add("unfixable")
         if isinstance(fixable := ruff_section.pop("fixable", None), list):
             rc.fixable.update(fixable)
-            processed.add("fixable")
+            rc.fields_set.add("fixable")
         if isinstance(per_file_ignores := ruff_section.pop("per-file-ignores", None), dict):
             for file, ignores in per_file_ignores.items():
                 if isinstance(ignores, list):
                     rc.per_file_ignores[file] = set(ignores)
-            processed.add("per-file-ignores")
+            rc.fields_set.add("per-file-ignores")
 
-        if not processed:
+        if not rc.fields_set:
             raise NotRuffyError(f"Invalid ruff section: {ruff_section}")
 
         if ruff_section:
-            log.debug("Unprocessed: %r", ruff_section)
+            log.debug("Unrc.fields_set: %r", ruff_section)
 
         return rc
