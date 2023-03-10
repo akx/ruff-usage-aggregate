@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import logging
 import re
+from multiprocessing.pool import ThreadPool
 from pathlib import Path
 
 import httpx
+import tqdm
 
 log = logging.getLogger(__name__)
 
@@ -28,17 +30,23 @@ def download_tomls(
     data: list[dict],
     github_token: str | None = None,
 ):
+    def _do_download(datum: dict):
+        if "error" in datum:
+            return
+        if "owner" in datum and "repo" in datum and "path" in datum:
+            download_from_github_datum(
+                client=client,
+                output_directory=output_directory,
+                datum=datum,
+                github_token=github_token,
+            )
+        else:
+            print("Skipping:", datum)
+
     with httpx.Client() as client:
-        for datum in data:
-            if "owner" in datum and "repo" in datum and "path" in datum:
-                download_from_github_datum(
-                    client=client,
-                    output_directory=output_directory,
-                    datum=datum,
-                    github_token=github_token,
-                )
-            else:
-                print("Skipping:", datum)
+        with ThreadPool(5) as pool:
+            for _ in tqdm.tqdm(pool.imap_unordered(_do_download, data), total=len(data)):
+                pass
 
 
 def download_from_github_datum(
