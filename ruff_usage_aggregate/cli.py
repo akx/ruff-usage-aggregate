@@ -80,7 +80,24 @@ def combine(input_files: list[TextIO]):
                     log.warning(f"Unknown JSONL line: {line}")
             log.info(f"{input_file.name}: read {len(jsonl_data)} entries")
             data.extend(jsonl_data)
-    n = write_jsonl(sys.stdout, sorted(data, key=lambda d: (d["owner"], d["repo"], d["path"])))
+    data.sort(key=lambda d: (d["owner"], d["repo"], d["path"]))
+
+    # See if we can find a ref for any entries that don't have one
+    for d in data:
+        if set(d) == {"owner", "repo", "path"}:
+            # Find another `d` with the same owner/repo/path, but with a ref
+            for d2 in data:
+                if (
+                    d2 is not d
+                    and d2.get("ref")
+                    and d2["owner"] == d["owner"]
+                    and d2["repo"] == d["repo"]
+                    and d2["path"] == d["path"]
+                ):
+                    d["ref"] = d2["ref"]
+                    break
+
+    n = write_jsonl(sys.stdout, data)
     log.info(f"Wrote {n} unique entries")
 
 
