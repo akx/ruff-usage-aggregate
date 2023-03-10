@@ -5,5 +5,6 @@
 /*urls.txt
 /.cache
 /.coverage
+/out
 /tomls*
 dist
