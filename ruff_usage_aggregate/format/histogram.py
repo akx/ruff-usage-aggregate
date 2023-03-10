@@ -2,7 +2,7 @@ import statistics
 from collections import Counter
 from io import StringIO
 
-from ruff_usage_aggregate.format.helpers import format_bar
+from ruff_usage_aggregate.format.helpers import format_bar, format_markdown_table
 
 
 def format_stats_and_histogram(sio: StringIO, counter: Counter, bar_width=20, bins=10):
@@ -17,18 +17,18 @@ def format_stats_and_histogram(sio: StringIO, counter: Counter, bar_width=20, bi
         counts, edges = numpy.histogram(flat_counter, bins=bins)
         max_count = max(counts)
         print("## Histogram\n", file=sio)
-        print("| Bin | Count | % | Bar |", file=sio)
-        print("| --- | --- | --- | --- |", file=sio)
+        headers = ["Bin", "Count", "%", "Bar"]
+        data = []
         for i, (count, edge) in enumerate(zip(counts, edges, strict=False)):
             next_edge = edges[i + 1] if i + 1 < len(edges) else edge + 1
-            bar = format_bar(count, max_count, bar_width)
-            histo_bin = f"{edge:.0f}..{next_edge:.0f}"
-            print(
-                f"| {histo_bin} | {count} | ",
-                f"{count / len(flat_counter):.1%} | `{bar}` |",
-                file=sio,
-                sep="",
+            data.append(
+                [
+                    f"{edge:.0f}..{next_edge:.0f}",
+                    count,
+                    f"{count / len(flat_counter):.1%}",
+                    format_bar(count, max_count, bar_width),
+                ],
             )
-        print(file=sio)
+        format_markdown_table(sio, data, headers=headers)
     except ImportError:
         pass

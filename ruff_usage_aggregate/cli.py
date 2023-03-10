@@ -128,7 +128,7 @@ def download_tomls(
 
 @main.command()
 @click.option("--input-directory", "-i", type=click.Path(dir_okay=True, file_okay=False, exists=True))
-@click.option("--output-format", "-o", type=click.Choice(["json", "top-markdown"]), required=True)
+@click.option("--output-format", "-o", type=click.Choice(["json", "markdown"]), required=True)
 def scan_tomls(input_directory: str, output_format: str):
     """
     Scan downloaded TOML files for Ruff usage.
@@ -139,14 +139,14 @@ def scan_tomls(input_directory: str, output_format: str):
     if output_format == "json":
         sorted_value_sets = {
             key: [(sorted(c_key), value) for c_key, value in counter.most_common()]
-            for key, counter in sr.get_value_set_counters().items()
+            for key, counter in sr.value_set_counters.items()
         }
         jsonable = {
-            "aggregate": sr.aggregate(),
+            "aggregate": sr.aggregated_data,
             "value_sets": sorted_value_sets,
         }
         print(json.dumps(jsonable, indent=2))
-    elif output_format == "top-markdown":
-        from ruff_usage_aggregate.format.top_markdown import format_top_markdown
+    elif output_format == "markdown":
+        from ruff_usage_aggregate.format.markdown import format_markdown
 
-        print(format_top_markdown(sr))
+        print(format_markdown(sr))

@@ -4,7 +4,7 @@ from collections import Counter, defaultdict
 from io import StringIO
 
 from ruff_usage_aggregate.constants import UNSET
-from ruff_usage_aggregate.format.helpers import format_bar
+from ruff_usage_aggregate.format.helpers import format_bar, format_markdown_table
 from ruff_usage_aggregate.format.histogram import format_stats_and_histogram
 from ruff_usage_aggregate.models import ScanResult
 
@@ -38,6 +38,8 @@ def format_counters(
 
     if total_count is None:
         total_count = sum(counter.values())
+        if show_unset_as_value:
+            total_count += unset_count
 
     if all(isinstance(name, int) for name in counter):
         # All keys are integers, so we can format as a histogram instead.
@@ -80,11 +82,11 @@ def format_table_and_rest(
     sorted_counter = [(values, count) for (count, values) in sorted(sorted_multi.items(), reverse=True)]
 
     if total_count:
-        print(f"| Name | Count | % of {total_count} |", file=sio)
-        print("| --- | --- | --- |", file=sio)
+        headers = ["Name", "Count", f"% of {total_count}"]
     else:
-        print("| Name | Count |", file=sio)
-        print("| ---- | ----- |", file=sio)
+        headers = ["Name", "Count"]
+
+    data = []
 
     for values, count in sorted_counter[:top_table_count]:
         if count < top_table_minimum_count:
@@ -96,10 +98,12 @@ def format_table_and_rest(
             formatted_count = str(count)
         if total_count:
             bar = format_bar(count, total_count, 15)
-            print(f"| {format_values(values)} | {formatted_count} | `{bar}` {count / total_count:.1%} |", file=sio)
+            data.append([format_values(values), formatted_count, f"`{bar}` {count / total_count:.1%}"])
         else:
-            print(f"| {format_values(values)} | {formatted_count} |", file=sio)
-    print(file=sio)
+            data.append([format_values(values), formatted_count])
+
+    format_markdown_table(sio, data, headers=headers)
+
     if show_other_values:
         rest = "; ".join(f"{format_values(values)} ({count})" for values, count in sorted_counter[top_table_count:])
         if rest:
@@ -107,27 +111,53 @@ def format_table_and_rest(
             print(file=sio)
 
 
-def format_top_markdown(sr: ScanResult) -> str:
+def format_key_takeaways(sio, sr: ScanResult):
+    no_fixable = sr.value_set_counters["fixable"].get(UNSET, 0) / sr.n_unique
+    no_ignore = sr.value_set_counters["ignore"].get(UNSET, 0) / sr.n_unique
+    no_select = sr.value_set_counters["select"].get(UNSET, 0) / sr.n_unique
+    no_unfixable = sr.value_set_counters["unfixable"].get(UNSET, 0) / sr.n_unique
+    format_markdown_table(
+        sio,
+        [
+            ["Total TOML files", sr.n_total],
+            ["Unique TOML files", sr.n_unique],
+            ["Deduplicated TOML files", sr.n_deduplicated],
+            ["No select", f"{no_select:.1%}"],
+            ["No ignore", f"{no_ignore:.1%}"],
+            ["No fixable", f"{no_fixable:.1%}"],
+            ["No unfixable", f"{no_unfixable:.1%}"],
+            ["Most popular configured Python version", sr.most_common_set_values["target_version"]],
+            ["Median configured line length", sr.median_line_length],
+            ["Most common unfixable", sr.most_common_set_values["unfixable"]],
+            ["Most common ignore", sr.most_common_set_values["ignore"]],
+            ["Most common select", sr.most_common_set_values["select"]],
+        ],
+        headers=["Name", "Value"],
+    )
+
+
+def format_markdown(sr: ScanResult) -> str:
     sio = StringIO()
-    n = len(sr.configs)
-    print(f"Results for {n} TOML files", file=sio)
-    print(file=sio)
+    format_key_takeaways(sio, sr)
     format_aggregates(sio, sr)
     format_value_sets(sio, sr)
     return sio.getvalue()
 
 
 def format_aggregates(sio, sr: ScanResult):
-    n = len(sr.configs)
-    agg = sr.aggregate()
-    print("# Top select/extend-select items\n", file=sio)
-    format_counters(sio, [agg["select"], agg["extend_select"]])
-    print("# Top ignore/extend-ignore items\n", file=sio)
-    format_counters(sio, [agg["ignore"], agg["extend_ignore"]])
-    print("# Top fixable items\n", file=sio)
-    format_counters(sio, [agg["fixable"]])
-    print("# Top unfixable items\n", file=sio)
-    format_counters(sio, [agg["unfixable"]])
+    n = sr.n_unique
+    agg = sr.aggregated_data
+    for heading, field in [
+        ("Top select items", "select"),
+        ("Top extend-select items", "extend_select"),
+        ("Top ignore items", "ignore"),
+        ("Top extend-ignore items", "extend_ignore"),
+        ("Top fixable items", "fixable"),
+        ("Top unfixable items", "unfixable"),
+    ]:
+        print(f"# {heading}\n", file=sio)
+        format_counters(sio, [agg[field]])
+
     print("# Line length\n", file=sio)
     format_counters(sio, [agg["line_length"]], show_unset_as_value=True, total_count=n)
     print("# Target version\n", file=sio)
@@ -137,24 +167,16 @@ def format_aggregates(sio, sr: ScanResult):
 
 
 def format_value_sets(sio, sr: ScanResult):
-    vsc = sr.get_value_set_counters()
-    print("# Top select/extend-select sets\n", file=sio)
-    format_counters(
-        sio,
-        [vsc["select"], vsc["extend_select"]],
-        show_other_values=False,
-        top_table_minimum_count=2,
-    )
-    print("# Top ignore/extend-ignore sets\n", file=sio)
-    format_counters(
-        sio,
-        [vsc["ignore"], vsc["extend_ignore"]],
-        show_other_values=False,
-        top_table_minimum_count=2,
-    )
-    print("# Top fixable sets\n", file=sio)
-    format_counters(sio, [vsc["fixable"]])
-    print("# Top unfixable sets\n", file=sio)
-    format_counters(sio, [vsc["unfixable"]])
-    print("# Top configuration field sets\n", file=sio)
-    format_counters(sio, [vsc["fields_set"]], show_other_values=False, top_table_count=10)
+    vsc = sr.value_set_counters
+    t = {"show_other_values": False, "top_table_minimum_count": 2, "show_unset_as_value": True}
+    for heading, field, opts in [
+        ("Top select sets", "select", t),
+        ("Top extend-select sets", "extend_select", t),
+        ("Top ignore sets", "ignore", t),
+        ("Top extend-ignore sets", "extend_ignore", t),
+        ("Top fixable sets", "fixable", t),
+        ("Top unfixable sets", "unfixable", t),
+        ("Top configuration field sets", "fields_set", {"show_other_values": False, "top_table_count": 10}),
+    ]:
+        print(f"# {heading}\n", file=sio)
+        format_counters(sio, [vsc[field]], **opts)

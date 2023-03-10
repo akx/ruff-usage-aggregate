@@ -24,7 +24,7 @@ The major workflow is:
    - Run e.g. `ruff-usage-aggregate download-tomls -o tomls/ < data/known-github-tomls.jsonl` to download TOML files to the `tomls/` directory.
 3. Aggregate data from downloaded files.
    - `ruff-usage-aggregate scan-tomls -i tomls -o json` will dump aggregate data to stdout in JSON format.
-   - `ruff-usage-aggregate scan-tomls -i tomls -o top-markdown` will dump aggregate data to stdout in a pre-formatted Markdown format.
+   - `ruff-usage-aggregate scan-tomls -i tomls -o markdown` will dump aggregate data to stdout in a pre-formatted Markdown format.
 
 ## License
 
