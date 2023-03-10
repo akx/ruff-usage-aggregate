@@ -64,7 +64,9 @@ class RuffConfig:
     Ruff config scavenged from a file
     """
 
-    name: str
+    name: str = "(unknown)"
+    text_hash: str | None = None
+    duplicates_set: set[str] = dataclasses.field(default_factory=set)
     exclude: set[str] = dataclasses.field(default_factory=set)
     extend_exclude: set[str] = dataclasses.field(default_factory=set)
     extend_ignore: set[str] = dataclasses.field(default_factory=set)
@@ -79,9 +81,9 @@ class RuffConfig:
     unfixable: set[str] = dataclasses.field(default_factory=set)
 
     @classmethod
-    def from_toml_section(cls, name: str, ruff_section: dict):
+    def from_toml_section(cls, ruff_section: dict):
         ruff_section = ruff_section.copy()  # we'll mutate this
-        rc = RuffConfig(name=name)
+        rc = RuffConfig()
         if isinstance(select := ruff_section.pop("select", None), list):
             rc.select.update(select)
             rc.fields_set.add("select")
