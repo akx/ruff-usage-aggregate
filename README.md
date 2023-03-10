@@ -16,6 +16,8 @@ The major workflow is:
      - To use this, you'll need to set the `RUA_GITHUB_TOKEN` environment variable to a GitHub API token. You can also
        place it in a file called `.env` in the working directory.
      - It will output a `github_search_*` JSONL file that can be parsed later.
+   - There is an "unofficial" suite of scraper scripts for the Ruff repository's GitHub dependents page in `aux/`;
+     "unofficial" because it's not using the API and may break at any time.
    - There's also a `data/known-github-tomls.jsonl` file in the repository, which contains a list of known TOML files.
    - You can use the `ruff-usage-aggregate combine` command to combine github search files, CSV and JSONL files to a new `known-github-tomls.jsonl` file.
 2. Download the files.
