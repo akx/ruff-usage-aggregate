@@ -65,17 +65,18 @@ class RuffConfig:
     """
 
     name: str
+    exclude: set[str] = dataclasses.field(default_factory=set)
+    extend_exclude: set[str] = dataclasses.field(default_factory=set)
     extend_ignore: set[str] = dataclasses.field(default_factory=set)
     extend_select: set[str] = dataclasses.field(default_factory=set)
+    fields_set: set[str] = dataclasses.field(default_factory=set)
     fixable: set[str] = dataclasses.field(default_factory=set)
     ignore: set[str] = dataclasses.field(default_factory=set)
-    exclude: set[str] = dataclasses.field(default_factory=set)
     line_length: int | None = None
     per_file_ignores: dict[str, set[str]] = dataclasses.field(default_factory=dict)
     select: set[str] = dataclasses.field(default_factory=set)
     target_version: str | None = None
     unfixable: set[str] = dataclasses.field(default_factory=set)
-    fields_set: set[str] = dataclasses.field(default_factory=set)
 
     @classmethod
     def from_toml_section(cls, name: str, ruff_section: dict):
@@ -96,6 +97,9 @@ class RuffConfig:
         if isinstance(exclude := ruff_section.pop("exclude", None), list):
             rc.exclude.update(exclude)
             rc.fields_set.add("exclude")
+        if isinstance(extend_exclude := ruff_section.pop("extend-exclude", None), list):
+            rc.extend_exclude.update(extend_exclude)
+            rc.fields_set.add("extend-exclude")
         if isinstance(line_length := ruff_section.pop("line-length", None), int):
             rc.line_length = line_length
             rc.fields_set.add("line-length")
