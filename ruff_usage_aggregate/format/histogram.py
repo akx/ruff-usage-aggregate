@@ -17,16 +17,17 @@ def format_stats_and_histogram(sio: StringIO, counter: Counter, bar_width=20, bi
         counts, edges = numpy.histogram(flat_counter, bins=bins)
         max_count = max(counts)
         print("## Histogram\n", file=sio)
-        print(f"| Bin | Count | % | Bar |", file=sio)
-        print(f"| --- | --- | --- | --- |", file=sio)
+        print("| Bin | Count | % | Bar |", file=sio)
+        print("| --- | --- | --- | --- |", file=sio)
         for i, (count, edge) in enumerate(zip(counts, edges, strict=False)):
             next_edge = edges[i + 1] if i + 1 < len(edges) else edge + 1
             bar = format_bar(count, max_count, bar_width)
             histo_bin = f"{edge:.0f}..{next_edge:.0f}"
             print(
-                f"| {histo_bin} | {count} | "
+                f"| {histo_bin} | {count} | ",
                 f"{count / len(flat_counter):.1%} | `{bar}` |",
                 file=sio,
+                sep="",
             )
         print(file=sio)
     except ImportError:
