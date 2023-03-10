@@ -11,6 +11,8 @@ from typing import TextIO
 
 import click
 
+from ruff_usage_aggregate.helpers.jsonl import read_jsonl, write_jsonl
+
 log = logging.getLogger(__name__)
 
 
@@ -45,8 +47,7 @@ def scan_github_search(context: click.Context, output_jsonl: TextIO | None):
         print(f"Writing to {filename}")
         output_jsonl = open(filename, "a")
 
-    for datum in scan_github_search(github_token=github_token):
-        print(json.dumps(datum), file=output_jsonl)
+    write_jsonl(output_jsonl, scan_github_search(github_token=github_token))
 
 
 @main.command()
@@ -63,8 +64,7 @@ def combine(input_files: list[TextIO]):
             data.extend(csv_data)
         elif input_file.name.endswith(".jsonl"):
             jsonl_data = []
-            for line in input_file:
-                line = json.loads(line)
+            for line in read_jsonl(input_file):
                 if line.get("total_count") and line.get("items"):  # smells like a GitHub Search line
                     for item in line["items"]:
                         jsonl_data.append(
@@ -80,15 +80,7 @@ def combine(input_files: list[TextIO]):
                     log.warning(f"Unknown JSONL line: {line}")
             log.info(f"{input_file.name}: read {len(jsonl_data)} entries")
             data.extend(jsonl_data)
-    last_line = None
-    n = 0
-    for datum in sorted(data, key=lambda d: (d["owner"], d["repo"], d["path"])):
-        line = json.dumps(datum, sort_keys=True, ensure_ascii=False)
-        if line != last_line:
-            print(line)
-            n += 1
-            last_line = line
-
+    n = write_jsonl(sys.stdout, sorted(data, key=lambda d: (d["owner"], d["repo"], d["path"])))
     log.info(f"Wrote {n} unique entries")
 
 
@@ -112,7 +104,7 @@ def download_tomls(
 
     download_tomls(
         output_directory=Path(output_directory),
-        data=[json.loads(line) for line in sys.stdin],
+        data=list(read_jsonl(sys.stdin)),
         github_token=context.obj["github_token"],
     )
 

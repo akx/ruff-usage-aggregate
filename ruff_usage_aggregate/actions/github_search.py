@@ -4,7 +4,7 @@ from collections.abc import Iterable
 
 import httpx
 
-from ruff_usage_aggregate.helpers import sleep_with_progress
+from ruff_usage_aggregate.helpers.zzz import sleep_with_progress
 
 log = logging.getLogger(__name__)
 
