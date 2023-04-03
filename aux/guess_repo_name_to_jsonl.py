@@ -32,6 +32,9 @@ def check(client, owner_and_repo) -> str:
 def filter_work(ignored_repos):
     for line in tqdm.tqdm(sorted(set(sys.stdin))):
         owner_and_repo = line.strip()
+        if owner_and_repo.startswith("{"):
+            jd = json.loads(owner_and_repo)
+            owner_and_repo = f"{jd['owner']}/{jd['repo']}"
         if owner_and_repo.lower() in ignored_repos:
             print("We already know:", owner_and_repo, file=sys.stderr)
             continue
