@@ -17,7 +17,7 @@ out/results.json: tomls
 	ruff-usage-aggregate scan-tomls -i $< -o json > $@
 
 scrape-dependents:
-    mkdir -p tmp
+	mkdir -p tmp
 	python3 aux/scrape_dependents.py > tmp/$(DEPENDNAME)-scrape.txt
 	python aux/guess_repo_name_to_jsonl.py --known-jsonl $(KNOWN_GITHUB_TOMLS) --known-json $(DEP_NOT_FOUND) < $(DEPENDNAME)-scrape.txt > tmp/$(DEPENDNAME)-out.jsonl
 	ruff-usage-aggregate combine $(KNOWN_GITHUB_TOMLS) tmp/$(DEPENDNAME)-out.jsonl > tmp/$(DEPENDNAME)-combined.jsonl
