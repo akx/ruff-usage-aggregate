@@ -11,6 +11,9 @@ def main():
         while True:
             print(url, file=sys.stderr)
             resp = c.get(url)
+            if resp.status_code == 429:
+                print("Got 429, stopping.", file=sys.stderr)
+                break
             resp.raise_for_status()
             soup = bs4.BeautifulSoup(resp.content, "html.parser")
             repo_hrefs = [a["href"].lstrip("/") for a in soup.find_all("a", **{"data-hovercard-type": "repository"})]

@@ -6,5 +6,6 @@
 /.cache
 /.coverage
 /out
+/tmp
 /tomls*
 dist
