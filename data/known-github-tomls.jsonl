@@ -1,11 +1,15 @@
 {"owner": "0xGosu", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "0xPlaygrounds", "path": "pyproject.toml", "ref": "main", "repo": "subgrounds"}
 {"owner": "0xsirsaif", "path": "pyproject.toml", "ref": "main", "repo": "appins"}
+{"owner": "12rambau", "path": "pyproject.toml", "repo": "goe4lup"}
+{"owner": "12rambau", "path": "sepal_ui/templates/map_app/pyproject.toml", "repo": "sepal_ui"}
+{"owner": "12rambau", "path": "sepal_ui/templates/panel_app/pyproject.toml", "repo": "sepal_ui"}
 {"owner": "13robin37", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "1PaCHeK1", "path": "pyproject.toml", "ref": "master", "repo": "Nastya_parser"}
 {"owner": "20tab", "path": "pyproject.toml", "ref": "main", "repo": "django-continuous-delivery"}
 {"owner": "20tab", "path": "pyproject.toml", "ref": "main", "repo": "nextjs-continuous-delivery"}
 {"owner": "20tab", "path": "pyproject.toml", "ref": "main", "repo": "talos"}
+{"owner": "3MysticApes", "path": "pyproject.toml", "repo": "3mystic_cloud_client"}
 {"owner": "3coins", "path": "pyproject.toml", "repo": "jupyter_server"}
 {"owner": "4DNucleome", "path": "pyproject.toml", "ref": "master", "repo": "PartSeg"}
 {"owner": "4eckah78", "path": "pyproject.toml", "ref": "main", "repo": "typical_python_project"}
@@ -17,11 +21,14 @@
 {"owner": "ADACS-Australia", "path": "pyproject.toml", "ref": "main", "repo": "Rombus"}
 {"owner": "ADGEfficiency", "path": "pyproject.toml", "ref": "main", "repo": "climate-news-db"}
 {"owner": "AFM-SPM", "path": "pyproject.toml", "repo": "TopoStats"}
+{"owner": "AI4S2S", "path": "pyproject.toml", "repo": "s2spy"}
 {"owner": "ANL-Braid", "path": "pyproject.toml", "ref": "main", "repo": "triggers"}
 {"owner": "ANaka", "path": "pyproject.toml", "ref": "main", "repo": "brr"}
 {"owner": "ARM-DOE", "path": "pyproject.toml", "repo": "pyart"}
 {"owner": "Aarhus-Psychiatry-Research", "path": "pyproject.toml", "repo": "psycop-model-training"}
+{"owner": "Aarhus-Psychiatry-Research", "path": "pyproject.toml", "repo": "t2d-feature-generation"}
 {"owner": "AaronDewes", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "Aboussejra", "path": "pyproject.toml", "ref": "master", "repo": "type_checker"}
 {"owner": "AbstractUmbra", "path": "pyproject.toml", "ref": "main", "repo": "Kotka"}
 {"owner": "Academia-de-Dados", "path": "pyproject.toml", "ref": "main", "repo": "crawlers"}
 {"owner": "ActivityWatch", "path": "pyproject.toml", "ref": "master", "repo": "aw-core"}
@@ -33,11 +40,15 @@
 {"owner": "AgafonovSiberia", "path": "pyproject.toml", "ref": "master", "repo": "PriceService"}
 {"owner": "AgafonovSiberia", "path": "pyproject.toml", "ref": "master", "repo": "auth_service_FastAPI"}
 {"owner": "Akeporn-Siwilai", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "AlTosterino", "path": "pyproject.toml", "ref": "main", "repo": "ADR-py"}
+{"owner": "Alberto195", "path": "pyproject.toml", "ref": "main", "repo": "Algo_Inner"}
 {"owner": "AlexSwtlsk", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "AlexTheJPEG", "path": "pyproject.toml", "ref": "master", "repo": "ted-z"}
 {"owner": "AlexTom22", "path": "pyproject.toml", "ref": "main", "repo": "TestCapitalCom"}
+{"owner": "AlexisZam", "path": "pyproject.toml", "ref": "main", "repo": "diploma-thesis"}
 {"owner": "Algo-Foundry", "path": "pyproject.toml", "ref": "main", "repo": "demo-abi-app"}
 {"owner": "AlisonB319", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "AllenInstitute", "path": "pyproject.toml", "repo": "np_audio_control"}
 {"owner": "Almaz2312", "path": "pyproject.toml", "ref": "master", "repo": "Metrics-Bot"}
 {"owner": "Alpaca00", "path": "pyproject.toml", "ref": "master", "repo": "pytest-chic-report"}
 {"owner": "Aman-deepsingh1", "path": "pyproject.toml", "ref": "master", "repo": "demo-repo"}
@@ -57,6 +68,7 @@
 {"owner": "Argmaster", "path": "pyproject.toml", "ref": "main", "repo": "cssfinder_backend_numpy"}
 {"owner": "Argmaster", "path": "pyproject.toml", "ref": "main", "repo": "cssfinder_backend_rust"}
 {"owner": "AsedyZzZ", "path": "pyproject.toml", "ref": "master", "repo": "bot"}
+{"owner": "Aspect1103", "path": "pyproject.toml", "ref": "master", "repo": "Hades"}
 {"owner": "AstraZeneca", "path": "pyproject.toml", "ref": "main", "repo": "magnus-core"}
 {"owner": "Atem18", "path": "pyproject.toml", "ref": "main", "repo": "isocodes"}
 {"owner": "AtomicMegaNerd", "path": "pyproject.toml", "ref": "main", "repo": "python-fp-course"}
@@ -73,12 +85,14 @@
 {"owner": "Barahlush", "path": "pyproject.toml", "ref": "main", "repo": "vastai_client"}
 {"owner": "Barry1", "path": "pyproject.toml", "ref": "main", "repo": "PyValueFragments"}
 {"owner": "Bart6114", "path": "pyproject.toml", "ref": "main", "repo": "pandoc-run-python"}
+{"owner": "Bemycatpeng", "path": "pyproject.toml", "ref": "main", "repo": "langflow"}
 {"owner": "BendingSpoons", "path": "pyproject.toml", "ref": "master", "repo": "poetry-cached-url-deps-plugin"}
 {"owner": "BendingSpoons", "path": "pyproject.toml", "ref": "master", "repo": "poetry-private-repo-plugin"}
 {"owner": "BenjaminDebotte", "path": "pyproject.toml", "ref": "master", "repo": "interview-lg-isitfriday"}
 {"owner": "BenjikQ", "path": "pyproject.toml", "ref": "master", "repo": "BridgeGame"}
 {"owner": "Berkeley-CS61B", "path": "pyproject.toml", "ref": "main", "repo": "BSAG"}
 {"owner": "Berkeley-CS61B", "path": "pyproject.toml", "ref": "main", "repo": "bsag-jh61b"}
+{"owner": "Betagmr", "path": "pyproject.toml", "ref": "master", "repo": "hacktheclone"}
 {"owner": "BimaAdi", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-with-python-socketio-example"}
 {"owner": "Bing-su", "path": "pyproject.toml", "ref": "main", "repo": "ffxiv_ko_en_data_concat"}
 {"owner": "Bing-su", "path": "pyproject.toml", "ref": "main", "repo": "genshin-auto-daily-check-in-docker"}
@@ -94,6 +108,7 @@
 {"owner": "Borg93", "path": "pyproject.toml", "ref": "main", "repo": "riks_ds_utils"}
 {"owner": "BradenM", "path": "pyproject.toml", "ref": "master", "repo": "micropy-cli"}
 {"owner": "BradenM", "path": "pyproject.toml", "ref": "master", "repo": "pydngconverter"}
+{"owner": "BruceEckel", "path": "pyproject.toml", "ref": "main", "repo": "RethinkingObjects"}
 {"owner": "Bughalla", "path": "pyproject.toml", "repo": "huggingface_accelerate"}
 {"owner": "Bughalla", "path": "pyproject.toml", "ref": "master", "repo": "matrix-org_synapse"}
 {"owner": "Bughalla", "path": "pyproject.toml", "ref": "main", "repo": "openbb-finance_openbbterminal"}
@@ -105,18 +120,24 @@
 {"owner": "CLU91", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "CM000n", "path": "pyproject.toml", "ref": "main", "repo": "qss"}
 {"owner": "CMHopeSunshine", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
+{"owner": "CNLearn", "path": "pyproject.toml", "ref": "main", "repo": "backend"}
 {"owner": "CSIRO-GeoscienceAnalytics", "path": "pyproject.toml", "ref": "main", "repo": "spectral-tools"}
 {"owner": "CXPhoenix", "path": "pyproject.toml", "ref": "main", "repo": "pynecone-todo"}
+{"owner": "CarlosEduardoPereiraMarques", "path": "pyproject.toml", "ref": "main", "repo": "default-strucutre-python-project"}
 {"owner": "Centaurioun", "path": "pyproject.toml", "ref": "main", "repo": "pylint"}
 {"owner": "ChaosWen03", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "Chr0nos", "path": "pyproject.toml", "ref": "master", "repo": "motorized"}
 {"owner": "ChrTall", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "ChristianZimpelmann", "path": "pyproject.toml", "repo": "labor_supply_norms"}
 {"owner": "Cicada-Software", "path": "pyproject.toml", "ref": "main", "repo": "cicada"}
+{"owner": "Cielquan", "path": "pyproject.toml", "repo": "python_test-cielquan"}
 {"owner": "CircuitSacul", "path": "pyproject.toml", "ref": "main", "repo": "CodeRunner"}
+{"owner": "CircuitSacul", "path": "pyproject.toml", "repo": "Minigames"}
 {"owner": "CircuitSacul", "path": "pyproject.toml", "ref": "main", "repo": "Wires"}
 {"owner": "CircuitSacul", "path": "pyproject.toml", "ref": "main", "repo": "mCodingBot"}
 {"owner": "CircuitSacul", "path": "pyproject.toml", "ref": "main", "repo": "mockeval"}
 {"owner": "CircuitSacul", "path": "pyproject.toml", "ref": "main", "repo": "socketapp"}
+{"owner": "City-of-Helsinki", "path": "backend/pyproject.toml", "repo": "hitas"}
 {"owner": "ClaasRostock", "path": "pyproject.toml", "ref": "main", "repo": "python_project_template"}
 {"owner": "Cloudzero", "path": "pyproject.toml", "ref": "main", "repo": "cloudzero-uca-tools"}
 {"owner": "Cloudzero", "path": "pyproject.toml", "ref": "master", "repo": "cloudzero-uca-tools"}
@@ -124,6 +145,9 @@
 {"owner": "ComicShrimp", "path": "pyproject.toml", "ref": "main", "repo": "feedverse"}
 {"owner": "Cosmoglobe", "path": "pyproject.toml", "ref": "main", "repo": "zodipy"}
 {"owner": "CouncilDataProject", "path": "pyproject.toml", "repo": "cdp-backend"}
+{"owner": "CouncilDataProject", "path": "pyproject.toml", "repo": "cdp-data"}
+{"owner": "CouncilDataProject", "path": "pyproject.toml", "repo": "cdp-gh-utils"}
+{"owner": "CouncilDataProject", "path": "pyproject.toml", "repo": "transcript-file-format"}
 {"owner": "CrazyBonze", "path": "pyproject.toml", "ref": "main", "repo": "PydanticDB"}
 {"owner": "Crocmagnon", "path": "pyproject.toml", "ref": "master", "repo": "blog"}
 {"owner": "Crocmagnon", "path": "pyproject.toml", "ref": "master", "repo": "charasheet"}
@@ -134,20 +158,31 @@
 {"owner": "Cyr-ius", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant"}
 {"owner": "DBonbon", "path": "pyproject.toml", "ref": "master", "repo": "leacards-paw"}
 {"owner": "DBonbon", "path": "Lea-Cards/src/pyproject.toml", "repo": "wagtail-pipit-leacards"}
+{"owner": "DHARPA-Project", "path": "pyproject.toml", "repo": "kiara_plugin.network_analysis"}
 {"owner": "DHolmanCoding", "path": "pyproject.toml", "ref": "master", "repo": "python-template"}
 {"owner": "DLR-RM", "path": "pyproject.toml", "ref": "master", "repo": "rl-baselines3-zoo"}
+{"owner": "DOCtorActoAntohich", "path": "pyproject.toml", "ref": "master", "repo": "emi"}
+{"owner": "DOCtorActoAntohich", "path": "pyproject.toml", "ref": "master", "repo": "enchanted-motorbike"}
 {"owner": "DTN-Public", "path": "pyproject.toml", "ref": "main", "repo": "intake-pattern-catalog"}
 {"owner": "Damola-Olugboji", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "DanCardin", "path": "pyproject.toml", "ref": "main", "repo": "sqlalchemy-declarative-extensions"}
+{"owner": "DariuszPorowski", "path": "pyproject.toml", "ref": "main", "repo": "mkdocs-file-filter-plugin"}
+{"owner": "Darsstar", "path": "pyproject.toml", "ref": "main", "repo": "sitecustomize-entrypoints"}
+{"owner": "DashAISoftware", "path": "pyproject.toml", "ref": "master", "repo": "DashAI"}
+{"owner": "DataDog", "path": "ddev/pyproject.toml", "repo": "integrations-core"}
 {"owner": "DavHau", "path": "pyproject.toml", "repo": "zulip"}
+{"owner": "DavidZhang73", "path": "pyproject.toml", "repo": "pytorch-lightning-template"}
 {"owner": "DavideCanton", "path": "pyproject.toml", "ref": "main", "repo": "advent-of-code-2022"}
 {"owner": "DeCa09", "path": "pyproject.toml", "ref": "main", "repo": "python-cicd-template"}
 {"owner": "Debroni27", "path": "pyproject.toml", "ref": "master", "repo": "Django_project_template"}
 {"owner": "Debroni27", "path": "pyproject.toml", "ref": "master", "repo": "DogCity"}
 {"owner": "DelphineLemire", "path": "pyproject.toml", "ref": "main", "repo": "documentary-watch"}
+{"owner": "DemocracyClub", "path": "pyproject.toml", "ref": "master", "repo": "aggregator-api"}
+{"owner": "DemocracyClub", "path": "pyproject.toml", "ref": "main", "repo": "dc_response_builder"}
 {"owner": "DemocracyClub", "path": "pyproject.toml", "ref": "main", "repo": "ec-postcode-lookup-pages"}
 {"owner": "Denis-Poloczek", "path": "pyproject.toml", "ref": "main", "repo": "autobot"}
 {"owner": "Derugal87", "path": "pyproject.toml", "ref": "main", "repo": "demo-abi-app-tutorial"}
+{"owner": "DevHolako", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
 {"owner": "DevJadhav", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "Developers81828182", "path": "pyproject.toml", "repo": "pip-audit"}
 {"owner": "DevotedExuDevelopersTeam", "path": "pyproject.toml", "ref": "master", "repo": "Core"}
@@ -155,6 +190,7 @@
 {"owner": "DevzoneCommunity", "path": "pyproject.toml", "ref": "main", "repo": "faag_cli"}
 {"owner": "DevzoneCommunity", "path": "pyproject.toml", "ref": "main", "repo": "face_characters_detection"}
 {"owner": "DevzoneCommunity", "path": "pyproject.toml", "ref": "master", "repo": "python_starter_code"}
+{"owner": "Diapolo10", "path": "pyproject.toml", "ref": "main", "repo": "Tsukasa-credit-card-gag-scam"}
 {"owner": "Diegiwg", "path": "pyproject.toml", "ref": "master", "repo": "magic-regexp"}
 {"owner": "Diegiwg", "path": "pyproject.toml", "ref": "master", "repo": "unopy"}
 {"owner": "DimitriPapadopoulos", "path": "pyproject.toml", "ref": "master", "repo": "parsec-cloud"}
@@ -164,6 +200,7 @@
 {"owner": "DisnakeDev", "path": "pyproject.toml", "repo": "disnake"}
 {"owner": "DjKuj", "path": "pyproject.toml", "ref": "main", "repo": "databricks-exam-generator"}
 {"owner": "Djelibeybi", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
+{"owner": "DonaldMaxwell", "path": "pyproject.toml", "ref": "master", "repo": "railwaylangflow"}
 {"owner": "Donkie", "path": "pyproject.toml", "ref": "master", "repo": "Spoolman"}
 {"owner": "Dragonlord1005", "path": "pyproject.toml", "ref": "main", "repo": "spotify-playlist"}
 {"owner": "Drowrin", "path": "pyproject.toml", "ref": "main", "repo": "modron"}
@@ -177,9 +214,12 @@
 {"owner": "EdgyEdgemond", "path": "pyproject.toml", "ref": "master", "repo": "app-confetti"}
 {"owner": "EdgyEdgemond", "path": "pyproject.toml", "ref": "master", "repo": "changelog-gen"}
 {"owner": "EdgyEdgemond", "path": "pyproject.toml", "ref": "master", "repo": "web-error"}
+{"owner": "EgShes", "path": "pyproject.toml", "repo": "one_task_multiple_infras"}
 {"owner": "EggBert001", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "ElijahAhianyo", "path": "pyproject.toml", "ref": "main", "repo": "pynecone"}
 {"owner": "ElixirNote", "path": "pyproject.toml", "ref": "main", "repo": "elixirext"}
+{"owner": "Elmurod-Zulfiqarov", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
+{"owner": "Emplocity", "path": "pyproject.toml", "ref": "master", "repo": "nameko-chassis"}
 {"owner": "Endercheif", "path": "pyproject.toml", "ref": "main", "repo": "mCodingBot-v3"}
 {"owner": "EndlessTrax", "path": "pyproject.toml", "ref": "master", "repo": "pgn-to-sqlite"}
 {"owner": "EndlessTrax", "path": "pyproject.toml", "ref": "main", "repo": "python-start-project"}
@@ -194,11 +234,13 @@
 {"owner": "Exenifix", "path": "pyproject.toml", "ref": "master", "repo": "postgres-auto-backup"}
 {"owner": "Exenifix", "path": "pyproject.toml", "ref": "master", "repo": "worldgen"}
 {"owner": "FBruzzesi", "path": "pyproject.toml", "ref": "main", "repo": "compclasses"}
+{"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "CutUp"}
 {"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "JFetcher"}
 {"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "JianshuMicroFeatures"}
 {"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "WriteDown2022"}
 {"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "pynecone"}
 {"owner": "FHU-yezi", "path": "pyproject.toml", "ref": "main", "repo": "sspeedup"}
+{"owner": "FK-Bonn", "path": "pyproject.toml", "ref": "main", "repo": "fsen-records-backend"}
 {"owner": "FObersteiner", "path": "pyproject.toml", "ref": "master", "repo": "pyFuppes"}
 {"owner": "FabianVegaA", "path": "pyproject.toml", "ref": "main", "repo": "sparrow"}
 {"owner": "FallenDeity", "path": "pyproject.toml", "ref": "master", "repo": "PokeLance"}
@@ -206,11 +248,16 @@
 {"owner": "FastestMolasses", "path": "pyproject.toml", "ref": "main", "repo": "old-alchemy"}
 {"owner": "FeeeeK", "path": "pyproject.toml", "ref": "master", "repo": "pyAnyPay"}
 {"owner": "Felix2yu", "path": "pyproject.toml", "ref": "master", "repo": "docker-db-auto-backup"}
+{"owner": "FellowFellow", "path": "pyproject.toml", "ref": "master", "repo": "full-text-search-test"}
+{"owner": "FieryDruid", "path": "pyproject.toml", "ref": "main", "repo": "WebSocketTest"}
 {"owner": "Findus23", "path": "pyproject.toml", "ref": "master", "repo": "lw1.at"}
 {"owner": "Fizzadar", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "Fleshgrinder", "path": "pyproject.toml", "ref": "main", "repo": "python-buf-exe"}
 {"owner": "Fleshgrinder", "path": "pyproject.toml", "ref": "main", "repo": "python-protoc-exe"}
 {"owner": "FollowTheProcess", "path": "pyproject.toml", "ref": "main", "repo": "madonna"}
+{"owner": "FollowTheProcess", "path": "pyproject.toml", "repo": "pytoil"}
+{"owner": "ForumViriumHelsinki", "path": "pyproject.toml", "ref": "main", "repo": "python-coding-conventions"}
+{"owner": "Fr0stFree", "path": "pyproject.toml", "ref": "main", "repo": "Web-File-Storage"}
 {"owner": "Fr0stFree", "path": "pyproject.toml", "ref": "main", "repo": "async-python-sprint-5"}
 {"owner": "FrancescElies", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "FrancescElies", "path": "pyproject.toml", "ref": "main", "repo": "ruff-vscode"}
@@ -221,6 +268,7 @@
 {"owner": "GeekCornerGH", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "Geotab", "path": "pyproject.toml", "ref": "master", "repo": "mygeotab-python"}
 {"owner": "Get-Tony", "path": "pyproject.toml", "ref": "main", "repo": "ansible_runner_kit"}
+{"owner": "GideonRavenor1", "path": "pyproject.toml", "ref": "main", "repo": "otus-spacebattle"}
 {"owner": "GitToby", "path": "pyproject.toml", "ref": "master", "repo": "framelink"}
 {"owner": "GiuliaGualtieri", "path": "pyproject.toml", "ref": "main", "repo": "Machine_Learning_Mask_Cassifier"}
 {"owner": "Glitched", "path": "pyproject.toml", "ref": "main", "repo": "python-base"}
@@ -228,7 +276,10 @@
 {"owner": "Gmacem", "path": "pyproject.toml", "ref": "main", "repo": "TelegramBotZoo"}
 {"owner": "Gobot1234", "path": "pyproject.toml", "ref": "main", "repo": "steam.py"}
 {"owner": "GoddessEyes", "path": "pyproject.toml", "ref": "master", "repo": "CirnoNotBaka"}
+{"owner": "GoldenDragon7", "path": "pyproject.toml", "ref": "master", "repo": "telegram-pdf-bot"}
 {"owner": "GrandMoff100", "path": "pyproject.toml", "ref": "master", "repo": "HomeAssistantAPI"}
+{"owner": "Gumbachi", "path": "pyproject.toml", "ref": "main", "repo": "GumBOTchi"}
+{"owner": "Gumbachi", "path": "pyproject.toml", "ref": "master", "repo": "WebsocketRPS"}
 {"owner": "GuyNguyen", "path": "pyproject.toml", "ref": "main", "repo": "Modern-Python-Pipeline-Test"}
 {"owner": "H-code-svg", "path": "pyproject.toml", "ref": "main", "repo": "pandas"}
 {"owner": "HDI-Project", "path": "pyproject.toml", "repo": "Trane"}
@@ -240,9 +291,11 @@
 {"owner": "HakierGrzonzo", "path": "pyproject.toml", "ref": "master", "repo": "html2rich"}
 {"owner": "HakierGrzonzo", "path": "pyproject.toml", "ref": "master", "repo": "sund"}
 {"owner": "HardwayLinka", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "Healthwoosh", "path": "pyproject.toml", "ref": "main", "repo": "llama-index-private"}
 {"owner": "Hongbo-Miao", "path": "pyproject.toml", "ref": "main", "repo": "hongbomiao.com"}
 {"owner": "HoodyBoss", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "Hoxbro", "path": "pyproject.toml", "ref": "main", "repo": "clean_notebook"}
+{"owner": "HuynhLeVu5598", "path": "pyproject.toml", "ref": "main", "repo": "tradingAI"}
 {"owner": "HyphaApp", "path": "pyproject.toml", "ref": "main", "repo": "hypha"}
 {"owner": "I-Language-Development", "path": "pyproject.toml", "ref": "main", "repo": "I-language"}
 {"owner": "IHosseini083", "path": "pyproject.toml", "ref": "main", "repo": "AIOHCloud"}
@@ -253,6 +306,9 @@
 {"owner": "IRLL", "path": "pyproject.toml", "ref": "master", "repo": "HIPPO_Gym"}
 {"owner": "IRLL", "path": "pyproject.toml", "ref": "master", "repo": "HierachyCraft"}
 {"owner": "IRLL", "path": "pyproject.toml", "ref": "master", "repo": "HierarchyCraft"}
+{"owner": "IamShobe", "path": "pyproject.toml", "ref": "main", "repo": "altb"}
+{"owner": "IlievskiV", "path": "pyproject.toml", "ref": "main", "repo": "PyDataRecBoleTutorial"}
+{"owner": "Ilya-Grigoriev", "path": "pyproject.toml", "ref": "main", "repo": "EgeTelegramBot"}
 {"owner": "Intelix8996", "path": "pyproject.toml", "ref": "master", "repo": "test-repo"}
 {"owner": "Ishaan-Ohm", "path": "ruff.toml", "ref": "master", "repo": "PythonRobotics"}
 {"owner": "Ishaan-Ohm", "path": "ruff.toml", "ref": "master", "repo": "Python_Robotics"}
@@ -263,6 +319,8 @@
 {"owner": "JacobCoffee", "path": "pyproject.toml", "ref": "main", "repo": "starlite-barebones-template"}
 {"owner": "JacobCoffee", "path": "pyproject.toml", "ref": "master", "repo": "starlite-wtf"}
 {"owner": "JacobTheJacobs", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "JamesHutchison", "path": "pyproject.toml", "ref": "main", "repo": "pytest-hot-reloading"}
+{"owner": "JanaTeepunkt", "path": "pyproject.toml", "repo": "replication-child-benefit"}
 {"owner": "JasonG7234", "path": "pyproject.toml", "ref": "main", "repo": "Python-Project-Template"}
 {"owner": "JasurbekNURBOYEV", "path": "pyproject.toml", "ref": "main", "repo": "pyskybitz"}
 {"owner": "JayGitH", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
@@ -272,9 +330,11 @@
 {"owner": "JesseFarebro", "path": "pyproject.toml", "repo": "tyro"}
 {"owner": "JeyRathnam", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "Jocelyn-Gas", "path": "pyproject.toml", "ref": "main", "repo": "cassini"}
+{"owner": "JoeWroe", "path": "pyproject.toml", "ref": "main", "repo": "KleptomanIOC"}
 {"owner": "Joffreybvn", "path": "pyproject.toml", "ref": "master", "repo": "french-words"}
 {"owner": "JonathanWolfe", "path": "pyproject.toml", "ref": "main", "repo": "aoc2022"}
 {"owner": "JoranSlingerland", "path": "pyproject.toml", "ref": "main", "repo": "StockTracker"}
+{"owner": "JustinGoheen", "path": "pyproject.toml", "ref": "master", "repo": "Lit-LLaMA-Lite"}
 {"owner": "JustinGoheen", "path": "pyproject.toml", "ref": "master", "repo": "lightning-pod-vision"}
 {"owner": "JustinGoheen", "path": "pyproject.toml", "ref": "main", "repo": "lightning-prisma"}
 {"owner": "JustinGoheen", "path": "pyproject.toml", "ref": "main", "repo": "lightning-pynecone"}
@@ -287,8 +347,10 @@
 {"owner": "Kane610", "path": "pyproject.toml", "ref": "master", "repo": "aiounifi"}
 {"owner": "Kane610", "path": "pyproject.toml", "ref": "master", "repo": "axis"}
 {"owner": "Kane610", "path": "pyproject.toml", "ref": "master", "repo": "deconz"}
+{"owner": "Kastakin", "path": "pyproject.toml", "ref": "master", "repo": "PyES"}
 {"owner": "KevinKloiber", "path": "pyproject.toml", "ref": "main", "repo": "wetterdienst"}
 {"owner": "Kilo59", "path": "pyproject.toml", "ref": "main", "repo": "aoc"}
+{"owner": "Kipjr", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
 {"owner": "Klef99", "path": "pyproject.toml", "ref": "master", "repo": "yandexlyceum-pyqt"}
 {"owner": "Kopfstein", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "Korfballer", "path": "pyproject.toml", "ref": "main", "repo": "teaching-deeplearning"}
@@ -307,9 +369,12 @@
 {"owner": "LDmitriy7", "path": "pyproject.toml", "ref": "master", "repo": "404_AvatarsBot"}
 {"owner": "LDmitriy7", "path": "pyproject.toml", "ref": "master", "repo": "stricter"}
 {"owner": "LKremer", "path": "pyproject.toml", "ref": "master", "repo": "scbs"}
+{"owner": "LaReserveTech", "path": "pyproject.toml", "ref": "main", "repo": "water-tracker"}
+{"owner": "LeKSuS-04", "path": "pyproject.toml", "repo": "ctflib"}
 {"owner": "LefterisJP", "path": "pyproject.toml", "repo": "rotkehlchen"}
 {"owner": "Leila828", "path": "pyproject.toml", "ref": "master", "repo": "concrete-ml"}
 {"owner": "Lendemor", "path": "pyproject.toml", "ref": "main", "repo": "pynecone"}
+{"owner": "LeonardoCampos-EE", "path": "pyproject.toml", "ref": "main", "repo": "saddle"}
 {"owner": "LiadRB", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "Lightning-AI", "path": "pyproject.toml", "repo": "ecosystem-ci"}
 {"owner": "Lightning-AI", "path": "pyproject.toml", "repo": "lightning"}
@@ -320,12 +385,16 @@
 {"owner": "LoyTakian", "path": "pyproject.toml", "ref": "main", "repo": "Telegram-Bot"}
 {"owner": "Lunarmagpie", "path": "pyproject.toml", "ref": "main", "repo": "io"}
 {"owner": "MC-kit", "path": "pyproject.toml", "ref": "master", "repo": "xpypact"}
+{"owner": "MHH-Humangenetik", "path": "pyproject.toml", "ref": "main", "repo": "clincnv2vcf"}
+{"owner": "MIERUNE", "path": "pyproject.toml", "ref": "main", "repo": "qgis-mojxml-plugin"}
 {"owner": "MOJOliciousFTW", "path": "pyproject.toml", "ref": "main", "repo": "test-intro-to-github"}
 {"owner": "MPI-IS", "path": "pyproject.toml", "repo": "spatial_transformation"}
 {"owner": "MaHryCT3", "path": "pyproject.toml", "ref": "master", "repo": "tiy_vizor_backend"}
 {"owner": "MaT1g3R", "path": "pyproject.toml", "ref": "master", "repo": "slice-and-dice-tools"}
 {"owner": "MaastrichtU-IDS", "path": "{{cookiecutter.package_name}}/pyproject.toml", "repo": "cookiecutter-openpredict-api"}
+{"owner": "MaastrichtU-IDS", "path": "pyproject.toml", "repo": "translator-openpredict"}
 {"owner": "Mac3g0d", "path": "pyproject.toml", "ref": "main", "repo": "b_test_task"}
+{"owner": "MadokaProject", "path": "pyproject.toml", "repo": "Madoka"}
 {"owner": "Mael-J", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "MagicLike", "path": "pyproject.toml", "ref": "main", "repo": "openandroidinstaller"}
 {"owner": "MagicRustHelper", "path": "pyproject.toml", "ref": "master", "repo": "backend"}
@@ -334,21 +403,28 @@
 {"owner": "Mantisus", "path": "pyproject.toml", "ref": "main", "repo": "pyszne_crowler"}
 {"owner": "Manu87DS", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "ManuGira", "path": "pyproject.toml", "ref": "master", "repo": "Tk4Cv2"}
+{"owner": "Mappboy", "path": "pyproject.toml", "ref": "master", "repo": "apemap"}
 {"owner": "MarcelRaschke", "path": "pyproject.toml", "ref": "master", "repo": "chaostoolkit-lib"}
 {"owner": "Marco-Sulla", "path": "pyproject.toml", "ref": "master", "repo": "immutabledict"}
+{"owner": "MarekPikula", "path": "pyproject.toml", "ref": "main", "repo": "python-headscale-api"}
+{"owner": "MarijnS95", "path": "pyproject.toml", "ref": "main", "repo": "python-omnikinverter"}
 {"owner": "MarkoM-dot", "path": "pyproject.toml", "ref": "main", "repo": "aoc2022"}
+{"owner": "Markopteryx", "path": "pyproject.toml", "ref": "main", "repo": "UpVisualisation"}
 {"owner": "Markushik", "path": "pyproject.toml", "ref": "master", "repo": "controller"}
 {"owner": "Markushik", "path": "pyproject.toml", "ref": "master", "repo": "friendly-meme"}
 {"owner": "MasonData", "path": "pyproject.toml", "ref": "main", "repo": "dev"}
 {"owner": "Materials-Consortia", "path": "pyproject.toml", "ref": "master", "repo": "optimade-python-tools"}
 {"owner": "Matter-Tech", "path": "pyproject.toml", "repo": "matter-library-template"}
 {"owner": "MauroLuzzatto", "path": "pyproject.toml", "ref": "main", "repo": "lyrics-translator"}
+{"owner": "Mautriz", "path": "pyproject.toml", "ref": "main", "repo": "trippa"}
 {"owner": "MaxG87", "path": "pyproject.toml", "ref": "main", "repo": "ButterBackup"}
+{"owner": "MaxLeedham", "path": "pyproject.toml", "ref": "main", "repo": "Chess"}
 {"owner": "Maxomm", "path": "pyproject.toml", "ref": "main", "repo": "EDI-Tool"}
 {"owner": "Maxyme", "path": "pyproject.toml", "ref": "main", "repo": "asyncio_web_crawler"}
 {"owner": "MertNuhuz", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "MethodsDev", "path": "pyproject.toml", "ref": "main", "repo": "MasSeqViz"}
 {"owner": "MethodsDev", "path": "pyproject.toml", "ref": "main", "repo": "isoscelles"}
+{"owner": "Mewelopers", "path": "pyproject.toml", "ref": "main", "repo": "barcode-api"}
 {"owner": "Migorithm", "path": "pyproject.toml", "ref": "main", "repo": "IAM"}
 {"owner": "Migorithm", "path": "pyproject.toml", "ref": "main", "repo": "QUOTATION"}
 {"owner": "MikeWallis42", "path": "pyproject.toml", "repo": "astronomer-cosmos"}
@@ -361,14 +437,21 @@
 {"owner": "Moda-Analytica", "path": "pyproject.toml", "ref": "master", "repo": "stats_models"}
 {"owner": "Modern-Treasury", "path": "pyproject.toml", "ref": "main", "repo": "modern-treasury-python"}
 {"owner": "Modificator", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "MohammedBenhelli", "path": "ruff.toml", "ref": "main", "repo": "EWFParser"}
+{"owner": "Mojino01", "path": "pyproject.toml", "repo": "hugging_face"}
+{"owner": "Moka-AI", "path": "pyproject.toml", "ref": "main", "repo": "collie"}
+{"owner": "Moonpig", "path": "pyproject.toml", "ref": "master", "repo": "cloud-custodian"}
 {"owner": "Morgandri1", "path": "pyproject.toml", "ref": "master", "repo": "solana-py"}
 {"owner": "MrJulEnergy", "path": "pyproject.toml", "ref": "main", "repo": "ase_md_example"}
 {"owner": "MrMalte211", "path": "pyproject.toml", "ref": "main", "repo": "wetterdienst_update"}
+{"owner": "MrP01", "path": "resources/python/ruff.toml", "repo": "lint-me-now"}
 {"owner": "MrPowers", "path": "pyproject.toml", "ref": "main", "repo": "mack"}
 {"owner": "Mu-L", "path": "pyproject.toml", "ref": "main", "repo": "pynecone"}
 {"owner": "MunkeyBalls", "path": "pyproject.toml", "repo": "freqtrade"}
 {"owner": "My-MC", "path": "pyproject.toml", "ref": "master", "repo": "ffmpegwithpy"}
+{"owner": "NCI-GDC", "path": "pyproject.toml", "repo": "maf-lib"}
 {"owner": "NChechulin", "path": "pyproject.toml", "ref": "master", "repo": "python-template"}
+{"owner": "NPAtlas", "path": "pyproject.toml", "ref": "main", "repo": "npatlas_curator"}
 {"owner": "NREL", "path": "pyproject.toml", "repo": "floris"}
 {"owner": "NREL", "path": "pyproject.toml", "ref": "main", "repo": "mappymatch"}
 {"owner": "NTBBloodbath", "path": "pyproject.toml", "ref": "master", "repo": "paul"}
@@ -396,6 +479,8 @@
 {"owner": "Ocamond", "path": "pyproject.toml", "ref": "main", "repo": "plotly-resampler"}
 {"owner": "OlegGirko", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "Olegt0rr", "path": "pyproject.toml", "ref": "main", "repo": "WebServiceTemplate"}
+{"owner": "OliverSchamp", "path": "ImageGeneration/diffusers/pyproject.toml", "repo": "Whats-A-NN-Datathon"}
+{"owner": "OmniSpective", "path": "pyproject.toml", "ref": "main", "repo": "OmniBridge"}
 {"owner": "OpenBB-finance", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "OpenBB-finance", "path": "pyproject.toml", "ref": "master", "repo": "test-gitflow"}
 {"owner": "OpenMined", "path": "ruff.toml", "repo": "PySyft"}
@@ -405,6 +490,7 @@
 {"owner": "OrderedSet86", "path": "pyproject.toml", "ref": "main", "repo": "webnei-backend"}
 {"owner": "Ovsyanka83", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "PBorocz", "path": "pyproject.toml", "ref": "master", "repo": "raindrop-io-py"}
+{"owner": "PHACDataHub", "path": "server/pyproject.toml", "repo": "cpho-phase2"}
 {"owner": "PHT-Medic", "path": "pyproject.toml", "ref": "main", "repo": "federated"}
 {"owner": "PHT-Medic", "path": "pyproject.toml", "ref": "master", "repo": "station-backend"}
 {"owner": "PHT-Medic", "path": "pyproject.toml", "ref": "master", "repo": "train-container-library"}
@@ -429,13 +515,16 @@
 {"owner": "Ponte-Energy-Partners", "path": "pyproject.toml", "ref": "main", "repo": "pre-commit-hooks"}
 {"owner": "PostHog", "path": "pyproject.toml", "ref": "master", "repo": "posthog"}
 {"owner": "PostHog", "path": "pyproject.toml", "ref": "master", "repo": "posthog-foss"}
+{"owner": "PrefectHQ", "path": "pyproject.toml", "repo": "marvin"}
 {"owner": "Problematy", "path": "pyproject.toml", "ref": "main", "repo": "goodmap"}
+{"owner": "Proteusiq", "path": "pyproject.toml", "ref": "main", "repo": "igia"}
 {"owner": "PurpLabs", "path": "pyproject.toml", "ref": "main", "repo": "PogBot"}
 {"owner": "PurpLabs", "path": "pyproject.toml", "ref": "main", "repo": "PurpBot"}
 {"owner": "PurpLabs", "path": "pyproject.toml", "ref": "main", "repo": "memestate"}
 {"owner": "PushUpek", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "PyCQA", "path": "pyproject.toml", "ref": "main", "repo": "astroid"}
 {"owner": "PyCQA", "path": "pyproject.toml", "ref": "main", "repo": "pylint"}
+{"owner": "PyChamber", "path": "pyproject.toml", "ref": "main", "repo": "PyChamber"}
 {"owner": "PythonBiellaGroup", "path": "pyproject.toml", "ref": "main", "repo": "Actions"}
 {"owner": "PythonBiellaGroup", "path": "pyproject.toml", "ref": "main", "repo": "Bear"}
 {"owner": "PythonFZ", "path": "pyproject.toml", "ref": "main", "repo": "CGL_Pi"}
@@ -464,10 +553,15 @@
 {"owner": "RihabMhedbi", "path": "pyproject.toml", "ref": "main", "repo": "hello_rihab"}
 {"owner": "Rimasko", "path": "pyproject.toml", "ref": "main", "repo": "tool_bot"}
 {"owner": "Riverside-Healthcare", "path": "pyproject.toml", "ref": "master", "repo": "djLint"}
+{"owner": "RobotsGoMental", "path": "pyproject.toml", "repo": "gtl_poc"}
 {"owner": "RocioAldanaMendez", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "RomainBrault", "path": "pyproject.toml", "ref": "main", "repo": "python-whiteprint"}
+{"owner": "Rubikoid", "path": "ruff.toml", "repo": "dotfiles"}
 {"owner": "Rubinjo", "path": "pyproject.toml", "ref": "master", "repo": "innvestigate"}
 {"owner": "SEKOIA-IO", "path": "pyproject.toml", "ref": "main", "repo": "sekoia-automation-sdk"}
+{"owner": "SMAT-Lab", "path": "pyproject.toml", "ref": "main", "repo": "Scalpel"}
+{"owner": "SWAG-MLG-420", "path": "pyproject.toml", "repo": "Gajim_SWAG_MLG_M.O.D"}
+{"owner": "SWxTREC", "path": "pyproject.toml", "repo": "pymsis"}
 {"owner": "Saegl", "path": "pyproject.toml", "ref": "main", "repo": "vkf"}
 {"owner": "SamuelNLP", "path": "pyproject.toml", "ref": "master", "repo": "python-template"}
 {"owner": "SamuelYvon", "path": "pyproject.toml", "ref": "master", "repo": "gscp"}
@@ -475,10 +569,12 @@
 {"owner": "SaturnFromTitan", "path": "pyproject.toml", "ref": "main", "repo": "delete_old_google_cal_events"}
 {"owner": "Say383", "path": "pyproject.toml", "ref": "master", "repo": "langchain"}
 {"owner": "Scille", "path": "pyproject.toml", "ref": "master", "repo": "parsec-cloud"}
+{"owner": "ScribeMD", "path": "pyproject.toml", "ref": "main", "repo": "slack-templates"}
 {"owner": "SebastianLuebke", "path": "pyproject.toml", "ref": "main", "repo": "webhooks-bridge"}
 {"owner": "Seeyou2000", "path": "pyproject.toml", "ref": "main", "repo": "SE_UNO_Project"}
 {"owner": "Seon82", "path": "pyproject.toml", "ref": "master", "repo": "medleydb_instruments"}
 {"owner": "Seon82", "path": "pyproject.toml", "ref": "main", "repo": "projet_sdp"}
+{"owner": "Seon82", "path": "pyproject.toml", "ref": "main", "repo": "puzzle_solver"}
 {"owner": "SergeyShk", "path": "pyproject.toml", "ref": "master", "repo": "ruTS"}
 {"owner": "SergeyShk", "path": "pyproject.toml", "ref": "main", "repo": "ruTS-API"}
 {"owner": "ShabbirHasan1", "path": "pyproject.toml", "ref": "main", "repo": "GamestonkTerminal"}
@@ -491,6 +587,8 @@
 {"owner": "ShubhamSKadam", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "SigureMo", "path": "scripts/pyproject.toml", "repo": "ruff"}
 {"owner": "SirRGB", "path": "pyproject.toml", "ref": "main", "repo": "openandroidinstaller"}
+{"owner": "SmartDash0129", "path": "pyproject.toml", "ref": "master", "repo": "LangChain"}
+{"owner": "SmartDash0129", "path": "pyproject.toml", "ref": "master", "repo": "LangFlow"}
 {"owner": "Smbrer1", "path": "pyproject.toml", "ref": "main", "repo": "melon-back-end"}
 {"owner": "Snowflake-Labs", "path": "pyproject.toml", "repo": "snowcli"}
 {"owner": "Sohel723", "path": "pyproject.toml", "ref": "main", "repo": "pandas_repo_01"}
@@ -506,6 +604,7 @@
 {"owner": "Stinky-c", "path": "pyproject.toml", "ref": "master", "repo": "curse-api"}
 {"owner": "Stone-afk", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "Stonks-Luma-Liberty", "path": "pyproject.toml", "ref": "main", "repo": "chime"}
+{"owner": "SudoWeezy", "path": "pyproject.toml", "ref": "main", "repo": "algokit-nft-template"}
 {"owner": "SukramJ", "path": "pyproject.toml", "ref": "master", "repo": "core"}
 {"owner": "SukramJ", "path": "pyproject.toml", "ref": "master", "repo": "custom_homematic"}
 {"owner": "SukramJ", "path": "pyproject.toml", "ref": "main", "repo": "hahomematic"}
@@ -522,12 +621,16 @@
 {"owner": "TeKrop", "path": "pyproject.toml", "ref": "main", "repo": "overfast-api"}
 {"owner": "TechfaneTechnologies", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "TeoZosa", "path": "pyproject.toml", "ref": "master", "repo": "cookiecutter-cruft-poetry-tox-pre-commit-ci-cd"}
+{"owner": "Tersaramor", "path": "pyproject.toml", "repo": "fastapi-course"}
+{"owner": "ThatXliner", "path": "{{ cookiecutter.pypi_name }}/pyproject.toml", "repo": "pyt2"}
 {"owner": "Thawab8", "path": "pyproject.toml", "ref": "main", "repo": "langflow"}
 {"owner": "The-Dark-Limit", "path": "pyproject.toml", "ref": "main", "repo": "spirit"}
 {"owner": "The-Dark-Limit", "path": "pyproject.toml", "ref": "main", "repo": "watchdog-backend"}
 {"owner": "The-Flash", "path": "pyproject.toml", "ref": "main", "repo": "django_createdb"}
 {"owner": "The-Ludwig", "path": "pyproject.toml", "ref": "main", "repo": "PANAMA"}
+{"owner": "TheAlgorithms", "path": "pyproject.toml", "repo": "Python"}
 {"owner": "TheNewThinkTank", "path": "pyproject.toml", "ref": "main", "repo": "Fitness-Tracker"}
+{"owner": "Themimitoof", "path": "pyproject.toml", "ref": "main", "repo": "rapi"}
 {"owner": "TheoBabilon", "path": "pyproject.toml", "ref": "main", "repo": "async-tail"}
 {"owner": "TheoryOfMagic", "path": "pyproject.toml", "ref": "master", "repo": "tom"}
 {"owner": "Tim-IA", "path": "pyproject.toml", "repo": "Django_Predic"}
@@ -535,6 +638,8 @@
 {"owner": "TimOrme", "path": "pyproject.toml", "ref": "main", "repo": "aqimon"}
 {"owner": "Tinkoff", "path": "pyproject.toml", "ref": "main", "repo": "invest-python"}
 {"owner": "Tiqets", "path": "pyproject.toml", "ref": "master", "repo": "octo-client"}
+{"owner": "Tobi-De", "path": "pyproject.toml", "repo": "fuzzy-couscous"}
+{"owner": "Tobi-De", "path": "templates/project_name/pyproject.toml", "repo": "fuzzy-couscous"}
 {"owner": "Tobi-De", "path": "pyproject.toml", "repo": "py-listmonk"}
 {"owner": "TomCranitch", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "TommasoAmici", "path": "pyproject.toml", "ref": "main", "repo": "r_soccer_goals"}
@@ -546,16 +651,22 @@
 {"owner": "Tracktor", "path": "pyproject.toml", "ref": "master", "repo": "tracktolib"}
 {"owner": "Trader-McStockster", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "Trippy3", "path": "pyproject.toml", "ref": "main", "repo": "aggregate_pr"}
+{"owner": "TrueMysterious", "path": "pyproject.toml", "ref": "master", "repo": "freqtrade"}
+{"owner": "TruongNhanNguyen", "path": "pyproject.toml", "ref": "master", "repo": "Python-Fundamentals"}
 {"owner": "Tvister7", "path": "pyproject.toml", "ref": "main", "repo": "hiking-menu-configurator-backend"}
 {"owner": "UCL-ARC", "path": "pyproject.toml", "ref": "main", "repo": "rred-reports"}
+{"owner": "UCLA-IEEE", "path": "pyproject.toml", "ref": "main", "repo": "sparkieee"}
+{"owner": "UK-IPOP", "path": "pyproject.toml", "ref": "main", "repo": "cabinet"}
 {"owner": "Un1que11", "path": "pyproject.toml", "ref": "main", "repo": "python-project-83"}
 {"owner": "Uncommon-intelligence", "path": "pyproject.toml", "ref": "master", "repo": "tenjin"}
+{"owner": "Unidata", "path": "pyproject.toml", "ref": "main", "repo": "MetPy"}
 {"owner": "UnknownEquineCoderFH", "path": "pyproject.toml", "repo": "Sagittarius-STDLIB"}
 {"owner": "UponTheSky", "path": "pyproject.toml", "ref": "main", "repo": "annoying-web"}
 {"owner": "UponTheSky", "path": "pyproject.toml", "ref": "master", "repo": "techlog-article"}
 {"owner": "UponTheSky", "path": "pyproject.toml", "ref": "master", "repo": "techlog-articles"}
 {"owner": "Utsavan", "path": "pyproject.toml", "ref": "master", "repo": "asyncsqs"}
 {"owner": "Uzaaft", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "VDuchauffour", "path": "pyproject.toml", "ref": "main", "repo": "python-package-template"}
 {"owner": "VWS-Python", "path": "pyproject.toml", "ref": "master", "repo": "vws-auth-tools"}
 {"owner": "VWS-Python", "path": "pyproject.toml", "ref": "master", "repo": "vws-cli"}
 {"owner": "VWS-Python", "path": "pyproject.toml", "ref": "master", "repo": "vws-python"}
@@ -563,6 +674,7 @@
 {"owner": "VWS-Python", "path": "pyproject.toml", "ref": "master", "repo": "vws-test-fixtures"}
 {"owner": "VWS-Python", "path": "pyproject.toml", "ref": "master", "repo": "vws-web-tools"}
 {"owner": "Valaraucoo", "path": "pyproject.toml", "ref": "master", "repo": "what-to-eat"}
+{"owner": "ViktorStiskala", "path": "pyproject.toml", "ref": "master", "repo": "python-qrplatba"}
 {"owner": "VildMedPap", "path": "pyproject.toml", "ref": "main", "repo": "fmgraphics"}
 {"owner": "VisualMeaning", "path": "pyproject.toml", "ref": "master", "repo": "sheet-to-triples"}
 {"owner": "Vlaska", "path": "pyproject.toml", "ref": "main", "repo": "robomania"}
@@ -582,6 +694,7 @@
 {"owner": "Yoriyolanta", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "YosefLab", "path": "pyproject.toml", "ref": "main", "repo": "scib-metrics"}
 {"owner": "YosefLab", "path": "pyproject.toml", "ref": "main", "repo": "velovi"}
+{"owner": "Yuki2Kisaragi", "path": "pyproject.toml", "ref": "master", "repo": "robustPython"}
 {"owner": "Yura52", "path": "pyproject.toml", "ref": "main", "repo": "delu"}
 {"owner": "ZakharovDenis", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "ZaslavkyDi", "path": "pyproject.toml", "ref": "master", "repo": "od-search"}
@@ -589,6 +702,7 @@
 {"owner": "Zuricko", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "a-luna", "path": "pyproject.toml", "ref": "main", "repo": "unicode-api"}
 {"owner": "aaarrti", "path": "pyproject.toml", "ref": "master", "repo": "innvestigate"}
+{"owner": "aacitelli", "path": "pyproject.toml", "ref": "master", "repo": "langchain"}
 {"owner": "aalto-speech", "path": "pyproject.toml", "ref": "main", "repo": "fi-parliament-tools"}
 {"owner": "aaravind100", "path": "pyproject.toml", "ref": "main", "repo": "todo-cli"}
 {"owner": "aarnphm", "path": "pyproject.toml", "ref": "main", "repo": "BentoML"}
@@ -602,12 +716,14 @@
 {"owner": "abilian", "path": "pyproject.toml", "ref": "main", "repo": "nua"}
 {"owner": "abilian", "path": "pyproject.toml", "ref": "main", "repo": "nua-sandbox"}
 {"owner": "abm2399", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "abreumatheus", "path": "volt.toml", "repo": "lapce-ruff-lsp"}
 {"owner": "acalio", "path": "pyproject.toml", "ref": "main", "repo": "trending-github"}
 {"owner": "acbuie", "path": "pyproject.toml", "ref": "main", "repo": "pilibre"}
 {"owner": "acbuie", "path": "pyproject.toml", "ref": "main", "repo": "terminal_timer"}
 {"owner": "acforvs", "path": "pyproject.toml", "ref": "main", "repo": "po-mapf-thesis"}
 {"owner": "achen0325", "path": "pyproject.toml", "ref": "master", "repo": "colour"}
 {"owner": "achevrot", "path": "pyproject.toml", "ref": "main", "repo": "impunity"}
+{"owner": "acl-org", "path": "pyproject.toml", "ref": "master", "repo": "acl-anthology"}
 {"owner": "actions-marketplace-validations", "path": "pyproject.toml", "ref": "main", "repo": "mvp-projects_easy-cloud-cli"}
 {"owner": "actions-marketplace-validations", "path": "pyproject.toml", "ref": "main", "repo": "nborrmann_diff-poetry-lock"}
 {"owner": "actions-marketplace-validations", "path": "pyproject.toml", "ref": "main", "repo": "samuelcolvin_list-python-dependencies"}
@@ -622,8 +738,10 @@
 {"owner": "adrianvillanueva997", "path": "pyproject.toml", "ref": "main", "repo": "transcriber-telegrambot"}
 {"owner": "adventurebrew", "path": "pyproject.toml", "ref": "master", "repo": "magos"}
 {"owner": "adventurebrew", "path": "pyproject.toml", "ref": "main", "repo": "pakal"}
+{"owner": "afuetterer", "path": "pyproject.toml", "repo": "services-test"}
 {"owner": "afuetterer", "path": "pyproject.toml", "repo": "services-test2"}
 {"owner": "agdsn", "path": "pyproject.toml", "ref": "master", "repo": "pycroft"}
+{"owner": "agdsn", "path": "pyproject.toml", "repo": "sipa"}
 {"owner": "agimus-project", "path": "pyproject.toml", "ref": "main", "repo": "happypose"}
 {"owner": "agronholm", "path": "pyproject.toml", "repo": "smtpproto"}
 {"owner": "agronholm", "path": "pyproject.toml", "ref": "master", "repo": "typeguard"}
@@ -636,9 +754,11 @@
 {"owner": "aia", "path": "pyproject.toml", "ref": "main", "repo": "ansible-amazon-base"}
 {"owner": "ailurus-obscurus", "path": "pyproject.toml", "ref": "main", "repo": "python-hyperscan"}
 {"owner": "aizwellenstan", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "ajslater", "path": "pyproject.toml", "ref": "main", "repo": "boilerplate"}
 {"owner": "ajslater", "path": "pyproject.toml", "ref": "main", "repo": "codex"}
 {"owner": "ajslater", "path": "pyproject.toml", "ref": "main", "repo": "comicbox"}
 {"owner": "ajslater", "path": "pyproject.toml", "ref": "main", "repo": "treestamps"}
+{"owner": "alan910127", "path": "pyproject.toml", "repo": "intro-to-ai-23spring"}
 {"owner": "alandtse", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant"}
 {"owner": "albermax", "path": "pyproject.toml", "ref": "master", "repo": "innvestigate"}
 {"owner": "alcides", "path": "pyproject.toml", "ref": "main", "repo": "GeneticEngine"}
@@ -655,12 +775,14 @@
 {"owner": "algorand-devrel", "path": "pyproject.toml", "ref": "main", "repo": "ethdenver-algokit-beaker-template"}
 {"owner": "algorand-devrel", "path": "pyproject.toml", "ref": "main", "repo": "starter-algokit-beaker-template"}
 {"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-arc-library"}
+{"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-arc-template"}
 {"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-beaker-default-template"}
 {"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-beaker-playground-template"}
 {"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-cli"}
 {"owner": "algorandfoundation", "path": "pyproject.toml", "ref": "main", "repo": "algokit-utils-py"}
 {"owner": "algorithmwatch", "path": "pyproject.toml", "repo": "dataskop-platform"}
 {"owner": "alibaba", "path": "pyproject.toml", "repo": "TinyNeuralNetwork"}
+{"owner": "alifanov", "path": "pyproject.toml", "ref": "master", "repo": "mikasa"}
 {"owner": "alisaifee", "path": "pyproject.toml", "ref": "master", "repo": "coredis"}
 {"owner": "alisaifee", "path": "pyproject.toml", "ref": "master", "repo": "flask-limiter"}
 {"owner": "alisaifee", "path": "pyproject.toml", "ref": "master", "repo": "holmium.core"}
@@ -670,21 +792,30 @@
 {"owner": "allenlinsh", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "alorence", "path": "pyproject.toml", "ref": "main", "repo": "django-modern-rpc"}
 {"owner": "alpaylan", "path": "pyproject.toml", "ref": "main", "repo": "concrete-numpy"}
+{"owner": "alphagov", "path": "pyproject.toml", "ref": "main", "repo": "document-download-api"}
+{"owner": "alphagov", "path": "pyproject.toml", "ref": "main", "repo": "document-download-frontend"}
+{"owner": "alphagov", "path": "pyproject.toml", "ref": "main", "repo": "notifications-admin"}
+{"owner": "alphagov", "path": "pyproject.toml", "ref": "main", "repo": "notifications-api"}
+{"owner": "alphagov", "path": "pyproject.toml", "ref": "main", "repo": "notifications-template-preview"}
 {"owner": "alphaprime-dev", "path": "pyproject.toml", "ref": "main", "repo": "alphaverse"}
+{"owner": "altepizza", "path": "pyproject.toml", "ref": "main", "repo": "python-template"}
 {"owner": "altepizza", "path": "pyproject.toml", "ref": "main", "repo": "standup_timer_cli"}
 {"owner": "alteryx", "path": "pyproject.toml", "repo": "featuretools"}
 {"owner": "alvarobartt", "path": "pyproject.toml", "ref": "main", "repo": "safejax"}
 {"owner": "alvgaona", "path": "pyproject.toml", "ref": "main", "repo": "pybok"}
+{"owner": "am1ter", "path": "pyproject.toml", "ref": "master", "repo": "flash_decision"}
 {"owner": "ambuda-org", "path": "pyproject.toml", "ref": "main", "repo": "ambuda"}
 {"owner": "amirkhan7javi", "path": "pyproject.toml", "ref": "main", "repo": "ruff-vscode"}
 {"owner": "amit-kr09", "path": "pyproject.toml", "ref": "main", "repo": "test"}
 {"owner": "amitshuklabag", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
+{"owner": "amitsk", "path": "pyproject.toml", "repo": "fastapi-todos"}
 {"owner": "ananthb", "path": "pyproject.toml", "ref": "main", "repo": "rate-my-pulls"}
 {"owner": "anatolybobunov", "path": "pyproject.toml", "ref": "main", "repo": "LeetCodeProblems"}
 {"owner": "anchorblock", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "anchore", "path": "pyproject.toml", "ref": "main", "repo": "vunnel"}
 {"owner": "andarbech", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "andersy005", "path": "pyproject.toml", "repo": "brouillons-quotidien"}
+{"owner": "andreas-vester", "path": "pyproject.toml", "ref": "main", "repo": "df2img"}
 {"owner": "andredias", "path": "pyproject.toml", "ref": "main", "repo": "codebox"}
 {"owner": "andredias", "path": "pyproject.toml", "ref": "main", "repo": "gitclub"}
 {"owner": "andredias", "path": "pyproject.toml", "ref": "main", "repo": "transfer"}
@@ -692,6 +823,7 @@
 {"owner": "andreffs18", "path": "pyproject.toml", "ref": "master", "repo": "phone-validator"}
 {"owner": "andrewcstewart", "path": "pyproject.toml", "ref": "main", "repo": "here"}
 {"owner": "andrewkenreich", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "andrewthetechie", "path": "pyproject.toml", "ref": "main", "repo": "cookiecutter-autodocs"}
 {"owner": "andrewthetechie", "path": "pyproject.toml", "ref": "main", "repo": "geekbot-api-py"}
 {"owner": "andrewthetechie", "path": "pyproject.toml", "ref": "main", "repo": "k8s-autoannotator"}
 {"owner": "andrewthetechie", "path": "pyproject.toml", "ref": "main", "repo": "py-healthchecks.io"}
@@ -706,18 +838,22 @@
 {"owner": "angelospanag", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-poetry-starter"}
 {"owner": "angr", "path": "pyproject.toml", "repo": "angr"}
 {"owner": "angr", "path": "pyproject.toml", "repo": "pyvex"}
+{"owner": "anhdle14", "path": "packages/jupyterhub/pyproject.toml", "repo": "thee"}
 {"owner": "ankit-pn", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "anosillus", "path": "pyproject.toml", "ref": "main", "repo": "share_cycle_analysis_2021"}
 {"owner": "anth0nylawrence", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "anthonygardner", "path": "pyproject.toml", "ref": "master", "repo": "plant"}
+{"owner": "antonrh", "path": "pyproject.toml", "ref": "main", "repo": "pyxdi"}
 {"owner": "anze3db", "path": "pyproject.toml", "ref": "main", "repo": "fedidevs"}
 {"owner": "anze3db", "path": "pyproject.toml", "ref": "main", "repo": "goals"}
 {"owner": "anze3db", "path": "pyproject.toml", "ref": "main", "repo": "selenium-testing-library"}
 {"owner": "apache", "path": "pyproject.toml", "repo": "airflow"}
+{"owner": "apache", "path": "pyproject.toml", "ref": "main", "repo": "qpid-python"}
 {"owner": "aphp", "path": "pyproject.toml", "ref": "main", "repo": "edsteva"}
 {"owner": "apikeyforopenbb", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "apoclyps", "path": "pyproject.toml", "ref": "main", "repo": "merged"}
 {"owner": "aptakhin", "path": "pyproject.toml", "ref": "main", "repo": "dstate"}
+{"owner": "araffin", "path": "pyproject.toml", "ref": "master", "repo": "python-arduino-serial"}
 {"owner": "arcilli", "path": "pyproject.toml", "repo": "tsdownsample"}
 {"owner": "argoproj-labs", "path": "pyproject.toml", "ref": "main", "repo": "hera"}
 {"owner": "argoproj-labs", "path": "pyproject.toml", "ref": "main", "repo": "hera-workflows"}
@@ -726,6 +862,7 @@
 {"owner": "artigraph", "path": "pyproject.toml", "ref": "master", "repo": "artigraph"}
 {"owner": "arturmiller", "path": "pyproject.toml", "ref": "main", "repo": "sunshine"}
 {"owner": "aryadovoy", "path": "pyproject.toml", "ref": "main", "repo": "trar"}
+{"owner": "asaf-kali", "path": "pyproject.toml", "ref": "main", "repo": "codenames"}
 {"owner": "asdf-format", "path": "pyproject.toml", "repo": "asdf"}
 {"owner": "ashb", "path": "pyproject.toml", "ref": "main", "repo": "asnakedeck"}
 {"owner": "asmove", "path": "pyproject.toml", "ref": "main", "repo": "pybary"}
@@ -734,8 +871,12 @@
 {"owner": "astropy", "path": "pyproject.toml", "repo": "astropy"}
 {"owner": "astutespruce", "path": "pyproject.toml", "ref": "main", "repo": "secas-blueprint"}
 {"owner": "astutespruce", "path": "pyproject.toml", "ref": "main", "repo": "secas-ssa"}
+{"owner": "atlas-bi", "path": "pyproject.toml", "ref": "master", "repo": "LDAP-ETL"}
+{"owner": "atlas-bi", "path": "pyproject.toml", "ref": "master", "repo": "Sqlize-Crystal-Reports"}
+{"owner": "atlas-bi", "path": "pyproject.toml", "ref": "main", "repo": "atlas-automation-hub"}
 {"owner": "atlasacademy", "path": "pyproject.toml", "ref": "master", "repo": "fgo-game-data-api"}
 {"owner": "atoti", "path": "pyproject.toml", "ref": "main", "repo": "project-template"}
+{"owner": "augustepoiroux", "path": "pyproject.toml", "ref": "main", "repo": "TrackMini"}
 {"owner": "augustsalimov", "path": "pyproject.toml", "ref": "main", "repo": "sharaga-telebot"}
 {"owner": "aurelien-clu", "path": "pyproject.toml", "ref": "master", "repo": "template-python"}
 {"owner": "austinmroczek", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant"}
@@ -748,12 +889,32 @@
 {"owner": "avysk", "path": "pyproject.toml", "ref": "master", "repo": "pydupfinder"}
 {"owner": "aws", "path": "pyproject.toml", "ref": "main", "repo": "aws-lambda-builders"}
 {"owner": "aws", "path": "pyproject.toml", "ref": "master", "repo": "aws-sam-cli"}
+{"owner": "aws", "path": "pyproject.toml", "ref": "main", "repo": "aws-sdk-pandas"}
 {"owner": "aws", "path": "ruff.toml", "ref": "main", "repo": "serverless-application-model"}
+{"owner": "aws-hebrew-book", "path": "pyproject.toml", "ref": "main", "repo": "serverless-django"}
 {"owner": "aws-hebrew-book", "path": "pyproject.toml", "ref": "main", "repo": "whatsapp-logger"}
 {"owner": "ayricky", "path": "pyproject.toml", "repo": "discord_bot"}
 {"owner": "b-ggs", "path": "pyproject.toml", "ref": "main", "repo": "django-template"}
 {"owner": "b-ggs", "path": "pyproject.toml", "ref": "main", "repo": "kalokohan"}
 {"owner": "b-r-u-n-o-c", "path": "pyproject.toml", "ref": "main", "repo": "test-ds-project"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "main", "repo": "aioambient"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aioguardian"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aiolinkding"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aionotion"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aiopinboard"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aiopurpleair"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aiorecollect"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "aiowatttime"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "pyairvisual"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "pyiqvia"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "pyopenuv"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "pyoutbreaksnearme"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "pypi-template"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "main", "repo": "pytile"}
+{"owner": "bachya", "path": "pyproject.toml", "ref": "master", "repo": "regenmaschine"}
+{"owner": "bagahyv", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
+{"owner": "baikov", "path": "pyproject.toml", "ref": "master", "repo": "fastapi-bnipi"}
+{"owner": "baking-bad", "path": "pyproject.toml", "ref": "master", "repo": "pysignalr"}
 {"owner": "banditSC86", "path": "pyproject.toml", "ref": "main", "repo": "glasswool"}
 {"owner": "baniasbaabe", "path": "pyproject.toml", "ref": "main", "repo": "project-template"}
 {"owner": "barseghyanartur", "path": "pyproject.toml", "ref": "main", "repo": "django-debug-toolbar-force"}
@@ -794,11 +955,17 @@
 {"owner": "bieniu", "path": "pyproject.toml", "ref": "main", "repo": "nextdns"}
 {"owner": "billnature", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "bimmerconnected", "path": "pyproject.toml", "ref": "master", "repo": "bimmer_connected"}
+{"owner": "binkhq", "path": "pyproject.toml", "ref": "master", "repo": "azureblob-to-azureblob"}
 {"owner": "biomlds", "path": "pyproject.toml", "ref": "main", "repo": "python-project-template"}
+{"owner": "biotheorylab", "path": "pyproject.toml", "repo": "fluxome"}
 {"owner": "bjlittle", "path": "pyproject.toml", "repo": "geovista"}
+{"owner": "blackphin", "path": "pyproject.toml", "ref": "master", "repo": "Deals-Maharaja-Backend"}
+{"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "boilercine"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "boilercv"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "boilerdata"}
+{"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "captivate"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "copier-python"}
+{"owner": "blakeNaccarato", "path": ".tools/pyproject.toml", "repo": "copier-python-test"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "copier-python-test"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "geldaq"}
 {"owner": "blakeNaccarato", "path": "pyproject.toml", "ref": "main", "repo": "lookback"}
@@ -824,25 +991,37 @@
 {"owner": "borisrakovan", "path": "pyproject.toml", "ref": "main", "repo": "tindermate"}
 {"owner": "boschresearch", "path": "pyproject.toml", "ref": "main", "repo": "blackboxopt"}
 {"owner": "bossjones", "path": "pyproject.toml", "ref": "master", "repo": "fastapi_pytorch_postgresql_sandbox"}
+{"owner": "bradleyess", "path": "pyproject.toml", "ref": "main", "repo": "py"}
 {"owner": "brainwo", "path": "pyproject.toml", "ref": "main", "repo": "coderunner"}
 {"owner": "brainwo", "path": "pyproject.toml", "ref": "main", "repo": "embeddertg"}
 {"owner": "brenank", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
 {"owner": "brendef", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "brettcannon", "path": "pyproject.toml", "repo": "microvenv"}
 {"owner": "brocksam", "path": "pyproject.toml", "ref": "main", "repo": "casbench"}
+{"owner": "brown-ccv", "path": "pyproject.toml", "ref": "main", "repo": "DSCoV-ModernPython"}
 {"owner": "brumar", "path": "pyproject.toml", "ref": "main", "repo": "onionizer"}
 {"owner": "bruno-fs", "path": "pyproject.toml", "ref": "main", "repo": "pybuild-deps"}
 {"owner": "buildarr", "path": "pyproject.toml", "ref": "main", "repo": "buildarr"}
+{"owner": "buildarr", "path": "pyproject.toml", "ref": "main", "repo": "buildarr-prowlarr"}
 {"owner": "buildarr", "path": "pyproject.toml", "ref": "main", "repo": "buildarr-sonarr"}
 {"owner": "buserbrasil", "path": "pyproject.toml", "ref": "main", "repo": "pytest-ruff"}
 {"owner": "bwhli", "path": "pyproject.toml", "ref": "main", "repo": "fly-python-sdk"}
 {"owner": "byceps", "path": "pyproject.toml", "ref": "main", "repo": "byceps"}
+{"owner": "c17hawke", "path": "pyproject.toml", "ref": "main", "repo": "python-cli-template"}
+{"owner": "cadl", "path": "pyproject.toml", "ref": "main", "repo": "chatdbt"}
 {"owner": "caiopeternela", "path": "pyproject.toml", "ref": "master", "repo": "apiculture"}
 {"owner": "caiopeternela", "path": "pyproject.toml", "ref": "master", "repo": "neoclima"}
+{"owner": "caiopeternela", "path": "pyproject.toml", "ref": "master", "repo": "secreta"}
 {"owner": "calmanger", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
+{"owner": "cameronraysmith", "path": "pyproject.toml", "repo": "pyro-thunder"}
 {"owner": "camohe90", "path": "pyproject.toml", "ref": "main", "repo": "voting"}
+{"owner": "cancelchain", "path": "pyproject.toml", "ref": "main", "repo": "cancelchain"}
 {"owner": "caniko", "path": "pyproject.toml", "repo": "pydantic-numpy"}
+{"owner": "canonical", "path": "pyproject.toml", "repo": "charmcraft"}
+{"owner": "canonical", "path": "pyproject.toml", "repo": "craft-application"}
+{"owner": "canonical", "path": "pyproject.toml", "repo": "craft-archives"}
 {"owner": "canonical", "path": "pyproject.toml", "ref": "main", "repo": "kafka-bundle"}
+{"owner": "canonical", "path": "pyproject.toml", "ref": "main", "repo": "kafka-k8s-bundle"}
 {"owner": "canonical", "path": "pyproject.toml", "ref": "main", "repo": "kafka-k8s-operator"}
 {"owner": "canonical", "path": "pyproject.toml", "ref": "main", "repo": "kafka-operator"}
 {"owner": "canonical", "path": "pyproject.toml", "ref": "main", "repo": "kafka-test-app"}
@@ -855,11 +1034,13 @@
 {"owner": "captainaustralia", "path": "pyproject.toml", "ref": "master", "repo": "delivery_monolith"}
 {"owner": "caracole-io", "path": "pyproject.toml", "ref": "master", "repo": "caracole.io"}
 {"owner": "caracole-io", "path": "pyproject.toml", "ref": "master", "repo": "videgrenier"}
+{"owner": "carbonplan", "path": "pyproject.toml", "repo": "python-project-template"}
 {"owner": "carderne", "path": "pyproject.toml", "repo": "signal-export"}
 {"owner": "castelao", "path": "pyproject.toml", "repo": "oceansdb"}
 {"owner": "catfromplan9", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "cath90mph", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "catsocks", "path": "pyproject.toml", "ref": "main", "repo": "sebo-magic"}
+{"owner": "catsocks", "path": "pyproject.toml", "ref": "main", "repo": "sebo-wand"}
 {"owner": "cattidea", "path": "pyproject.toml", "ref": "main", "repo": "doc-pipe"}
 {"owner": "cauliyang", "path": "pyproject.toml", "ref": "main", "repo": "ChatResearch"}
 {"owner": "cbg-ethz", "path": "pyproject.toml", "ref": "main", "repo": "BayPy"}
@@ -867,15 +1048,19 @@
 {"owner": "cbg-ethz", "path": "pyproject.toml", "ref": "main", "repo": "PYggdrasil"}
 {"owner": "cce2955", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "ccordoba12", "path": "pyproject.toml", "ref": "main", "repo": "python-lsp-ruff"}
+{"owner": "cda-tum", "path": "pyproject.toml", "repo": "ion-shuttler"}
 {"owner": "cdce8p", "path": "pyproject.toml", "repo": "pylint"}
+{"owner": "cdm-processors", "path": "pyproject.toml", "ref": "master", "repo": "cdm-devkit"}
 {"owner": "cds-astro", "path": "pyproject.toml", "repo": "mocpy"}
 {"owner": "cemrehancavdar", "path": "pyproject.toml", "ref": "main", "repo": "cluster_basket_points"}
 {"owner": "centre-for-humanities-computing", "path": "pyproject.toml", "repo": "DaCy"}
+{"owner": "cesium-ml", "path": "ruff.toml", "repo": "baselayer_template_app"}
 {"owner": "cgarciae", "path": "pyproject.toml", "ref": "master", "repo": "jax_metrics"}
 {"owner": "chaacxib", "path": "pyproject.toml", "ref": "main", "repo": "allocation-api"}
 {"owner": "chado13", "path": "pyproject.toml", "ref": "main", "repo": "architecture-pattern"}
 {"owner": "chado13", "path": "pyproject.toml", "ref": "main", "repo": "column-more"}
 {"owner": "chado13", "path": "pyproject.toml", "ref": "main", "repo": "mlops_mle"}
+{"owner": "chakrakan", "path": "pyproject.toml", "ref": "main", "repo": "python-base-starter"}
 {"owner": "chanzuckerberg", "path": "pyproject.toml", "ref": "main", "repo": "single-cell-data-portal"}
 {"owner": "charliermarsh", "path": "pyproject.toml", "ref": "main", "repo": "autobot"}
 {"owner": "charliermarsh", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
@@ -884,8 +1069,11 @@
 {"owner": "chdemko", "path": "pyproject.toml", "ref": "main", "repo": "py-arithmetic"}
 {"owner": "chiltonbradley", "path": "pyproject.toml", "ref": "master", "repo": "VB4"}
 {"owner": "chmeliik", "path": "pyproject.toml", "ref": "main", "repo": "godeps"}
+{"owner": "chmp", "path": "pyproject.toml", "ref": "main", "repo": "ipytest"}
 {"owner": "chornsby", "path": "pyproject.toml", "ref": "main", "repo": "raffle-api"}
+{"owner": "chris-santiago", "path": "pyproject.toml", "ref": "master", "repo": "pipes"}
 {"owner": "christokur", "path": "pyproject.toml", "ref": "main", "repo": "portray"}
+{"owner": "christophschaller", "path": "pyproject.toml", "ref": "main", "repo": "metriker"}
 {"owner": "cicerops", "path": "pyproject.toml", "ref": "main", "repo": "pygource"}
 {"owner": "cjber", "path": "pyproject.toml", "ref": "main", "repo": "reddit-connectivity"}
 {"owner": "cjfuller", "path": "pyproject.toml", "ref": "main", "repo": "adventofcode2022"}
@@ -898,6 +1086,7 @@
 {"owner": "clayman-micro", "path": "pyproject.toml", "ref": "master", "repo": "wallet"}
 {"owner": "clbarnes", "path": "pyproject.toml", "ref": "master", "repo": "ncollpyde"}
 {"owner": "clemsau", "path": "pyproject.toml", "ref": "main", "repo": "telegram-gpt"}
+{"owner": "cliffy-sh", "path": "pyproject.toml", "ref": "main", "repo": "cliffy"}
 {"owner": "climatepolicyradar", "path": "pyproject.toml", "ref": "main", "repo": "experiment-template"}
 {"owner": "climatepolicyradar", "path": "pyproject.toml", "ref": "main", "repo": "navigator-backend"}
 {"owner": "clokep", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
@@ -912,11 +1101,16 @@
 {"owner": "code-yeongyu", "path": "pyproject.toml", "ref": "master", "repo": "YGK-a"}
 {"owner": "code-yeongyu", "path": "pyproject.toml", "ref": "main", "repo": "comment-python-project"}
 {"owner": "code-yeongyu", "path": "pyproject.toml", "ref": "master", "repo": "moragi"}
+{"owner": "code-yeongyu", "path": "pyproject.toml", "ref": "master", "repo": "revChatGPTAuth"}
 {"owner": "codekansas", "path": "pyproject.toml", "ref": "master", "repo": "llama-inference"}
+{"owner": "codekansas", "path": "pyproject.toml", "ref": "master", "repo": "ml-project-template"}
+{"owner": "codekansas", "path": "pyproject.toml", "ref": "master", "repo": "ml-starter"}
 {"owner": "codekansas", "path": "pyproject.toml", "ref": "master", "repo": "ml-template"}
+{"owner": "cofin", "path": "pyproject.toml", "ref": "main", "repo": "litestar-fullstack"}
 {"owner": "cofin", "path": "pyproject.toml", "ref": "main", "repo": "starlite-full-stack-example"}
 {"owner": "cohama", "path": "pyproject.toml", "ref": "main", "repo": "ddim_from_scratch"}
 {"owner": "cohere-ai", "path": "pyproject.toml", "ref": "main", "repo": "sandbox-conversant-lib"}
+{"owner": "cojua8", "path": "src/backend/pyproject.toml", "repo": "todo-app"}
 {"owner": "colour-science", "path": "pyproject.toml", "ref": "master", "repo": "awesome-colour"}
 {"owner": "colour-science", "path": "pyproject.toml", "repo": "colour"}
 {"owner": "colour-science", "path": "pyproject.toml", "ref": "master", "repo": "colour-checker-detection"}
@@ -935,6 +1129,7 @@
 {"owner": "cpressland", "path": "pyproject.toml", "ref": "master", "repo": "dictfilter"}
 {"owner": "cqwang", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "creatorrr", "path": "pyproject.toml", "ref": "main", "repo": "turbo-chat"}
+{"owner": "cresset-template", "path": "pyproject.toml", "repo": "cresset"}
 {"owner": "crocs-muni", "path": "pyproject.toml", "ref": "main", "repo": "sec-certs"}
 {"owner": "crpier", "path": "pyproject.toml", "ref": "main", "repo": "typest"}
 {"owner": "cubao", "path": "pyproject.toml", "repo": "cmake_example"}
@@ -943,18 +1138,21 @@
 {"owner": "curbengh", "path": "pyproject.toml", "ref": "main", "repo": "splunk-malware-filter"}
 {"owner": "cxiao", "path": "pyproject.toml", "ref": "master", "repo": "hashdb_bn"}
 {"owner": "cyuss", "path": "pyproject.toml", "ref": "main", "repo": "decathlon-turnover"}
+{"owner": "cyuss", "path": "{{cookiecutter.project_name}}/pyproject.toml", "repo": "fastapi-template"}
 {"owner": "d-biehl", "path": "pyproject.toml", "repo": "robotcode"}
 {"owner": "dagger", "path": "sdk/python/pyproject.toml", "repo": "dagger"}
 {"owner": "dagster-io", "path": "pyproject.toml", "repo": "dagster"}
 {"owner": "daisylab-bit", "path": "pyproject.toml", "ref": "main", "repo": "ipfox"}
 {"owner": "damian220", "path": "pyproject.toml", "ref": "main", "repo": "protoletariat"}
 {"owner": "damienallen", "path": "pyproject.toml", "ref": "master", "repo": "website"}
+{"owner": "damienallen", "path": "pyproject.toml", "ref": "main", "repo": "website"}
 {"owner": "danczw", "path": "pyproject.toml", "ref": "main", "repo": "discord_assistant_bot"}
 {"owner": "danczw", "path": "pyproject.toml", "ref": "main", "repo": "hase_discbot"}
 {"owner": "danfimov", "path": "pyproject.toml", "ref": "main", "repo": "bookmarker"}
 {"owner": "danfimov", "path": "pyproject.toml", "ref": "main", "repo": "cinemabot"}
 {"owner": "daniel-daum", "path": "pyproject.toml", "ref": "main", "repo": "data_pipelines"}
 {"owner": "daniel-makerx", "path": "pyproject.toml", "ref": "main", "repo": "helloworld"}
+{"owner": "danieleades", "path": "pyproject.toml", "repo": "sphinx-graph"}
 {"owner": "danielfrg", "path": "pyproject.toml", "ref": "main", "repo": "mkdocs-jupyter"}
 {"owner": "danielfrg", "path": "pyproject.toml", "ref": "main", "repo": "s3contents"}
 {"owner": "danielgafni", "path": "pyproject.toml", "ref": "master", "repo": "freak"}
@@ -972,10 +1170,12 @@
 {"owner": "dataforgoodfr", "path": "pyproject.toml", "ref": "main", "repo": "Bloom"}
 {"owner": "datanadi", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "datapane", "path": "pyproject.toml", "ref": "main", "repo": "components"}
+{"owner": "david-cattermole", "path": "pyproject.toml", "ref": "master", "repo": "mayaMatchMoveSolver"}
 {"owner": "davidbossanyi", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-celery-example"}
 {"owner": "davidfilat", "path": "pyproject.toml", "ref": "master", "repo": "advent-of-code"}
 {"owner": "davidharting", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-starter"}
 {"owner": "daviskirk", "path": "pyproject.toml", "ref": "main", "repo": "dagster-pydantic-validation"}
+{"owner": "daxartio", "path": "pyproject.toml", "ref": "main", "repo": "casers"}
 {"owner": "daxartio", "path": "pyproject.toml", "ref": "main", "repo": "termynal"}
 {"owner": "dayknightmare", "path": "pyproject.toml", "ref": "main", "repo": "Delivery"}
 {"owner": "db0", "path": "pyproject.toml", "ref": "main", "repo": "AI-Horde-Worker"}
@@ -987,6 +1187,7 @@
 {"owner": "dbatten5", "path": "pyproject.toml", "ref": "main", "repo": "phylm"}
 {"owner": "dbca-wa", "path": "pyproject.toml", "ref": "master", "repo": "it-assets"}
 {"owner": "dccuchile", "path": "pyproject.toml", "ref": "master", "repo": "wefe"}
+{"owner": "dddelispt42", "path": "ruff/.config/ruff/pyproject.toml", "repo": "dotfiles"}
 {"owner": "ddxv", "path": "pyproject.toml", "repo": "app-ads-dash"}
 {"owner": "death2all110", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "deeleeramone", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
@@ -1009,6 +1210,7 @@
 {"owner": "dimbleby", "path": "pyproject.toml", "ref": "main", "repo": "or-puzzles"}
 {"owner": "dimitryzub", "path": "pyproject.toml", "ref": "main", "repo": "scrape-google-scholar-py"}
 {"owner": "din14970", "path": "pyproject.toml", "ref": "master", "repo": "explicitor"}
+{"owner": "dinhanhx", "path": "ruff.toml", "repo": "macarons"}
 {"owner": "dinhanhx", "path": "ruff.toml", "repo": "rct"}
 {"owner": "dipdup-io", "path": "demos/demo-auction/pyproject.toml", "repo": "dipdup"}
 {"owner": "dipdup-io", "path": "demos/demo-big-maps/pyproject.toml", "repo": "dipdup"}
@@ -1021,6 +1223,7 @@
 {"owner": "dipdup-io", "path": "demos/demo-token-transfers/pyproject.toml", "repo": "dipdup"}
 {"owner": "dipdup-io", "path": "demos/demo-token/pyproject.toml", "repo": "dipdup"}
 {"owner": "dipdup-io", "path": "pyproject.toml", "ref": "master", "repo": "dipdup"}
+{"owner": "diveyez", "path": "pyproject.toml", "ref": "master", "repo": "freqtrade"}
 {"owner": "divijsingla", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "dixneuf19", "path": "pyproject.toml", "ref": "main", "repo": "dank-face-slack-bot"}
 {"owner": "djacobson171", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
@@ -1038,6 +1241,7 @@
 {"owner": "dosisod", "path": "pyproject.toml", "ref": "master", "repo": "refurb-json-minify"}
 {"owner": "dosisod", "path": "pyproject.toml", "ref": "master", "repo": "refurb-plugin-example"}
 {"owner": "dotlambda", "path": "python/pyproject.toml", "repo": "deltachat-core-rust"}
+{"owner": "dotlas", "path": "{{cookiecutter.slug}}/pyproject.toml", "repo": "cookiecutter-pypackage"}
 {"owner": "dragomirp", "path": "pyproject.toml", "ref": "main", "repo": "renovate-charm"}
 {"owner": "dreamerc", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "dribia", "path": "pyproject.toml", "ref": "master", "repo": "driconfig"}
@@ -1045,12 +1249,16 @@
 {"owner": "dshemetov", "path": "pyproject.toml", "ref": "main", "repo": "advent-of-code-solutions"}
 {"owner": "dsuess", "path": "pyproject.toml", "ref": "main", "repo": "tensorboa.rs"}
 {"owner": "duarteocarmo", "path": "pyproject.toml", "ref": "master", "repo": "boilerplate"}
+{"owner": "durandtibo", "path": "pyproject.toml", "ref": "main", "repo": "hya"}
 {"owner": "durandtibo", "path": "pyproject.toml", "ref": "main", "repo": "meteor"}
 {"owner": "dutta-alankar", "path": "pyproject.toml", "ref": "main", "repo": "AstroPlasma"}
+{"owner": "dvcorreia", "path": "pyproject.toml", "ref": "master", "repo": "seizmeia"}
 {"owner": "dwreeves", "path": "pyproject.toml", "ref": "main", "repo": "dbt_linreg"}
 {"owner": "dycw", "path": "pyproject.toml", "ref": "master", "repo": "nitpick"}
 {"owner": "dycw", "path": "pyproject.toml", "ref": "master", "repo": "pre-commit-hooks"}
 {"owner": "dycw", "path": "pyproject.toml", "ref": "master", "repo": "template"}
+{"owner": "dycw", "path": "pyproject.toml", "ref": "master", "repo": "template-docker"}
+{"owner": "dycw", "path": "pyproject.toml", "ref": "master", "repo": "tutorial-test-driven-development-with-fastapi-and-docker"}
 {"owner": "dylanschultzie", "path": "pyproject.toml", "ref": "master", "repo": "node-restart-bot"}
 {"owner": "dynamic-graphics-inc", "path": "pyproject.toml", "ref": "main", "repo": "dgpy-libs"}
 {"owner": "dynobo", "path": "pyproject.toml", "ref": "main", "repo": "keyhint"}
@@ -1077,10 +1285,14 @@
 {"owner": "elacosse", "path": "pyproject.toml", "ref": "master", "repo": "metamersion-latent"}
 {"owner": "elacosse", "path": "pyproject.toml", "ref": "main", "repo": "mlops-project-template"}
 {"owner": "elacosse", "path": "pyproject.toml", "ref": "main", "repo": "poetry-project-template"}
+{"owner": "elanthia-online", "path": "skins.toml", "repo": "data"}
 {"owner": "elben10", "path": "pyproject.toml", "ref": "main", "repo": "dmi"}
 {"owner": "elehcimd", "path": "pyproject.toml", "ref": "main", "repo": "mltraq"}
 {"owner": "eliza-guseva", "path": "pyproject.toml", "ref": "main", "repo": "my-pretty-sad-journal"}
 {"owner": "elyanah-aco", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "encode", "path": "pyproject.toml", "ref": "master", "repo": "httpx"}
+{"owner": "encode", "path": "pyproject.toml", "ref": "master", "repo": "starlette"}
+{"owner": "encode", "path": "pyproject.toml", "ref": "master", "repo": "uvicorn"}
 {"owner": "engeir", "path": "pyproject.toml", "ref": "main", "repo": "inscar"}
 {"owner": "engeir", "path": "pyproject.toml", "ref": "main", "repo": "plastik"}
 {"owner": "enishant", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
@@ -1095,6 +1307,7 @@
 {"owner": "esrehmki", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "et41", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "ethansaxenian", "path": "pyproject.toml", "ref": "main", "repo": "DominionAPI"}
+{"owner": "evamaxfield", "path": "{{ cookiecutter.project_slug }}/pyproject.toml", "repo": "cookiecutter-py-package"}
 {"owner": "ew2664", "path": "pyproject.toml", "ref": "main", "repo": "mabby"}
 {"owner": "ewjoachim", "path": "pyproject.toml", "ref": "main", "repo": "sagittarius"}
 {"owner": "executablebooks", "path": "pyproject.toml", "repo": "MyST-Parser"}
@@ -1105,6 +1318,7 @@
 {"owner": "f0xit", "path": "pyproject.toml", "ref": "master", "repo": "moeviusbot"}
 {"owner": "fabiangeisler", "path": "pyproject.toml", "ref": "main", "repo": "pyshotgrid"}
 {"owner": "fabien-marty", "path": "pyproject.toml", "ref": "main", "repo": "standard-structlog"}
+{"owner": "fabien-marty", "path": "pyproject.toml", "ref": "main", "repo": "stlog"}
 {"owner": "fake-useragent", "path": "pyproject.toml", "ref": "master", "repo": "fake-useragent"}
 {"owner": "fcfangcc", "path": "pyproject.toml", "ref": "main", "repo": "pyxxl"}
 {"owner": "fedora-infra", "path": "pyproject.toml", "repo": "bodhi"}
@@ -1124,8 +1338,10 @@
 {"owner": "fitzypop", "path": "pyproject.toml", "ref": "main", "repo": "python"}
 {"owner": "flamingo-run", "path": "pyproject.toml", "ref": "main", "repo": "django-cloud-tasks"}
 {"owner": "flathub", "path": "backend/pyproject.toml", "repo": "website"}
+{"owner": "flibusta-apps", "path": "pyproject.toml", "repo": "users_settings_server"}
 {"owner": "flox-examples", "path": "pyproject.toml", "ref": "master", "repo": "poetry-qiskit"}
 {"owner": "flxbe", "path": "pyproject.toml", "ref": "main", "repo": "bstruct"}
+{"owner": "fnches", "path": "pyproject.toml", "ref": "main", "repo": "algokit1"}
 {"owner": "forgepackages", "path": "pyproject.toml", "ref": "master", "repo": "forge-format"}
 {"owner": "forgepackages", "path": "pyproject.toml", "ref": "master", "repo": "pro-billing"}
 {"owner": "forgepackages", "path": "pyproject.toml", "ref": "master", "repo": "starter-template"}
@@ -1137,9 +1353,12 @@
 {"owner": "fpgmaas", "path": "pyproject.toml", "repo": "deptry"}
 {"owner": "fr3h4g", "path": "pyproject.toml", "ref": "main", "repo": "file-transfer-automation"}
 {"owner": "francipvb", "path": "pyproject.toml", "ref": "main", "repo": "func-hooks"}
+{"owner": "frankie567", "path": "{{cookiecutter.dist_name}}/pyproject.toml", "repo": "cookiecutter-hipster-pypackage"}
 {"owner": "frankie567", "path": "pyproject.toml", "ref": "main", "repo": "md-buttons"}
 {"owner": "frdanconia", "path": "pyproject.toml", "ref": "main", "repo": "openbb_terminal"}
+{"owner": "freddyblockchain", "path": "pyproject.toml", "ref": "master", "repo": "AlgokitProject"}
 {"owner": "fredrikaverpil", "path": "pyproject.toml", "ref": "main", "repo": "postgres-playground"}
+{"owner": "freeorion", "path": "pyproject.toml", "ref": "master", "repo": "freeorion"}
 {"owner": "frenck", "path": "pyproject.toml", "ref": "main", "repo": "python-demetriek"}
 {"owner": "frenck", "path": "pyproject.toml", "ref": "main", "repo": "python-elgato"}
 {"owner": "frenck", "path": "pyproject.toml", "ref": "main", "repo": "python-pvoutput"}
@@ -1153,11 +1372,14 @@
 {"owner": "frndmg", "path": "pyproject.toml", "ref": "main", "repo": "pyrsec"}
 {"owner": "fsouza", "path": "ruff.toml", "ref": "main", "repo": "dotfiles"}
 {"owner": "fsouza", "path": "pyproject.toml", "ref": "main", "repo": "flake8-ruff-wrapper"}
+{"owner": "funkelab", "path": "pyproject.toml", "repo": "ilpy"}
 {"owner": "furqanalishah", "path": "pyproject.toml", "ref": "main", "repo": "upload_service"}
 {"owner": "fuzzylabs", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "fuzzylite", "path": "pyproject.toml", "ref": "main", "repo": "pyfuzzylite"}
 {"owner": "fy975713384", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "gabbhack", "path": "pyproject.toml", "ref": "master", "repo": "base-bot"}
+{"owner": "gabrieldewet", "path": "pyproject.toml", "ref": "main", "repo": "sagemaker-examples"}
+{"owner": "gakaki", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
 {"owner": "gaphor", "path": "pyproject.toml", "repo": "gaphor"}
 {"owner": "gav451", "path": "pyproject.toml", "ref": "main", "repo": "python-lsp-ruff"}
 {"owner": "gavinmoodley", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
@@ -1183,6 +1405,7 @@
 {"owner": "golifox", "path": "pyproject.toml", "ref": "main", "repo": "codewars"}
 {"owner": "gooddata", "path": "pyproject.toml", "ref": "master", "repo": "gooddata-python-sdk"}
 {"owner": "goodnoise1", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "google", "path": "pyproject.toml", "ref": "main", "repo": "weather-tools"}
 {"owner": "govermon", "path": "pyproject.toml", "ref": "main", "repo": "pythonproject"}
 {"owner": "gpajot", "path": "pyproject.toml", "ref": "main", "repo": "airton-ac"}
 {"owner": "gpajot", "path": "pyproject.toml", "ref": "main", "repo": "asyncio-concurrent-tasks"}
@@ -1191,13 +1414,17 @@
 {"owner": "gpajot", "path": "pyproject.toml", "ref": "main", "repo": "local-tuya-domoticz-tools"}
 {"owner": "gpajot", "path": "pyproject.toml", "ref": "main", "repo": "zen-config"}
 {"owner": "gpauloski", "path": "pyproject.toml", "repo": "kfac-pytorch"}
+{"owner": "gradio-app", "path": "pyproject.toml", "ref": "main", "repo": "gradio"}
 {"owner": "gralex1302", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "graphext", "path": "pyproject.toml", "repo": "lector"}
 {"owner": "great-expectations", "path": "contrib/ruff.toml", "repo": "great_expectations"}
+{"owner": "great-expectations", "path": "great_expectations/dataset/ruff.toml", "repo": "great_expectations"}
 {"owner": "great-expectations", "path": "pyproject.toml", "ref": "master", "repo": "great_expectations"}
 {"owner": "gregstarr", "path": "pyproject.toml", "ref": "main", "repo": "choppy"}
 {"owner": "gridgentoo", "path": "pyproject.toml", "ref": "main", "repo": "riffusion"}
 {"owner": "grigaut", "path": "pyproject.toml", "ref": "main", "repo": "bgc-data-processing"}
+{"owner": "grigaut", "path": "pyproject.toml", "ref": "master", "repo": "python-test"}
+{"owner": "grigaut", "path": "pyproject.toml", "ref": "master", "repo": "python-tools"}
 {"owner": "grigaut", "path": "pyproject.toml", "ref": "main", "repo": "water-tracker"}
 {"owner": "grillazz", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-apscheduler"}
 {"owner": "grillazz", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-sqlalchemy-asyncpg"}
@@ -1210,11 +1437,13 @@
 {"owner": "gufolabs", "path": "pyproject.toml", "ref": "master", "repo": "gufo_snmp"}
 {"owner": "gufolabs", "path": "pyproject.toml", "ref": "master", "repo": "gufo_traceroute"}
 {"owner": "guoshichengfirst", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "gupta-anmol99", "path": "pyproject.toml", "ref": "main", "repo": "Advances_in_Robot_Learning"}
 {"owner": "gurgenXD", "path": "pyproject.toml", "ref": "main", "repo": "clinic"}
 {"owner": "gurgenXD", "path": "pyproject.toml", "ref": "main", "repo": "uzi4d"}
 {"owner": "gurgenXD", "path": "pyproject.toml", "ref": "main", "repo": "yzi4d"}
 {"owner": "gurguration", "path": "pyproject.toml", "ref": "main", "repo": "friday"}
 {"owner": "guruparan18", "path": "python/pyproject.toml", "repo": "general"}
+{"owner": "gurupratap-matharu", "path": "pyproject.toml", "ref": "master", "repo": "falcon"}
 {"owner": "gw-moore", "path": "pyproject.toml", "ref": "main", "repo": "inflation_dashboard"}
 {"owner": "gw-moore", "path": "pyproject.toml", "ref": "main", "repo": "pyfredapi"}
 {"owner": "h4ndzdatm0ld", "path": "pyproject.toml", "ref": "master", "repo": "nornir_netconf"}
@@ -1230,6 +1459,7 @@
 {"owner": "has2k1", "path": "pyproject.toml", "ref": "main", "repo": "mizani"}
 {"owner": "has2k1", "path": "pyproject.toml", "ref": "main", "repo": "plotnine"}
 {"owner": "hay-kot", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
+{"owner": "hayesall", "path": "pyproject.toml", "ref": "main", "repo": "bottle-breaker"}
 {"owner": "hbcarlos", "path": "pyproject.toml", "repo": "jupyter_server"}
 {"owner": "hbenedek", "path": "pyproject.toml", "ref": "main", "repo": "binoculars"}
 {"owner": "hbjORbj", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
@@ -1239,6 +1469,7 @@
 {"owner": "henriqueio", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "hertera1", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "hetida", "path": "runtime/pyproject.toml", "repo": "hetida-designer"}
+{"owner": "higlass", "path": "pyproject.toml", "repo": "higlass-schema"}
 {"owner": "hilam", "path": "pyproject.toml", "ref": "master", "repo": "i18web"}
 {"owner": "hillfolk", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "himanshuc3", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
@@ -1246,7 +1477,9 @@
 {"owner": "hjuhalc", "path": "pyproject.toml", "ref": "main", "repo": "sms-gateway-android"}
 {"owner": "hkad98", "path": "pyproject.toml", "ref": "main", "repo": "gooddata-chatgpt-slackbot"}
 {"owner": "hoel-bagard", "path": "pyproject.toml", "ref": "master", "repo": "leetcode"}
+{"owner": "hoel-bagard", "path": "pyproject.toml", "ref": "master", "repo": "opencv-stubs"}
 {"owner": "hoel-bagard", "path": "pyproject.toml", "ref": "master", "repo": "rpycocotools-stubs"}
+{"owner": "hofbi", "path": "pyproject.toml", "repo": "teaching-tools"}
 {"owner": "hoffa", "path": "pyproject.toml", "ref": "master", "repo": "serverless-application-model"}
 {"owner": "hoffa", "path": "ruff.toml", "ref": "master", "repo": "serverless-application-model"}
 {"owner": "home-assistant", "path": "pyproject.toml", "ref": "master", "repo": "core"}
@@ -1270,13 +1503,17 @@
 {"owner": "iCodeIN", "path": "pyproject.toml", "ref": "main", "repo": "autobot"}
 {"owner": "iCodeIN", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "iCodeIN", "path": "pyproject.toml", "ref": "main", "repo": "ruff-vscode"}
+{"owner": "iKenshu", "path": "pyproject.toml", "ref": "main", "repo": "habi-api"}
 {"owner": "ianchen-tw", "path": "pyproject.toml", "ref": "main", "repo": "py-template"}
 {"owner": "iandolge", "path": "pyproject.toml", "ref": "main", "repo": "ac_performance"}
 {"owner": "ianzhang366", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "ibis-project", "path": "pyproject.toml", "ref": "master", "repo": "ibis"}
 {"owner": "ibis-project", "path": "pyproject.toml", "ref": "main", "repo": "ibis-substrait"}
+{"owner": "ibiscp", "path": "pyproject.toml", "ref": "main", "repo": "LLM-IMDB"}
 {"owner": "icbi-lab", "path": "pyproject.toml", "ref": "main", "repo": "atlas_protocol"}
 {"owner": "icp1994", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "ieeh-tu-dresden", "path": "pyproject.toml", "repo": "power-system-data-model"}
+{"owner": "ieeh-tu-dresden", "path": "pyproject.toml", "repo": "powerfactory-tools"}
 {"owner": "igmriegel", "path": "pyproject.toml", "ref": "main", "repo": "IcyRecomenders"}
 {"owner": "ikamensh", "path": "pyproject.toml", "ref": "master", "repo": "flynt"}
 {"owner": "ikornaselur", "path": "pyproject.toml", "ref": "main", "repo": "similarium"}
@@ -1284,12 +1521,15 @@
 {"owner": "ilkersigirci", "path": "pyproject.toml", "ref": "main", "repo": "dagster-playground"}
 {"owner": "ilkersigirci", "path": "pyproject.toml", "ref": "main", "repo": "python-template"}
 {"owner": "illuin-tech", "path": "pyproject.toml", "ref": "main", "repo": "configue-cli"}
+{"owner": "iloukou", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
 {"owner": "industrial-optimization-group", "path": "pyproject.toml", "ref": "main", "repo": "NLMOO23"}
+{"owner": "inlyse", "path": "pyproject.toml", "ref": "main", "repo": "inlyse-python"}
 {"owner": "inmatura", "path": "pyproject.toml", "ref": "main", "repo": "extrapolations.dev"}
 {"owner": "inovintell", "path": "pyproject.toml", "ref": "main", "repo": "py-template"}
 {"owner": "input-output-hk", "path": "pyproject.toml", "repo": "cardano-node-tests"}
 {"owner": "inseq-team", "path": "pyproject.toml", "ref": "main", "repo": "inseq"}
 {"owner": "insideDDI", "path": "pyproject.toml", "ref": "master", "repo": "infoblox-networks-sync"}
+{"owner": "intelligent-soft-robots", "path": "pyproject.toml", "repo": "vicon_transformer"}
 {"owner": "internetarchive", "path": "pyproject.toml", "repo": "infogami"}
 {"owner": "internetarchive", "path": "pyproject.toml", "ref": "master", "repo": "openlibrary"}
 {"owner": "ioki-mobility", "path": "pyproject.toml", "ref": "main", "repo": "salt_exporter"}
@@ -1306,6 +1546,7 @@
 {"owner": "itsbth", "path": "pyproject.toml", "ref": "master", "repo": "technopolis-menu"}
 {"owner": "ivangsm", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-sqlalchemy-asyncpg"}
 {"owner": "ivanklee86", "path": "pyproject.toml", "ref": "main", "repo": "rubrical"}
+{"owner": "iwpnd", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-key-auth"}
 {"owner": "iwpnd", "path": "pyproject.toml", "ref": "master", "repo": "flashgeotext"}
 {"owner": "iwpnd", "path": "pyproject.toml", "ref": "main", "repo": "folium-vectorgrid"}
 {"owner": "iwpnd", "path": "pyproject.toml", "ref": "main", "repo": "folium-vectortilelayer"}
@@ -1317,6 +1558,7 @@
 {"owner": "jaceksan", "path": "pyproject.toml", "ref": "main", "repo": "dbt-gooddata"}
 {"owner": "jackdesert", "path": "pyproject.toml", "ref": "main", "repo": "mattstohrer"}
 {"owner": "jackdesert", "path": "pyproject.toml", "ref": "main", "repo": "stohrermusic.com"}
+{"owner": "jacobporter6", "path": "pyproject.toml", "ref": "main", "repo": "leetcode"}
 {"owner": "jag-k", "path": "pyproject.toml", "ref": "main", "repo": "owntinfoil"}
 {"owner": "jag-k", "path": "pyproject.toml", "ref": "main", "repo": "tiktok-downloader"}
 {"owner": "jakesco", "path": "pyproject.toml", "ref": "main", "repo": "advent-of-code"}
@@ -1327,6 +1569,7 @@
 {"owner": "jamwil", "path": "pyproject.toml", "ref": "main", "repo": "bulletproof-python"}
 {"owner": "jan-ru", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "janheindejong", "path": "pyproject.toml", "ref": "main", "repo": "nautikos"}
+{"owner": "janickrohrbach", "path": "pyproject.toml", "ref": "main", "repo": "self-host-llm"}
 {"owner": "jasonwashburn", "path": "pyproject.toml", "ref": "main", "repo": "dagger-pipeline"}
 {"owner": "jasonwashburn", "path": "pyproject.toml", "ref": "main", "repo": "dsa-python"}
 {"owner": "jasonwashburn", "path": "pyproject.toml", "ref": "main", "repo": "spin-python-latest-gfs"}
@@ -1354,6 +1597,7 @@
 {"owner": "jevandezande", "path": "pyproject.toml", "ref": "master", "repo": "reaction_web"}
 {"owner": "jevandezande", "path": "pyproject.toml", "ref": "master", "repo": "spectra"}
 {"owner": "jexio", "path": "pyproject.toml", "ref": "main", "repo": "fulmo-cookiecutter-poetry"}
+{"owner": "jexio", "path": "{{cookiecutter.project_name}}/pyproject.toml", "repo": "fulmo-cookiecutter-poetry"}
 {"owner": "jfarid27", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "jfkmsp", "path": "pyproject.toml", "ref": "master", "repo": "checkmk"}
 {"owner": "jfroy", "path": "pyproject.toml", "ref": "master", "repo": "core"}
@@ -1364,20 +1608,27 @@
 {"owner": "jimkring", "path": "pyproject.toml", "repo": "pydantic"}
 {"owner": "jizhang", "path": "pyproject.toml", "ref": "master", "repo": "timetable"}
 {"owner": "jjerphan", "path": "py-polars/pyproject.toml", "repo": "polars"}
+{"owner": "jjjake", "path": "pyproject.toml", "ref": "master", "repo": "internetarchive"}
 {"owner": "jjtrigueiros", "path": "pyproject.toml", "ref": "master", "repo": "pokepapers"}
 {"owner": "jjuarez", "path": "pyproject.toml", "ref": "main", "repo": "dagger-python-SDK-poc"}
+{"owner": "jkazimierczak", "path": "pyproject.toml", "ref": "master", "repo": "htb"}
 {"owner": "jknowles2001", "path": "pyproject.toml", "ref": "main", "repo": "j"}
 {"owner": "jkrauska", "path": "pyproject.toml", "ref": "main", "repo": "fieldpick"}
 {"owner": "jlongtine", "path": "sdk/python/pyproject.toml", "repo": "dagger"}
 {"owner": "jlopezpena", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "jmaslek", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "jmwielandt", "path": "pyproject.toml", "ref": "master", "repo": "fastapi-nats-uvicorn-example"}
+{"owner": "jnimmo", "path": "pyproject.toml", "repo": "hass-intesisbox"}
+{"owner": "jnsgruk", "path": "pyproject.toml", "repo": "parca-scrape-target-operator"}
 {"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "chttp"}
+{"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "drclient"}
 {"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "prenv"}
 {"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "pycrun"}
 {"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "pywinrdp"}
+{"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "rootbox"}
 {"owner": "joaompinto", "path": "pyproject.toml", "ref": "main", "repo": "xget"}
 {"owner": "joaopalmeiro", "path": "pyproject.toml", "ref": "main", "repo": "warrior-nun-db"}
+{"owner": "joaoprocopio", "path": "pyproject.toml", "ref": "main", "repo": "analise-e-complexidade-de-algoritmos"}
 {"owner": "joe-p", "path": "examples/auction/pyproject.toml", "repo": "TEALScript"}
 {"owner": "joehalliwell", "path": "pyproject.toml", "ref": "main", "repo": "paraphernalia"}
 {"owner": "joejcollins", "path": "pyproject.toml", "ref": "main", "repo": "captain-scarlet"}
@@ -1385,11 +1636,15 @@
 {"owner": "johhnry", "path": "pyproject.toml", "ref": "main", "repo": "python-package-template"}
 {"owner": "johncassil", "path": "pyproject.toml", "ref": "main", "repo": "undertide"}
 {"owner": "johnjtorres", "path": "pyproject.toml", "ref": "main", "repo": "panorama-sidekick"}
+{"owner": "johnwalz97", "path": "pyproject.toml", "ref": "main", "repo": "gpt-auto-applier"}
 {"owner": "jonasehrlich", "path": "pyproject.toml", "ref": "main", "repo": "chrometrace"}
+{"owner": "jonasehrlich", "path": "pyproject.toml", "ref": "main", "repo": "plantuml-sequence"}
 {"owner": "jonatasoli", "path": "pyproject.toml", "ref": "main", "repo": "exercice_refactor"}
 {"owner": "jonatasoli", "path": "pyproject.toml", "ref": "main", "repo": "flask_subdomain_example"}
 {"owner": "jonatasoli", "path": "pyproject.toml", "ref": "main", "repo": "personal-finances-python-api"}
 {"owner": "jonelr", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "jonhammer", "path": "pyproject.toml", "ref": "main", "repo": "homedb"}
+{"owner": "jonra1993", "path": "backend/app/pyproject.toml", "repo": "fastapi-async-sample"}
 {"owner": "joouha", "path": "pyproject.toml", "repo": "euporie"}
 {"owner": "jordan-dimov", "path": "pyproject.toml", "ref": "main", "repo": "coresnap"}
 {"owner": "jordandelbar", "path": "pyproject.toml", "ref": "main", "repo": "feature-engineering-polars"}
@@ -1398,6 +1653,7 @@
 {"owner": "jorgepvasconcelos", "path": "pyproject.toml", "ref": "master", "repo": "api-model-python"}
 {"owner": "jorisroovers", "path": "pyproject.toml", "repo": "gitlint"}
 {"owner": "josegcpa", "path": "pyproject.toml", "ref": "master", "repo": "imdm"}
+{"owner": "joseporiolayats", "path": "pyproject.toml", "ref": "master", "repo": "torchtrader"}
 {"owner": "josh-gree", "path": "pyproject.toml", "ref": "main", "repo": "chatting_with_the_guardian"}
 {"owner": "joshbduncan", "path": "pyproject.toml", "ref": "main", "repo": "word-search-generator"}
 {"owner": "joshuabuildsthings", "path": "pyproject.toml", "ref": "main", "repo": "GamestonkTerminal"}
@@ -1414,7 +1670,9 @@
 {"owner": "jtmiclat", "path": "pyproject.toml", "ref": "master", "repo": "sea-admin-boundaries"}
 {"owner": "juba", "path": "pyproject.toml", "ref": "main", "repo": "pyobsplot"}
 {"owner": "juftin", "path": "pyproject.toml", "ref": "main", "repo": "camply"}
+{"owner": "jug-dev", "path": "pyproject.toml", "ref": "main", "repo": "hordelib"}
 {"owner": "jujumilk3", "path": "pyproject.toml", "ref": "main", "repo": "mydevenv"}
+{"owner": "julienpillaud", "path": "pyproject.toml", "ref": "main", "repo": "izberg"}
 {"owner": "jupyter", "path": "pyproject.toml", "repo": "jupyter_kernel_test"}
 {"owner": "jupyter", "path": "pyproject.toml", "repo": "nbclient"}
 {"owner": "jupyter", "path": "pyproject.toml", "repo": "nbconvert"}
@@ -1434,13 +1692,17 @@
 {"owner": "kai-tub", "path": "pyproject.toml", "ref": "main", "repo": "ben-docs"}
 {"owner": "kai687", "path": "pyproject.toml", "ref": "master", "repo": "sphinxawesome-codelinter"}
 {"owner": "kai687", "path": "pyproject.toml", "ref": "master", "repo": "sphinxawesome-theme"}
+{"owner": "kakulukia", "path": "pyproject.toml", "ref": "master", "repo": "django-default-project"}
 {"owner": "kanidm", "path": "pykanidm/pyproject.toml", "repo": "kanidm"}
+{"owner": "kaovilai", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
 {"owner": "kaparoo", "path": "pyproject.toml", "ref": "main", "repo": "lightning-project-template"}
+{"owner": "karosis88", "path": "pyproject.toml", "ref": "main", "repo": "scrapyio"}
 {"owner": "karrni", "path": "pyproject.toml", "ref": "main", "repo": "nessus-utility-toolkit"}
 {"owner": "karrni", "path": "pyproject.toml", "ref": "main", "repo": "sparrot"}
 {"owner": "katlol", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "kausaltech", "path": "pyproject.toml", "ref": "main", "repo": "kausal-paths"}
 {"owner": "kawagh", "path": "pyproject.toml", "ref": "master", "repo": "shogi-tools"}
+{"owner": "keagud", "path": "pyproject.toml", "ref": "main", "repo": "Della"}
 {"owner": "keagud", "path": "pyproject.toml", "ref": "master", "repo": "dateparse"}
 {"owner": "keagud", "path": "pyproject.toml", "ref": "master", "repo": "getchoice"}
 {"owner": "kelsos", "path": "pyproject.toml", "ref": "main", "repo": "rotki-data-tool"}
@@ -1455,10 +1717,15 @@
 {"owner": "khandelwalarvind26", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "khasbilegt", "path": "pyproject.toml", "ref": "main", "repo": "django-user-tel"}
 {"owner": "khvn26", "path": "pyproject.toml", "ref": "main", "repo": "adverity"}
+{"owner": "kierun", "path": "pyproject.toml", "ref": "main", "repo": "pynpc"}
+{"owner": "kilnfi", "path": "pyproject.toml", "ref": "main", "repo": "sdk-py"}
 {"owner": "kirangadhave", "path": "pyproject.toml", "repo": "jupyterlab"}
 {"owner": "kislyuk", "path": "pyproject.toml", "ref": "master", "repo": "aegea"}
 {"owner": "kislyuk", "path": "pyproject.toml", "ref": "master", "repo": "argcomplete"}
+{"owner": "kivo360", "path": "pyproject.toml", "ref": "main", "repo": "debugticons"}
+{"owner": "kiyomizuhi", "path": "pyproject.toml", "ref": "main", "repo": "python_flask_ml"}
 {"owner": "kj87au", "path": "pyproject.toml", "ref": "main", "repo": "FastPythonRobotics_FPR"}
+{"owner": "kjaymiller", "path": "pyproject.toml", "ref": "main", "repo": "render_engine"}
 {"owner": "kjg-ungleich", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "kjuulh", "path": "sdk/python/pyproject.toml", "repo": "dagger"}
 {"owner": "kkateq", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
@@ -1479,14 +1746,18 @@
 {"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-namur"}
 {"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-odp-amsterdam"}
 {"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-odp-gent"}
+{"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-omnikinverter"}
 {"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-p1monitor"}
 {"owner": "klaasnicolaas", "path": "pyproject.toml", "ref": "main", "repo": "python-zurich"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "aio-databases"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "aioauth-client"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-admin"}
+{"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-babel"}
+{"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-grpc"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-peewee-aio"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-rest"}
+{"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "muffin-session"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "peewee-aio"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "master", "repo": "peewee_migrate"}
 {"owner": "klen", "path": "pyproject.toml", "ref": "main", "repo": "signalbus"}
@@ -1494,13 +1765,16 @@
 {"owner": "kmlee78", "path": "pyproject.toml", "ref": "main", "repo": "architecture-pattern"}
 {"owner": "kod-kristoff", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "kolosyan", "path": "pyproject.toml", "ref": "main", "repo": "invest-python"}
+{"owner": "konkolorado", "path": "pyproject.toml", "ref": "master", "repo": "web-youtube-dl"}
 {"owner": "konstin", "path": "pyproject.toml", "ref": "main", "repo": "github-wikidata-bot"}
 {"owner": "konstin", "path": "pyproject.toml", "ref": "main", "repo": "monotrail-resolve"}
 {"owner": "konstin", "path": "pyproject.toml", "ref": "main", "repo": "pep440-rs"}
 {"owner": "konstin", "path": "pyproject.toml", "ref": "main", "repo": "pep508_rs"}
+{"owner": "kovalbogdan95", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
 {"owner": "koviubi56", "path": "pyproject.toml", "ref": "main", "repo": "pypbar"}
 {"owner": "koxudaxi", "path": "pyproject.toml", "ref": "master", "repo": "datamodel-code-generator"}
 {"owner": "kozistr", "path": "pyproject.toml", "ref": "main", "repo": "pytorch_optimizer"}
+{"owner": "kpeez", "path": "pyproject.toml", "repo": "graph-neuralmorpho"}
 {"owner": "kpenfound", "path": "sdk/python/pyproject.toml", "repo": "dagger"}
 {"owner": "kpn", "path": "pyproject.toml", "ref": "main", "repo": "cachetory"}
 {"owner": "kpn", "path": "pyproject.toml", "ref": "main", "repo": "combadge"}
@@ -1514,6 +1788,7 @@
 {"owner": "kulig", "path": "pyproject.toml", "ref": "main", "repo": "test_url_sniff"}
 {"owner": "kunansy", "path": "pyproject.toml", "ref": "master", "repo": "ReadingTracker"}
 {"owner": "kurusugawa-computer", "path": "pyproject.toml", "ref": "main", "repo": "annofab-cli"}
+{"owner": "kyrolabs", "path": "pyproject.toml", "ref": "main", "repo": "langchain-service"}
 {"owner": "l4ner0", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "ladi-pomsar", "path": "pyproject.toml", "ref": "master", "repo": "concrete-ml"}
 {"owner": "lambda-science", "path": "pyproject.toml", "ref": "main", "repo": "AI-dev-playground"}
@@ -1524,19 +1799,30 @@
 {"owner": "lambda-science", "path": "pyproject.toml", "ref": "master", "repo": "NLMyo"}
 {"owner": "lancelote", "path": "pyproject.toml", "ref": "main", "repo": "leetcode"}
 {"owner": "lancelote", "path": "pyproject.toml", "ref": "master", "repo": "python-concurrency-with-asyncio"}
+{"owner": "langchain-ai", "path": "pyproject.toml", "ref": "main", "repo": "langchain-aiplugin"}
 {"owner": "languitar", "path": "pyproject.toml", "ref": "main", "repo": "autosuspend"}
 {"owner": "languitar", "path": "pyproject.toml", "ref": "main", "repo": "pass-git-helper"}
 {"owner": "lapitskiy", "path": "pyproject.toml", "ref": "master", "repo": "fabletrade"}
 {"owner": "larsch", "path": "pyproject.toml", "ref": "main", "repo": "finddoc"}
+{"owner": "larshansen1", "path": "pyproject.toml", "ref": "main", "repo": "langflow_ai"}
+{"owner": "latchbio", "path": "pyproject.toml", "ref": "main", "repo": "latch"}
 {"owner": "layday", "path": "pyproject.toml", "repo": "github-wow-addon-catalogue"}
 {"owner": "layday", "path": "pyproject.toml", "repo": "instawow"}
 {"owner": "lbrty", "path": "pyproject.toml", "ref": "main", "repo": "observer"}
 {"owner": "lcford2", "path": "pyproject.toml", "ref": "main", "repo": "plrt-conus"}
+{"owner": "le-chartreux", "path": "pyproject.toml", "ref": "master", "repo": "hypermodern-python-tuto"}
 {"owner": "leandroalbero", "path": "pyproject.toml", "ref": "main", "repo": "vfr-service-lite"}
+{"owner": "leelhn2345", "path": "pyproject.toml", "ref": "main", "repo": "python-project-template"}
+{"owner": "lemontree210", "path": "pyproject.toml", "ref": "master", "repo": "langworld_db_pyramid"}
 {"owner": "lengau", "path": "pyproject.toml", "ref": "main", "repo": "pyxdg2"}
 {"owner": "leopold-the-code", "path": "pyproject.toml", "ref": "main", "repo": "backend"}
 {"owner": "lewoudar", "path": "pyproject.toml", "ref": "main", "repo": "axione"}
+{"owner": "lewoudar", "path": "pyproject.toml", "ref": "main", "repo": "corner"}
+{"owner": "lexicalunit", "path": "pyproject.toml", "ref": "main", "repo": "mtgir"}
 {"owner": "lexicalunit", "path": "pyproject.toml", "ref": "main", "repo": "spellbot"}
+{"owner": "lexotero", "path": "pyproject.toml", "ref": "main", "repo": "solid-enigma"}
+{"owner": "lhenault", "path": "pyproject.toml", "ref": "main", "repo": "simpleAI"}
+{"owner": "liamvdv", "path": "pyproject.toml", "ref": "main", "repo": "configlayer"}
 {"owner": "liamvdv", "path": "pyproject.toml", "ref": "main", "repo": "mkpyp"}
 {"owner": "libranet", "path": "pyproject.toml", "ref": "main", "repo": "autoadd-bindir"}
 {"owner": "libranet", "path": "pyproject.toml", "ref": "main", "repo": "autoread-dotenv"}
@@ -1546,9 +1832,11 @@
 {"owner": "libranet", "path": "pyproject.toml", "ref": "main", "repo": "libranet-logging"}
 {"owner": "libranet", "path": "pyproject.toml", "ref": "main", "repo": "libranet_logging"}
 {"owner": "lightspeed-hospitality", "path": "pyproject.toml", "ref": "main", "repo": "pre-commit-hooks"}
+{"owner": "limjiyoon", "path": "pyproject.toml", "repo": "Exercise_programming_style_python311"}
 {"owner": "lipowskm", "path": "pyproject.toml", "ref": "main", "repo": "torrent-player"}
 {"owner": "lithic-com", "path": "pyproject.toml", "ref": "main", "repo": "lithic-python"}
 {"owner": "ljnsn", "path": "pyproject.toml", "ref": "main", "repo": "cz-conventional-gitmoji"}
+{"owner": "lkempf", "path": "pyproject.toml", "ref": "main", "repo": "casambi-bt"}
 {"owner": "lockejan", "path": "pyproject.toml", "ref": "main", "repo": "scytale"}
 {"owner": "logspace-ai", "path": "pyproject.toml", "ref": "main", "repo": "langflow"}
 {"owner": "loicdiridollou", "path": "pyproject.toml", "ref": "main", "repo": "coverviz"}
@@ -1560,18 +1848,26 @@
 {"owner": "long2ice", "path": "pyproject.toml", "ref": "master", "repo": "rearq"}
 {"owner": "long2ice", "path": "pyproject.toml", "ref": "main", "repo": "vpsmon"}
 {"owner": "lopopolo", "path": "pyproject.toml", "ref": "master", "repo": "ruff_entry_point_reproducer"}
+{"owner": "lorentzenchr", "path": "pyproject.toml", "repo": "model-diagnostics"}
 {"owner": "lorow", "path": "pyproject.toml", "ref": "master", "repo": "EbookAPI"}
 {"owner": "lpraat", "path": "pyproject.toml", "ref": "master", "repo": "py-quickstart"}
 {"owner": "lqhuang", "path": "pyproject.toml", "ref": "master", "repo": "mode-ng"}
 {"owner": "lstasiak", "path": "pyproject.toml", "ref": "main", "repo": "StanfordDogs-Classifier-FastApi"}
+{"owner": "luca-medeiros", "path": "pyproject.toml", "repo": "oak"}
 {"owner": "lucidfrontier45", "path": "pyproject.toml", "repo": "cython_obfuscate_example"}
+{"owner": "lucidfrontier45", "path": "pyproject.toml", "repo": "learning-jax"}
+{"owner": "lucidfrontier45", "path": "pyproject.toml", "repo": "python-pdm-template"}
 {"owner": "lukasz-madon", "path": "pyproject.toml", "ref": "main", "repo": "test_py_tempalte"}
+{"owner": "lukasz-migas", "path": "pyproject.toml", "repo": "napari-plot"}
+{"owner": "lukasz-migas", "path": "pyproject.toml", "repo": "plotski"}
 {"owner": "lukasz-migas", "path": "pyproject.toml", "repo": "qtreload"}
 {"owner": "lukewiwa", "path": "pyproject.toml", "ref": "main", "repo": "django-byo-react"}
 {"owner": "luqmanbello", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal_fork"}
+{"owner": "lvieirajr", "path": "backend/pyproject.toml", "repo": "django-react-template"}
 {"owner": "lyrl", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "m4hero", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "maartenq", "path": "pyproject.toml", "ref": "main", "repo": "cnert"}
+{"owner": "mad-lab-fau", "path": "pyproject.toml", "ref": "main", "repo": "carwatch"}
 {"owner": "mad-lab-fau", "path": "pyproject.toml", "ref": "main", "repo": "gaitmap-datasets"}
 {"owner": "mad-lab-fau", "path": "pyproject.toml", "ref": "main", "repo": "tpcp"}
 {"owner": "maehr", "path": "pyproject.toml", "ref": "main", "repo": "the-corpus-as-a-network"}
@@ -1584,8 +1880,10 @@
 {"owner": "mar10", "path": "pyproject.toml", "ref": "main", "repo": "nutree"}
 {"owner": "marcelblijleven", "path": "pyproject.toml", "ref": "master", "repo": "fittie"}
 {"owner": "marcelonyc", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "marcohenriques", "path": "{{cookiecutter.project_name}}/pyproject.toml", "repo": "python-project-skeleton"}
 {"owner": "marcosschroh", "path": "pyproject.toml", "ref": "master", "repo": "dataclasses-avroschema"}
 {"owner": "marcosschroh", "path": "pyproject.toml", "ref": "master", "repo": "dc-avro"}
+{"owner": "mariushelf", "path": "pyproject.toml", "repo": "graphlib_backport"}
 {"owner": "markhng525", "path": "pyproject.toml", "ref": "main", "repo": "dl-dev-template"}
 {"owner": "markhng525", "path": "pyproject.toml", "ref": "main", "repo": "replicate-playground"}
 {"owner": "markhng525", "path": "pyproject.toml", "ref": "main", "repo": "stat453-deep-learning-ss21"}
@@ -1595,6 +1893,7 @@
 {"owner": "marklindsey11", "path": "pyproject.toml", "ref": "main", "repo": "Pandas"}
 {"owner": "marnunez", "path": "pyproject.toml", "ref": "master", "repo": "basictdf"}
 {"owner": "martibosch", "path": "pyproject.toml", "ref": "main", "repo": "agrometeo-geopy"}
+{"owner": "martibosch", "path": "pyproject.toml", "repo": "invest-ucm-calibration"}
 {"owner": "martinabeleda", "path": "pyproject.toml", "ref": "main", "repo": "leetcode"}
 {"owner": "martinabeleda", "path": "pyproject.toml", "ref": "main", "repo": "micrograd"}
 {"owner": "martinabeleda", "path": "pyproject.toml", "ref": "main", "repo": "nanogpt"}
@@ -1613,6 +1912,7 @@
 {"owner": "matthewdeanmartin", "path": "pyproject.toml", "ref": "main", "repo": "markpickle"}
 {"owner": "maurosala", "path": "pyproject.toml", "ref": "main", "repo": "pbg-fastapi"}
 {"owner": "maximbelyayev", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "mberacochea", "path": "pyproject.toml", "ref": "main", "repo": "mjobs"}
 {"owner": "mbovo", "path": "pyproject.toml", "ref": "main", "repo": "pdh"}
 {"owner": "mbovo", "path": "pyproject.toml", "ref": "main", "repo": "pixiefairy"}
 {"owner": "mbsantiago", "path": "pyproject.toml", "repo": "metamoth"}
@@ -1642,11 +1942,14 @@
 {"owner": "michaelhball", "path": "pyproject.toml", "ref": "main", "repo": "discogs_alert"}
 {"owner": "michaelhball", "path": "pyproject.toml", "ref": "main", "repo": "twang"}
 {"owner": "michaelhelvey", "path": "pyproject.toml", "ref": "master", "repo": "django-goblincore-stack"}
+{"owner": "michaelhelvey", "path": "pyproject.toml", "ref": "master", "repo": "elf"}
 {"owner": "michaelhly", "path": "pyproject.toml", "ref": "master", "repo": "solana-py"}
 {"owner": "michaelwknott", "path": "pyproject.toml", "ref": "main", "repo": "issf-results-scraper"}
 {"owner": "micheleforesedev", "path": "pyproject.toml", "repo": "audio_measurement"}
 {"owner": "micheloosterhof", "path": "pyproject.toml", "ref": "main", "repo": "aldegonde"}
 {"owner": "mickeykkim", "path": "pyproject.toml", "ref": "main", "repo": "inky_pi"}
+{"owner": "microsoft", "path": "pyproject.toml", "ref": "main", "repo": "onnx-script"}
+{"owner": "microsoft", "path": "pyproject.toml", "repo": "onnxruntime-extensions"}
 {"owner": "migraf", "path": "pyproject.toml", "ref": "main", "repo": "authup-py"}
 {"owner": "migraf", "path": "pyproject.toml", "ref": "main", "repo": "fhir-kindling"}
 {"owner": "miguel-bm", "path": "pyproject.toml", "ref": "main", "repo": "ai-telegram-bot"}
@@ -1654,7 +1957,9 @@
 {"owner": "mikasenghaas", "path": "pyproject.toml", "ref": "main", "repo": "social-influence-study"}
 {"owner": "mikedh", "path": "pyproject.toml", "repo": "trimesh"}
 {"owner": "mikelane", "path": "pyproject.toml", "ref": "main", "repo": "cookiecutter-backend-service-aws"}
+{"owner": "mikelane", "path": "{{ cookiecutter.__project_name }}/pyproject.toml", "repo": "cookiecutter-backend-service-aws"}
 {"owner": "mikelane", "path": "pyproject.toml", "ref": "main", "repo": "cookiecutter-python-library"}
+{"owner": "mikelane", "path": "{{ cookiecutter.__project_name }}/pyproject.toml", "repo": "cookiecutter-python-library"}
 {"owner": "mikelane", "path": "pyproject.toml", "ref": "main", "repo": "example-rest-api"}
 {"owner": "mikelane", "path": "pyproject.toml", "ref": "main", "repo": "zero2prod-python"}
 {"owner": "milescsmith", "path": "pyproject.toml", "ref": "main", "repo": "velocyto.py"}
@@ -1695,11 +2000,15 @@
 {"owner": "mozilla", "path": "pyproject.toml", "ref": "master", "repo": "gecko-dev"}
 {"owner": "mozilla", "path": "pyproject.toml", "ref": "main", "repo": "telemetry-airflow"}
 {"owner": "mozilla-services", "path": "pyproject.toml", "ref": "main", "repo": "antenna"}
+{"owner": "mozilla-services", "path": "pyproject.toml", "ref": "main", "repo": "eliot"}
+{"owner": "mozilla-services", "path": "pyproject.toml", "ref": "main", "repo": "socorro"}
 {"owner": "mozilla-services", "path": "pyproject.toml", "ref": "main", "repo": "tecken"}
+{"owner": "mozilla-services", "path": "pyproject.toml", "ref": "main", "repo": "tecken-loadtests"}
 {"owner": "mrcagney", "path": "pyproject.toml", "ref": "master", "repo": "gtfs_kit"}
 {"owner": "mrcagney", "path": "pyproject.toml", "ref": "master", "repo": "kml2geojson"}
 {"owner": "mrcagney", "path": "pyproject.toml", "ref": "master", "repo": "make_gtfs"}
 {"owner": "msaini0r", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "mshim03", "path": "pyproject.toml", "ref": "main", "repo": "fizzbuzz-python-tdd"}
 {"owner": "mt-climate-office", "path": "pyproject.toml", "ref": "main", "repo": "mesonet-qc"}
 {"owner": "mterblanche2", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "music-assistant", "path": "pyproject.toml", "ref": "master", "repo": "core"}
@@ -1712,6 +2021,7 @@
 {"owner": "mvt-project", "path": "ruff.toml", "repo": "mvt"}
 {"owner": "myeongjunkim", "path": "pyproject.toml", "ref": "main", "repo": "Python-Architecture"}
 {"owner": "myles", "path": "pyproject.toml", "ref": "main", "repo": "dinesafe-toronto"}
+{"owner": "myles", "path": "pyproject.toml", "ref": "main", "repo": "doorsopen-toronto"}
 {"owner": "myles", "path": "pyproject.toml", "ref": "main", "repo": "flickr-to-sqlite"}
 {"owner": "myles", "path": "pyproject.toml", "ref": "main", "repo": "lazy-myles"}
 {"owner": "myles", "path": "pyproject.toml", "ref": "main", "repo": "librarian"}
@@ -1724,6 +2034,12 @@
 {"owner": "naazfarha786", "path": "pyproject.toml", "ref": "main", "repo": "pandas012"}
 {"owner": "naazfarha786", "path": "scripts/tests/data/deps_minimum.toml", "repo": "pandas012"}
 {"owner": "nabetse00", "path": "pyproject.toml", "ref": "main", "repo": "ba4f"}
+{"owner": "nagareproject", "path": "pyproject.toml", "repo": "commands-base"}
+{"owner": "nagareproject", "path": "pyproject.toml", "repo": "publishers-tcp-gevent"}
+{"owner": "nagareproject", "path": "pyproject.toml", "repo": "server-http"}
+{"owner": "nagareproject", "path": "pyproject.toml", "repo": "services-aws"}
+{"owner": "nasirus", "path": "pyproject.toml", "ref": "main", "repo": "langchain"}
+{"owner": "nasirus", "path": "pyproject.toml", "ref": "main", "repo": "llama_index"}
 {"owner": "natelandau", "path": "pyproject.toml", "ref": "main", "repo": "jdfile"}
 {"owner": "natelandau", "path": "pyproject.toml", "ref": "main", "repo": "nd"}
 {"owner": "natelandau", "path": "pyproject.toml", "ref": "main", "repo": "obsidian-metadata"}
@@ -1762,6 +2078,7 @@
 {"owner": "nim65s", "path": "pyproject.toml", "ref": "main", "repo": "ndh"}
 {"owner": "nimrodyo", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "ninoseki", "path": "pyproject.toml", "ref": "main", "repo": "azuma"}
+{"owner": "nishaq503", "path": "pyproject.toml", "repo": "theia"}
 {"owner": "nj-eka", "path": "pyproject.toml", "ref": "master", "repo": "ruTS"}
 {"owner": "nlgotz", "path": "pyproject.toml", "ref": "main", "repo": "powerdnsapi"}
 {"owner": "nminaian", "path": "pyproject.toml", "ref": "main", "repo": "FlumeControl"}
@@ -1774,10 +2091,14 @@
 {"owner": "nonamethanks", "path": "pyproject.toml", "ref": "master", "repo": "danboorutools"}
 {"owner": "northern-64bit", "path": "pyproject.toml", "ref": "main", "repo": "GamestonkTerminal"}
 {"owner": "noubre", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "nrad-K", "path": "pyproject.toml", "ref": "main", "repo": "inventory"}
+{"owner": "nrad-K", "path": "pyproject.toml", "ref": "main", "repo": "payment"}
 {"owner": "nrbnlulu", "path": "pyproject.toml", "repo": "qtgql"}
 {"owner": "ntadej", "path": "pyproject.toml", "ref": "main", "repo": "Vremenar-API"}
 {"owner": "ntadej", "path": "pyproject.toml", "ref": "main", "repo": "Vremenar-Utils"}
+{"owner": "ntnshrm", "path": "pyproject.toml", "ref": "master", "repo": "langchain-look"}
 {"owner": "null-domain", "path": "pyproject.toml", "ref": "main", "repo": "bannou"}
+{"owner": "nullJaX", "path": "pyproject.toml", "ref": "master", "repo": "changelog-keeper"}
 {"owner": "numpy", "path": "stringdtype/pyproject.toml", "repo": "numpy-user-dtypes"}
 {"owner": "nyaruka", "path": "pyproject.toml", "ref": "main", "repo": "rapidpro"}
 {"owner": "nyaruka", "path": "pyproject.toml", "ref": "main", "repo": "smartmin"}
@@ -1789,9 +2110,11 @@
 {"owner": "ohiliazov", "path": "pyproject.toml", "ref": "master", "repo": "django_ecommerce"}
 {"owner": "ohiliazov", "path": "pyproject.toml", "ref": "master", "repo": "mmlib"}
 {"owner": "olebole", "path": "pyproject.toml", "repo": "astropy"}
+{"owner": "ollz272", "path": "pyproject.toml", "ref": "main", "repo": "garden-server"}
 {"owner": "olofvndrhr", "path": "pyproject.toml", "ref": "master", "repo": "manga-dlp"}
 {"owner": "oluchigoodness2000", "path": "pyproject.toml", "ref": "main", "repo": "zulip"}
 {"owner": "omererhanerbis", "path": "pyproject.toml", "ref": "main", "repo": "forecasting_electricity"}
+{"owner": "omnivector-solutions", "path": "pyproject.toml", "repo": "slurmd-operator"}
 {"owner": "onekey-sec", "path": "pyproject.toml", "ref": "main", "repo": "unblob"}
 {"owner": "onerandomusername", "path": "pyproject.toml", "ref": "main", "repo": "linked-github"}
 {"owner": "onerandomusername", "path": "pyproject.toml", "ref": "main", "repo": "monty-python"}
@@ -1807,22 +2130,27 @@
 {"owner": "openclimatefix", "path": "pyproject.toml", "ref": "main", "repo": "pv-site-datamodel"}
 {"owner": "openclimatefix", "path": "sdk/python/pyproject.toml", "repo": "pv-site-datamodel"}
 {"owner": "openclimatefix", "path": "pyproject.toml", "ref": "main", "repo": "pv-site-prediction"}
+{"owner": "openforis", "path": "pyproject.toml", "repo": "sepal-doc"}
 {"owner": "openmotics", "path": "pyproject.toml", "ref": "main", "repo": "pyhaopenmotics"}
 {"owner": "opennem", "path": "pyproject.toml", "ref": "master", "repo": "opennem"}
 {"owner": "opennem", "path": "pyproject.toml", "ref": "master", "repo": "opennempy"}
+{"owner": "opensafely-core", "path": "pyproject.toml", "ref": "main", "repo": "databuilder"}
 {"owner": "opensafely-core", "path": "pyproject.toml", "ref": "main", "repo": "job-server"}
 {"owner": "opensafely-core", "path": "pyproject.toml", "ref": "main", "repo": "opencodelists"}
 {"owner": "openvinotoolkit", "path": "pyproject.toml", "repo": "anomalib"}
 {"owner": "openvinotoolkit", "path": "pyproject.toml", "ref": "master", "repo": "datumaro"}
+{"owner": "openvinotoolkit", "path": "pyproject.toml", "repo": "training_extensions"}
 {"owner": "opsi-org", "path": "pyproject.toml", "ref": "master", "repo": "opsiconfd"}
 {"owner": "opsi-org", "path": "pyproject.toml", "ref": "master", "repo": "opsipxeconfd"}
 {"owner": "opsi-org", "path": "pyproject.toml", "ref": "master", "repo": "python-opsi-common"}
+{"owner": "orgTestCodacy11KRepos110MB", "path": "pyproject.toml", "ref": "master", "repo": "repo-5492-innvestigate"}
 {"owner": "orguetta", "path": "pyproject.toml", "ref": "main", "repo": "riffusion"}
 {"owner": "oriontvv", "path": "pyproject.toml", "ref": "master", "repo": "wordle-solver"}
 {"owner": "oryon-dominik", "path": "pyproject.toml", "ref": "master", "repo": "dotfiles"}
 {"owner": "osteele", "path": "pyproject.toml", "ref": "main", "repo": "prompt-matrix"}
 {"owner": "osteele", "path": "pyproject.toml", "ref": "main", "repo": "prompt-matrix.py"}
 {"owner": "otomazeli", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
+{"owner": "ottingbob", "path": "pyproject.toml", "ref": "main", "repo": "data-science-examples"}
 {"owner": "outcatcher", "path": "pyproject.toml", "ref": "master", "repo": "pyasli"}
 {"owner": "oyarsa", "path": "pyproject.toml", "ref": "master", "repo": "event_extraction"}
 {"owner": "oyurekten", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-sqlalchemy-asyncpg"}
@@ -1850,25 +2178,35 @@
 {"owner": "pandabuilder", "path": "pyproject.toml", "ref": "master", "repo": "pandachaika"}
 {"owner": "pandas-dev", "path": "pyproject.toml", "ref": "main", "repo": "pandas"}
 {"owner": "pangeo-data", "path": "pyproject.toml", "repo": "zarr-proxy"}
+{"owner": "pangeo-forge", "path": "pyproject.toml", "repo": "pangeo-forge-orchestrator"}
 {"owner": "paperlefthand", "path": "pyproject.toml", "ref": "main", "repo": "hotpepper-gourmet"}
 {"owner": "paquiteau", "path": "pyproject.toml", "repo": "mri-nufft"}
 {"owner": "parafoxia", "path": "pyproject.toml", "ref": "main", "repo": "analytix"}
 {"owner": "patchedsoul", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "pathan777", "path": "pyproject.toml", "ref": "main", "repo": "new_panda"}
+{"owner": "patrickarmengol", "path": "backend/pyproject.toml", "repo": "etherealink"}
+{"owner": "patrickarmengol", "path": "pyproject.toml", "repo": "pptoml"}
 {"owner": "paulianttila", "path": "pyproject.toml", "ref": "main", "repo": "MQTT-Framework"}
 {"owner": "paulianttila", "path": "pyproject.toml", "ref": "main", "repo": "dialeye2mqtt"}
 {"owner": "paulianttila", "path": "pyproject.toml", "ref": "main", "repo": "ipmi2mqtt"}
+{"owner": "paulianttila", "path": "pyproject.toml", "repo": "unifimonitor2mqtt"}
 {"owner": "pauljainta", "path": "pyproject.toml", "ref": "main", "repo": "jpzulip"}
 {"owner": "pauloxnet", "path": "pyproject.toml", "ref": "master", "repo": "djangoqueries"}
+{"owner": "pavelcherepan", "path": "pyproject.toml", "ref": "main", "repo": "chord_visualisation"}
 {"owner": "pavelkrotkov", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "pawelad", "path": "pyproject.toml", "ref": "main", "repo": "fakester"}
+{"owner": "pbizopoulos", "path": "pyproject.toml", "repo": "multiclass-covid-19-segmentation"}
+{"owner": "pbs-data-solutions", "path": "pyproject.toml", "ref": "main", "repo": "file-checksum"}
 {"owner": "pdm-project", "path": "pyproject.toml", "repo": "pdm"}
+{"owner": "peaky76", "path": "pyproject.toml", "ref": "master", "repo": "horsetalk"}
+{"owner": "peaky76", "path": "pyproject.toml", "ref": "master", "repo": "python-poetry-template"}
 {"owner": "pecolynx", "path": "pyproject.toml", "ref": "main", "repo": "python-my-app"}
 {"owner": "peidrao", "path": "pyproject.toml", "ref": "master", "repo": "VirgilBookStore"}
 {"owner": "peidrao", "path": "pyproject.toml", "ref": "main", "repo": "nfl-game"}
 {"owner": "peidrao", "path": "pyproject.toml", "ref": "main", "repo": "note-block-flask"}
 {"owner": "petender", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-maps-cdn-functions"}
 {"owner": "peter-oroszvari", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "peterbacil", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
 {"owner": "petereon", "path": "pyproject.toml", "ref": "master", "repo": "king_check"}
 {"owner": "petereon", "path": "pyproject.toml", "ref": "master", "repo": "pypliers"}
 {"owner": "peterldowns", "path": "pyproject.toml", "ref": "master", "repo": "clickbait-classifier"}
@@ -1877,6 +2215,7 @@
 {"owner": "pfouque", "path": "pyproject.toml", "ref": "master", "repo": "django-anymail-history"}
 {"owner": "pfouque", "path": "pyproject.toml", "ref": "master", "repo": "django-fakemessages"}
 {"owner": "phi-friday", "path": "pyproject.toml", "ref": "main", "repo": "airflow_ci"}
+{"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "ai-app"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-ai-app-template"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-api-server-template"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-backend-template"}
@@ -1885,13 +2224,20 @@
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-ml-server-template"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-snowflake-dp-template"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "aws-spark-dp-template"}
+{"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "duck-gpt"}
+{"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "ml-app"}
 {"owner": "phidatahq", "path": "pyproject.toml", "ref": "main", "repo": "starter-aws-snowflake-ds"}
 {"owner": "phymucs", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "pieper", "path": "pyproject.toml", "ref": "master", "repo": "dicomsort"}
 {"owner": "pikepdf", "path": "pyproject.toml", "repo": "pikepdf"}
 {"owner": "pikki622", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
+{"owner": "pimoroni", "path": "pyproject.toml", "ref": "main", "repo": "boilerplate-python"}
+{"owner": "pimoroni", "path": "pyproject.toml", "ref": "main", "repo": "inventorhatmini-python"}
+{"owner": "pimoroni", "path": "pyproject.toml", "ref": "master", "repo": "ioe-python"}
 {"owner": "pimutils", "path": "pyproject.toml", "ref": "main", "repo": "todoman"}
 {"owner": "pimutils", "path": "pyproject.toml", "repo": "vdirsyncer"}
+{"owner": "pippianders", "path": "pyproject.toml", "ref": "master", "repo": "ferdigbash"}
+{"owner": "piterma98", "path": "pyproject.toml", "ref": "master", "repo": "django-keycloak-test"}
 {"owner": "piwko7", "path": "pyproject.toml", "ref": "master", "repo": "django_coffe"}
 {"owner": "piwko7", "path": "pyproject.toml", "ref": "master", "repo": "movie-tracker"}
 {"owner": "piyukr", "path": "pyproject.toml", "ref": "main", "repo": "project_for_open_source_contribution_zenml"}
@@ -1899,23 +2245,29 @@
 {"owner": "pleomax0730", "path": "pyproject.toml", "ref": "main", "repo": "django-crm"}
 {"owner": "pllim", "path": "pyproject.toml", "repo": "astropy"}
 {"owner": "plugwise", "path": "pyproject.toml", "ref": "main", "repo": "python-plugwise"}
+{"owner": "plugwise", "path": "pyproject.toml", "ref": "main", "repo": "python-plugwise-usb"}
 {"owner": "pmason314", "path": "pyproject.toml", "ref": "main", "repo": "PyPulley"}
 {"owner": "pmav99", "path": "pyproject.toml", "ref": "master", "repo": "inspectds"}
 {"owner": "pola-rs", "path": "py-polars/pyproject.toml", "repo": "polars"}
+{"owner": "poliastro", "path": "pyproject.toml", "repo": "poliastro"}
 {"owner": "ponomar", "path": "pyproject.toml", "ref": "master", "repo": "pgmini"}
 {"owner": "pooja-subramaniam", "path": "pyproject.toml", "ref": "main", "repo": "pandas"}
 {"owner": "ppinard", "path": "pyproject.toml", "repo": "matplotlib-scalebar"}
 {"owner": "pqtrung", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "practical-python-org", "path": "pyproject.toml", "ref": "master", "repo": "ZorakBot"}
+{"owner": "praszad", "path": "pyproject.toml", "ref": "main", "repo": "algo_prod_start"}
 {"owner": "predict-idlab", "path": "pyproject.toml", "ref": "main", "repo": "plotly-resampler"}
 {"owner": "predict-idlab", "path": "pyproject.toml", "ref": "main", "repo": "powershap"}
 {"owner": "predict-idlab", "path": "pyproject.toml", "ref": "main", "repo": "tsdownsample"}
 {"owner": "predict-idlab", "path": "pyproject.toml", "ref": "main", "repo": "tsflex"}
 {"owner": "project-chi", "path": "pyproject.toml", "ref": "main", "repo": "chi-server"}
 {"owner": "provAlirezaHaghnegahdar", "path": "pyproject.toml", "ref": "main", "repo": "rasa"}
+{"owner": "provinzkraut", "path": "pyproject.toml", "ref": "main", "repo": "AutoPyTabs"}
+{"owner": "proxystore", "path": "pyproject.toml", "repo": "extensions"}
 {"owner": "proxystore", "path": "pyproject.toml", "repo": "proxystore"}
 {"owner": "psadi", "path": "pyproject.toml", "ref": "main", "repo": "bbcli"}
 {"owner": "pstfni", "path": "pyproject.toml", "ref": "master", "repo": "chopin"}
+{"owner": "psychoanalyze", "path": "pyproject.toml", "ref": "main", "repo": "psychoanalyze"}
 {"owner": "punch-mission", "path": "pyproject.toml", "ref": "main", "repo": "regularizepsf"}
 {"owner": "purple-emily", "path": "pyproject.toml", "ref": "main", "repo": "inovintell-py-template"}
 {"owner": "purple-emily", "path": "pyproject.toml", "ref": "main", "repo": "template-basic-python"}
@@ -1944,10 +2296,14 @@
 {"owner": "pypa", "path": "pyproject.toml", "repo": "pipx"}
 {"owner": "pyro99X", "path": "pyproject.toml", "ref": "main", "repo": "assement-sumbission"}
 {"owner": "pytask-dev", "path": "pyproject.toml", "repo": "pytask-julia"}
+{"owner": "pytask-dev", "path": "pyproject.toml", "repo": "pytask-r"}
 {"owner": "python-babel", "path": "pyproject.toml", "repo": "babel"}
+{"owner": "python-discord", "path": "pyproject.toml", "ref": "main", "repo": "bot"}
 {"owner": "python-lsp", "path": "pyproject.toml", "ref": "main", "repo": "python-lsp-ruff"}
 {"owner": "python-telegram-bot", "path": "pyproject.toml", "repo": "python-telegram-bot"}
+{"owner": "pythops", "path": "roles/configure/files/config/ruff/pyproject.toml", "repo": "workstation"}
 {"owner": "qe-study-group", "path": "pyproject.toml", "ref": "main", "repo": "MealieLab"}
+{"owner": "qiskit-community", "path": "pyproject.toml", "ref": "main", "repo": "qiskit-bip-mapper"}
 {"owner": "qmarsun", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "qpsolvers", "path": "pyproject.toml", "repo": "qpsolvers"}
 {"owner": "qthibeault", "path": "pyproject.toml", "ref": "main", "repo": "CSE598-perception-final-project"}
@@ -1956,11 +2312,14 @@
 {"owner": "r-cha", "path": "pyproject.toml", "ref": "main", "repo": "ailment"}
 {"owner": "r0b2g1t", "path": "pyproject.toml", "ref": "main", "repo": "pynecone"}
 {"owner": "rachfop", "path": "pyproject.toml", "ref": "main", "repo": "automate-temporal-stuff"}
+{"owner": "rachfop", "path": "pyproject.toml", "ref": "main", "repo": "temporal-sagas"}
 {"owner": "rachfop", "path": "pyproject.toml", "ref": "main", "repo": "test-flask"}
 {"owner": "radix-ai", "path": "pyproject.toml", "ref": "main", "repo": "my-package"}
+{"owner": "rafguns", "path": "pyproject.toml", "repo": "linkpred"}
 {"owner": "rahulmr", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "rajanprabu", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "rajbos", "path": "pyproject.toml", "ref": "master", "repo": "home-assistant-core"}
+{"owner": "rajivraghu", "path": "pyproject.toml", "ref": "main", "repo": "langflow"}
 {"owner": "rajlaud", "path": "pyproject.toml", "repo": "home-assistant"}
 {"owner": "randolf-scholz", "path": "pyproject.toml", "repo": "sphinx"}
 {"owner": "randovania", "path": "pyproject.toml", "ref": "main", "repo": "randovania"}
@@ -1970,6 +2329,7 @@
 {"owner": "rapidpro", "path": "pyproject.toml", "ref": "main", "repo": "dash"}
 {"owner": "rapidpro", "path": "pyproject.toml", "ref": "main", "repo": "rapidpro-python"}
 {"owner": "rapidpro", "path": "pyproject.toml", "ref": "main", "repo": "ureport"}
+{"owner": "rapidsai", "path": "pyproject.toml", "repo": "deployment"}
 {"owner": "raylu", "path": "pyproject.toml", "ref": "main", "repo": "poecalc"}
 {"owner": "realtyem", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "realtyem", "path": "pyproject.toml", "ref": "master", "repo": "synapse-unraid"}
@@ -1978,6 +2338,7 @@
 {"owner": "rednafi", "path": "pyproject.toml", "ref": "master", "repo": "fastapi-nano"}
 {"owner": "rednafi", "path": "pyproject.toml", "ref": "main", "repo": "hook-slinger"}
 {"owner": "rednafi", "path": "pyproject.toml", "ref": "master", "repo": "reflections"}
+{"owner": "rednafi", "path": "pyproject.toml", "ref": "main", "repo": "sse-demo"}
 {"owner": "rednafi", "path": "pyproject.toml", "ref": "master", "repo": "stress-test-locust"}
 {"owner": "rednafi", "path": "pyproject.toml", "ref": "master", "repo": "think-async"}
 {"owner": "reidhoch", "path": "pyproject.toml", "ref": "master", "repo": "horcrux"}
@@ -1985,20 +2346,27 @@
 {"owner": "reiyw", "path": "pyproject.toml", "ref": "main", "repo": "pdf2sb"}
 {"owner": "renan-r-santos", "path": "pyproject.toml", "ref": "main", "repo": "poetry-conda"}
 {"owner": "renrene", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "replicate", "path": "pyproject.toml", "ref": "main", "repo": "replicate-python"}
 {"owner": "rerun-io", "path": "rerun_py/pyproject.toml", "repo": "rerun"}
 {"owner": "resonance-box", "path": "backend/pyproject.toml", "repo": "music-transformer-playground"}
+{"owner": "rfguimaraes", "path": "pyproject.toml", "ref": "main", "repo": "template-sandbox"}
 {"owner": "rhoboro", "path": "pyproject.toml", "ref": "main", "repo": "async-fastapi-sqlalchemy"}
+{"owner": "rhshadrach", "path": "pyproject.toml", "repo": "asv-watcher"}
 {"owner": "rhunt04", "path": "pyproject.toml", "ref": "main", "repo": "data_maker"}
 {"owner": "rhyn0", "path": "pyproject.toml", "ref": "main", "repo": "AdventOfCode-Solvings"}
 {"owner": "rhyn0", "path": "pyproject.toml", "ref": "main", "repo": "CodeWars-Problems"}
 {"owner": "rhyn0", "path": "pyproject.toml", "ref": "main", "repo": "LeetCode-Problems"}
+{"owner": "richin13", "path": "{{cookiecutter.project_name}}/{{cookiecutter.backend_app_name}}/pyproject.toml", "repo": "cookiecutter-fend"}
 {"owner": "rifatrakib", "path": "pyproject.toml", "ref": "master", "repo": "crawreilly"}
 {"owner": "rifatrakib", "path": "pyproject.toml", "ref": "master", "repo": "fast-mongo"}
+{"owner": "rifatrakib", "path": "pyproject.toml", "ref": "master", "repo": "fast-subs"}
 {"owner": "riffusion", "path": "pyproject.toml", "ref": "main", "repo": "riffusion"}
+{"owner": "risc-mi", "path": "pyproject.toml", "ref": "main", "repo": "catabra"}
 {"owner": "rising-star92", "path": "pyproject.toml", "ref": "main", "repo": "python-riffusion"}
 {"owner": "rjbainbridge", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "rkvst", "path": "pyproject.toml", "ref": "main", "repo": "rkvst-python"}
 {"owner": "rmoralespp", "path": "pyproject.toml", "ref": "main", "repo": "pymince"}
+{"owner": "rnd-rivertech", "path": "pyproject.toml", "ref": "main", "repo": "core"}
 {"owner": "road-master", "path": "pyproject.toml", "ref": "main", "repo": "radiko-podcast"}
 {"owner": "robbintt", "path": "pyproject.toml", "ref": "main", "repo": "portray"}
 {"owner": "robdmoore", "path": "pyproject.toml", "ref": "main", "repo": "beaker-helloworld"}
@@ -2016,9 +2384,13 @@
 {"owner": "roma-glushko", "path": "coredis/issue149/pyproject.toml", "repo": "issue-reports"}
 {"owner": "roma-glushko", "path": "tilt/5978/pyproject.toml", "repo": "issue-reports"}
 {"owner": "romn77", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "romshen", "path": "{{cookiecutter.project_slug}}/pyproject.toml", "repo": "cookiecutter-template"}
 {"owner": "rotki", "path": "pyproject.toml", "ref": "master", "repo": "rotki"}
 {"owner": "royscheeren", "path": "pyproject.toml", "ref": "master", "repo": "tortoise-orm"}
 {"owner": "rsalmaso", "path": "pyproject.toml", "ref": "main", "repo": "python-readenv"}
+{"owner": "rspkpraveen", "path": "pyproject.toml", "ref": "master", "repo": "Splink"}
+{"owner": "rstojano", "path": "pyproject.toml", "ref": "main", "repo": "langflow"}
+{"owner": "rtosholdings", "path": "pyproject.toml", "repo": "riptable"}
 {"owner": "ruksi", "path": "pyproject.toml", "ref": "main", "repo": "genvi"}
 {"owner": "rumpelsepp", "path": "pyproject.toml", "ref": "master", "repo": "exitcode"}
 {"owner": "rumpelsepp", "path": "pyproject.toml", "ref": "master", "repo": "oscclip"}
@@ -2035,6 +2407,7 @@
 {"owner": "sairam4123", "path": "pyproject.toml", "ref": "main", "repo": "new-keys-app-openskycity"}
 {"owner": "saleor", "path": "pyproject.toml", "repo": "saleor"}
 {"owner": "samanthasgroup", "path": "pyproject.toml", "ref": "master", "repo": "django-webapps"}
+{"owner": "samanthasgroup", "path": "pyproject.toml", "ref": "master", "repo": "samanthas-telegram-bot"}
 {"owner": "sambarnes", "path": "pyproject.toml", "ref": "main", "repo": "ordinals"}
 {"owner": "samkenxstream", "path": "pyproject.toml", "ref": "main", "repo": "SamKenX-cryptography"}
 {"owner": "samkenxstream", "path": "pyproject.toml", "ref": "main", "repo": "SamKenXpyca-cryptography"}
@@ -2043,9 +2416,11 @@
 {"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "aioaws"}
 {"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "list-python-dependencies"}
 {"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "pytest-pretty"}
+{"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "python-devtools"}
 {"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "rtoml"}
 {"owner": "samuelcolvin", "path": "pyproject.toml", "ref": "main", "repo": "watchfiles"}
 {"owner": "samueldg", "path": "pyproject.toml", "ref": "main", "repo": "async-standups"}
+{"owner": "samueldg", "path": "pyproject.toml", "repo": "clippings"}
 {"owner": "samupl", "path": "pyproject.toml", "ref": "master", "repo": "python-ksef"}
 {"owner": "samyak-jn", "path": "pyproject.toml", "ref": "master", "repo": "sketch-converter"}
 {"owner": "sander76", "path": "pyproject.toml", "ref": "main", "repo": "glasses"}
@@ -2057,6 +2432,7 @@
 {"owner": "sanders41", "path": "pyproject.toml", "ref": "main", "repo": "sas7bdat-converter"}
 {"owner": "sanders41", "path": "pyproject.toml", "ref": "main", "repo": "twilio-python-async"}
 {"owner": "sanders41", "path": "pyproject.toml", "ref": "main", "repo": "weather-command"}
+{"owner": "sankichi92", "path": "pyproject.toml", "ref": "main", "repo": "gportal-python"}
 {"owner": "sansyrox", "path": "pyproject.toml", "ref": "main", "repo": "robyn"}
 {"owner": "sansyrox", "path": "pyproject.toml", "repo": "starfyre"}
 {"owner": "sarthhh", "path": "pyproject.toml", "ref": "master", "repo": "anya"}
@@ -2071,6 +2447,7 @@
 {"owner": "sauljabin", "path": "pyproject.toml", "ref": "main", "repo": "changeloggh"}
 {"owner": "sauljabin", "path": "pyproject.toml", "ref": "main", "repo": "kayak"}
 {"owner": "sawaca96", "path": "pyproject.toml", "ref": "main", "repo": "architecture-patterns-with-python"}
+{"owner": "scaleapi", "path": "pyproject.toml", "ref": "master", "repo": "launch-python-client"}
 {"owner": "scastlara", "path": "pyproject.toml", "ref": "master", "repo": "minineedle"}
 {"owner": "scastlara", "path": "pyproject.toml", "ref": "main", "repo": "pytest-tagging"}
 {"owner": "schireson", "path": "pyproject.toml", "ref": "main", "repo": "databudgie"}
@@ -2080,17 +2457,22 @@
 {"owner": "scop", "path": "pyproject.toml", "ref": "main", "repo": "hashpipe"}
 {"owner": "scop", "path": "pyproject.toml", "ref": "main", "repo": "home-assistant-jatekukko"}
 {"owner": "scop", "path": "pyproject.toml", "ref": "main", "repo": "pytekukko"}
+{"owner": "screamz2k", "path": "pyproject.toml", "ref": "main", "repo": "PhoenixC2"}
 {"owner": "scverse", "path": "pyproject.toml", "repo": "cookiecutter-scverse-instance"}
 {"owner": "scverse", "path": "pyproject.toml", "repo": "scvi-tools"}
 {"owner": "sdpython", "path": "pyproject.toml", "ref": "main", "repo": "onnx-array-api"}
 {"owner": "sdpython", "path": "pyproject.toml", "ref": "main", "repo": "onnx-extended"}
 {"owner": "se2p", "path": "pyproject.toml", "ref": "main", "repo": "pynguin"}
+{"owner": "seandearnaley", "path": "pyproject.toml", "ref": "main", "repo": "folder-tree-generator"}
+{"owner": "seandearnaley", "path": "pyproject.toml", "ref": "main", "repo": "youtube-to-whisper-cpp"}
 {"owner": "sebaderendarz", "path": "pyproject.toml", "ref": "main", "repo": "architecture-patterns-with-python"}
+{"owner": "selobu", "path": "pyproject.toml", "repo": "lettersouppuzzle"}
 {"owner": "semajyllek", "path": "pyproject.toml", "ref": "master", "repo": "datasets"}
 {"owner": "semernyakov", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-sqlalchemy-asyncpg"}
 {"owner": "seniordev1008", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-async-postgresql"}
 {"owner": "sephrat", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "sergio-abu", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
+{"owner": "sevenelevendevunipd", "path": "pyproject.toml", "ref": "master", "repo": "sl-parser"}
 {"owner": "sfc-gh-jubui", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "sfermigier", "path": "pyproject.toml", "ref": "main", "repo": "fermigier.com"}
 {"owner": "sfermigier", "path": "pyproject.toml", "ref": "master", "repo": "tentakel"}
@@ -2101,11 +2483,13 @@
 {"owner": "shaggy-axel", "path": "pyproject.toml", "ref": "master", "repo": "skyeng-test"}
 {"owner": "shaggy-personal-site", "path": "pyproject.toml", "ref": "master", "repo": "server"}
 {"owner": "shanku007", "path": "pyproject.toml", "ref": "master", "repo": "pro-orch"}
+{"owner": "shapiromatron", "path": "pyproject.toml", "ref": "main", "repo": "pyscaffold"}
 {"owner": "shapiromatron", "path": "pyproject.toml", "ref": "main", "repo": "ruff-vscode"}
 {"owner": "shivansh2310", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "shulcsm", "path": "pyproject.toml", "ref": "master", "repo": "vies-vat-check"}
 {"owner": "shvixxl", "path": "pyproject.toml", "ref": "main", "repo": "speny"}
 {"owner": "shyamd", "path": "pyproject.toml", "ref": "main", "repo": "mkdocs-bibtex"}
+{"owner": "si2-urssi", "path": "pyproject.toml", "repo": "eager"}
 {"owner": "siaolu", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "siddharthraj", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "sigstore", "path": "pyproject.toml", "repo": "sigstore-python"}
@@ -2114,6 +2498,7 @@
 {"owner": "silkemarie", "path": "pyproject.toml", "ref": "main", "repo": "hello"}
 {"owner": "single-cell-data", "path": "pyproject.toml", "ref": "main", "repo": "SOMA"}
 {"owner": "sirishkumar", "path": "pyproject.toml", "ref": "main", "repo": "aws-bootcamp-cruddur"}
+{"owner": "sjjessop", "path": "pyproject.toml", "ref": "master", "repo": "omnidep"}
 {"owner": "skhaz", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-clean-architecture"}
 {"owner": "sleep3r", "path": "pyproject.toml", "ref": "main", "repo": "Diffusion-Handwriting-Generation.pytorch"}
 {"owner": "slothyrulez", "path": "pyproject.toml", "ref": "master", "repo": "ruchle"}
@@ -2122,6 +2507,7 @@
 {"owner": "smonn", "path": "pyproject.toml", "ref": "main", "repo": "pyteal-beaker-example-with-box"}
 {"owner": "snapcore", "path": "pyproject.toml", "ref": "main", "repo": "snapcraft"}
 {"owner": "snapcore", "path": "snapcraft_legacy/ruff.toml", "repo": "snapcraft"}
+{"owner": "snimu", "path": "ruff.toml", "ref": "main", "repo": "rebasin"}
 {"owner": "snow-star-1004", "path": "pyproject.toml", "ref": "main", "repo": "telegram-bot-for-pdf"}
 {"owner": "socgnachilderic", "path": "pyproject.toml", "ref": "main", "repo": "poc-ddd-python"}
 {"owner": "socgnachilderic", "path": "pyproject.toml", "ref": "main", "repo": "python-starter-app"}
@@ -2133,8 +2519,12 @@
 {"owner": "spacetelescope", "path": "pyproject.toml", "ref": "master", "repo": "jwst"}
 {"owner": "spacetelescope", "path": "pyproject.toml", "repo": "stpipe"}
 {"owner": "spapanik", "path": "pyproject.toml", "ref": "main", "repo": "phosphorus"}
+{"owner": "spapanik", "path": "pyproject.toml", "repo": "pygatherer"}
+{"owner": "spapanik", "path": "pyproject.toml", "repo": "tvdb_api_client"}
+{"owner": "sparkfish", "path": "pyproject.toml", "repo": "resvg-py"}
 {"owner": "specklesystems", "path": "pyproject.toml", "ref": "main", "repo": "speckle-blender"}
 {"owner": "specklesystems", "path": "pyproject.toml", "ref": "main", "repo": "specklepy"}
+{"owner": "speechki-book", "path": "pyproject.toml", "repo": "gunicorn-pushgateway-workers"}
 {"owner": "spencerwooo", "path": "pyproject.toml", "ref": "main", "repo": "advsteg-pytorch"}
 {"owner": "sphinx-doc", "path": "pyproject.toml", "repo": "sphinx"}
 {"owner": "spraakbanken", "path": "pyproject.toml", "repo": "simple-archive"}
@@ -2144,6 +2534,8 @@
 {"owner": "sralloza", "path": "pyproject.toml", "ref": "master", "repo": "ebook-autoconverter"}
 {"owner": "sralloza", "path": "pyproject.toml", "ref": "master", "repo": "entertainment-source-manager"}
 {"owner": "srobo", "path": "pyproject.toml", "ref": "main", "repo": "astoria"}
+{"owner": "srobo", "path": "pyproject.toml", "ref": "main", "repo": "j5"}
+{"owner": "sronelpol", "path": "pyproject.toml", "ref": "main", "repo": "Deception-detection-learning"}
 {"owner": "ss-mugdho", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "stac-utils", "path": "pyproject.toml", "ref": "main", "repo": "pystac-client"}
 {"owner": "stac-utils", "path": "pyproject.toml", "ref": "main", "repo": "stactools"}
@@ -2220,14 +2612,21 @@
 {"owner": "stochastictalk", "path": "pyproject.toml", "ref": "main", "repo": "python-package-poetry-boilerplate"}
 {"owner": "stocktrackz", "path": "pyproject.toml", "ref": "master", "repo": "obb"}
 {"owner": "stopwhispering", "path": "pyproject.toml", "ref": "master", "repo": "plants-backend"}
+{"owner": "storpool", "path": "python/config/ruff-most/pyproject.toml", "repo": "sp-variant"}
 {"owner": "strawberry-graphql", "path": ".github/pyproject.toml", "repo": "strawberry"}
 {"owner": "streamlink", "path": "pyproject.toml", "ref": "master", "repo": "streamlink"}
 {"owner": "strictdoc-project", "path": "pyproject.toml", "ref": "main", "repo": "reqif"}
+{"owner": "stvnksslr", "path": "pyproject.toml", "ref": "main", "repo": "dataslate-parser"}
+{"owner": "stvnksslr", "path": "pyproject.toml", "ref": "main", "repo": "dominions-slack-bot"}
 {"owner": "stwa", "path": "pyproject.toml", "ref": "main", "repo": "rm2pdf"}
 {"owner": "subecho", "path": "pyproject.toml", "ref": "main", "repo": "KarmaChameleon"}
 {"owner": "sublimelsp", "path": "pyproject.toml", "ref": "main", "repo": "LSP-ruff"}
 {"owner": "sudoguy", "path": "pyproject.toml", "repo": "tiktokpy"}
+{"owner": "suiketsunai", "path": "pyproject.toml", "ref": "main", "repo": "rendertest"}
+{"owner": "suiketsunai", "path": "pyproject.toml", "ref": "main", "repo": "yaminuibot"}
+{"owner": "suiketsunai", "path": "pyproject.toml", "ref": "main", "repo": "yoiyoibot"}
 {"owner": "super-resolution", "path": "pyproject.toml", "repo": "Locan"}
+{"owner": "superevildev6", "path": "pyproject.toml", "repo": "fastAPIRemo"}
 {"owner": "surrealdb", "path": "pyproject.toml", "ref": "main", "repo": "surrealdb.py"}
 {"owner": "sveniu", "path": "pyproject.toml", "ref": "main", "repo": "couchbase-bootstrap"}
 {"owner": "sympy", "path": "pyproject.toml", "repo": "sympy"}
@@ -2248,6 +2647,7 @@
 {"owner": "te25son", "path": "pyproject.toml", "ref": "main", "repo": "Jokes"}
 {"owner": "te25son", "path": "pyproject.toml", "ref": "main", "repo": "Swole-V2"}
 {"owner": "team-yuml-kkks", "path": "pyproject.toml", "ref": "main", "repo": "Elimar"}
+{"owner": "teamtomo", "path": "pyproject.toml", "repo": "fidder"}
 {"owner": "techthiyanes", "path": "pyproject.toml", "ref": "main", "repo": "powershap"}
 {"owner": "techyangon", "path": "pyproject.toml", "ref": "main", "repo": "may-jls-api"}
 {"owner": "tehcoderer", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
@@ -2276,8 +2676,11 @@
 {"owner": "thezaidbintariq", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
 {"owner": "thoffman21", "path": "pyproject.toml", "ref": "main", "repo": "rers"}
 {"owner": "thomasWeise", "path": "pyproject.toml", "ref": "main", "repo": "moptipy"}
+{"owner": "thomascamminady", "path": "pyproject.toml", "ref": "main", "repo": "altair_for_mathematicians"}
 {"owner": "thomascamminady", "path": "pyproject.toml", "ref": "main", "repo": "cammpweek2023"}
 {"owner": "thomascamminady", "path": "pyproject.toml", "ref": "main", "repo": "grossmachklein"}
+{"owner": "thomascamminady", "path": "pyproject.toml", "ref": "main", "repo": "quartoplayground"}
+{"owner": "thomascamminady", "path": "pyproject.toml", "ref": "main", "repo": "xlookup"}
 {"owner": "thomasdesr", "path": "pyproject.toml", "ref": "main", "repo": "emoji-papertrail"}
 {"owner": "thomhopmans", "path": "pyproject.toml", "ref": "master", "repo": "pythom"}
 {"owner": "thomhopmans", "path": "pyproject.toml", "ref": "master", "repo": "themarketingtechnologist"}
@@ -2308,6 +2711,7 @@
 {"owner": "tjkuson", "path": "pyproject.toml", "ref": "main", "repo": "screener"}
 {"owner": "tlambert03", "path": "pyproject.toml", "repo": "cmap"}
 {"owner": "tlambert03", "path": "pyproject.toml", "ref": "main", "repo": "fpbase2"}
+{"owner": "tlambert03", "path": "pyproject.toml", "repo": "pycudasirecon"}
 {"owner": "tomasfarias", "path": "pyproject.toml", "ref": "master", "repo": "airflow-dbt-python"}
 {"owner": "tomasfarias", "path": "pyproject.toml", "ref": "master", "repo": "python-package-template"}
 {"owner": "tomastoth", "path": "pyproject.toml", "ref": "master", "repo": "defi-platform"}
@@ -2325,6 +2729,7 @@
 {"owner": "trailofbits", "path": "pyproject.toml", "repo": "blight"}
 {"owner": "travisjungroth", "path": "pyproject.toml", "ref": "main", "repo": "trinary"}
 {"owner": "tribe29", "path": "pyproject.toml", "ref": "master", "repo": "checkmk"}
+{"owner": "tripplyons", "path": "pyproject.toml", "ref": "main", "repo": "mega-ace-hackathon"}
 {"owner": "tromcho", "path": "pyproject.toml", "ref": "master", "repo": "eddrit"}
 {"owner": "tropicoo", "path": "pyproject.toml", "repo": "hikvision-camera-bot"}
 {"owner": "trouchet", "path": "pyproject.toml", "ref": "main", "repo": "appy"}
@@ -2337,11 +2742,15 @@
 {"owner": "tsugumi-sys", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "tszoldra", "path": "pyproject.toml", "ref": "master", "repo": "innvestigate"}
 {"owner": "tuxracer", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "tuyendv268", "path": "pyproject.toml", "ref": "main", "repo": "demo"}
 {"owner": "tworedz", "path": "pyproject.toml", "ref": "master", "repo": "kafka-example"}
 {"owner": "tylergibbs2", "path": "pyproject.toml", "ref": "master", "repo": "Tsundoku"}
 {"owner": "tys203831", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "tzaffi", "path": "pyproject.toml", "ref": "main", "repo": "ak-source-mapper"}
 {"owner": "ublue-os", "path": "pyproject.toml", "ref": "main", "repo": "yafti"}
+{"owner": "udbdjfj", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
+{"owner": "udbdjfj", "path": "pyproject.toml", "ref": "master", "repo": "langflow-enFj"}
+{"owner": "udbdjfj", "path": "pyproject.toml", "ref": "master", "repo": "langflow2"}
 {"owner": "ukaserge", "path": "pyproject.toml", "ref": "main", "repo": "GamestonkTerminal"}
 {"owner": "ukaserge", "path": "pyproject.toml", "ref": "master", "repo": "test-gitflow"}
 {"owner": "uktrade", "path": "pyproject.toml", "ref": "main", "repo": "irap"}
@@ -2358,6 +2767,7 @@
 {"owner": "urbanopt", "path": "pyproject.toml", "ref": "master", "repo": "geojson-modelica-translator-examples"}
 {"owner": "uriyyo", "path": "pyproject.toml", "ref": "master", "repo": "archgenerator"}
 {"owner": "uriyyo", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-filters"}
+{"owner": "uriyyo", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-pagination"}
 {"owner": "urschrei", "path": " pyproject.toml", "repo": "pyzotero"}
 {"owner": "urt30plus", "path": "pyproject.toml", "ref": "main", "repo": "urt30t"}
 {"owner": "usalko", "path": "pyproject.toml", "repo": "strawberry"}
@@ -2368,11 +2778,13 @@
 {"owner": "valeman", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "valentin-cnt", "path": "pyproject.toml", "ref": "master", "repo": "rl-basics"}
 {"owner": "vallo2k", "path": "pyproject.toml", "ref": "main", "repo": "test"}
+{"owner": "valohai", "path": "pyproject.toml", "repo": "django-allauth-2fa"}
 {"owner": "valohai", "path": "pyproject.toml", "repo": "hai"}
 {"owner": "vantage6", "path": "pyproject.toml", "ref": "main", "repo": "v6-node-to-node-diagnostics"}
 {"owner": "vanvalenlab", "path": "pyproject.toml", "ref": "master", "repo": "deepcell-tf"}
 {"owner": "vdsd82", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "vdutor", "path": "pyproject.toml", "ref": "main", "repo": "ml-tools"}
+{"owner": "vemonet", "path": "pyproject.toml", "repo": "ontogpt-api"}
 {"owner": "versusbassz", "path": "pyproject.toml", "ref": "main", "repo": "django_forms_plus"}
 {"owner": "victortangggg", "path": "pyproject.toml", "ref": "main", "repo": "OpenBBTerminal"}
 {"owner": "vidbina", "path": "pyproject.toml", "ref": "main", "repo": "repro-sanic-openapi-parameter-explode"}
@@ -2381,6 +2793,9 @@
 {"owner": "viniciusfca", "path": "pyproject.toml", "ref": "main", "repo": "cepapi"}
 {"owner": "viniloran", "path": "pyproject.toml", "ref": "main", "repo": "invest-python"}
 {"owner": "vkbottle", "path": "pyproject.toml", "ref": "master", "repo": "vkbottle"}
+{"owner": "vkottler", "path": "pyproject.toml", "ref": "master", "repo": "rcmpy"}
+{"owner": "vkottler", "path": "pyproject.toml", "ref": "master", "repo": "runtimepy"}
+{"owner": "vkottler", "path": "pyproject.toml", "ref": "master", "repo": "vcorelib"}
 {"owner": "volfpeter", "path": "pyproject.toml", "ref": "master", "repo": "coupon-app"}
 {"owner": "volfpeter", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-motor-oil"}
 {"owner": "volkangurel", "path": "pyproject.toml", "ref": "main", "repo": "calendarlight"}
@@ -2401,29 +2816,41 @@
 {"owner": "walln", "path": "pyproject.toml", "ref": "main", "repo": "scratch"}
 {"owner": "wandb", "path": "pyproject.toml", "repo": "wandb"}
 {"owner": "wandering-andy", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
+{"owner": "wanderlog", "path": "pyproject.toml", "ref": "master", "repo": "posthog"}
+{"owner": "wangyuxi96", "path": "pyproject.toml", "ref": "main", "repo": "yuxi"}
+{"owner": "wangyuxi96", "path": "pyproject.toml", "ref": "main", "repo": "yuxi.Wang"}
 {"owner": "warlo", "path": "pyproject.toml", "ref": "main", "repo": "hass-wx3401"}
 {"owner": "warmlogic", "path": "pyproject.toml", "ref": "main", "repo": "haikuincidence"}
 {"owner": "warmlogic", "path": "pyproject.toml", "ref": "main", "repo": "thisishappening"}
 {"owner": "warrenbailey", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "wasdee", "path": "pyproject.toml", "ref": "master", "repo": "autoname"}
 {"owner": "waza-ari", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-keycloak-middleware"}
+{"owner": "weactivist", "path": "pyproject.toml", "ref": "main", "repo": "kopia"}
 {"owner": "wearepal", "path": "pyproject.toml", "ref": "main", "repo": "EthicML"}
 {"owner": "webpy", "path": "pyproject.toml", "repo": "webpy"}
+{"owner": "week-password", "path": "pyproject.toml", "ref": "master", "repo": "wisher-backend"}
 {"owner": "weien8899", "path": "pyproject.toml", "repo": "airflow-latest"}
 {"owner": "weizx208", "path": "pyproject.toml", "ref": "master", "repo": "OpenBBTerminal"}
 {"owner": "wesh92", "path": "pyproject.toml", "ref": "main", "repo": "kami-gather"}
+{"owner": "wesh92", "path": "pyproject.toml", "ref": "main", "repo": "kami-gather-provider"}
+{"owner": "whinee", "path": "pyproject.toml", "ref": "main", "repo": "md2pdf"}
 {"owner": "widgetti", "path": "pyproject.toml", "repo": "solara"}
 {"owner": "wikimedia", "path": "ruff.toml", "ref": "main", "repo": "machinelearning-liftwing-inference-services"}
 {"owner": "wildman4evermore", "path": "pyproject.toml", "ref": "master", "repo": "mealie"}
 {"owner": "williamkray", "path": "pyproject.toml", "ref": "master", "repo": "synapse"}
+{"owner": "willkg", "path": "pyproject.toml", "ref": "main", "repo": "fillmore"}
 {"owner": "willkg", "path": "pyproject.toml", "ref": "main", "repo": "markus"}
+{"owner": "willkg", "path": "pyproject.toml", "ref": "main", "repo": "socorro-release"}
 {"owner": "wilsonwaters", "path": "pyproject.toml", "ref": "main", "repo": "copier-testing-template"}
 {"owner": "wilswer", "path": "pyproject.toml", "ref": "main", "repo": "swecris-visualizer"}
 {"owner": "wingtk", "path": "pyproject.toml", "repo": "gvsbuild"}
+{"owner": "wmoreiraa", "path": "pyproject.toml", "ref": "main", "repo": "onnx-demo-rust"}
 {"owner": "wmoreiraa", "path": "pyproject.toml", "ref": "main", "repo": "predictive-maintenance"}
 {"owner": "wntrblm", "path": "pyproject.toml", "repo": "nox"}
 {"owner": "wolfv", "path": "pyproject.toml", "repo": "jupyter_releaser"}
 {"owner": "worldr", "path": "pyproject.toml", "ref": "main", "repo": "nhound"}
 {"owner": "worldr", "path": "pyproject.toml", "ref": "main", "repo": "setupr"}
+{"owner": "wstswsb", "path": "pyproject.toml", "ref": "main", "repo": "sutents"}
 {"owner": "wvsmatvv", "path": "pyproject.toml", "ref": "main", "repo": "fastapi-sqlalchemy-asyncpg"}
 {"owner": "wylee", "path": "pyproject.toml", "ref": "master", "repo": "canvas-playground"}
 {"owner": "wylee", "path": "pyproject.toml", "ref": "master", "repo": "chat"}
@@ -2447,6 +2874,7 @@
 {"owner": "yaegassy", "path": "pyproject.toml", "ref": "main", "repo": "ruff-lsp"}
 {"owner": "yaegassy", "path": "pyproject.toml", "ref": "main", "repo": "ruff-vscode"}
 {"owner": "yak-toto", "path": "pyproject.toml", "ref": "master", "repo": "yak-server"}
+{"owner": "yaleman", "path": "pyproject.toml", "ref": "main", "repo": "certbrother"}
 {"owner": "yaleman", "path": "pyproject.toml", "ref": "main", "repo": "cloudflare-stats"}
 {"owner": "yaleman", "path": "pyproject.toml", "ref": "main", "repo": "github-notifications-cleaner"}
 {"owner": "yaleman", "path": "pyproject.toml", "ref": "main", "repo": "homepage"}
@@ -2454,19 +2882,24 @@
 {"owner": "yamap55", "path": "pyproject.toml", "ref": "master", "repo": "python_repository_simple"}
 {"owner": "yashikota", "path": "pyproject.toml", "ref": "master", "repo": "td4-py"}
 {"owner": "yasirroni", "path": "pyproject.toml", "ref": "main", "repo": "PyPGLib"}
+{"owner": "yasirroni", "path": "pyproject.toml", "repo": "matpower-pip"}
 {"owner": "ycseong07", "path": "pyproject.toml", "ref": "main", "repo": "zenml"}
 {"owner": "yeazin", "path": "pyproject.toml", "ref": "main", "repo": "synapse-matrix-"}
 {"owner": "yehoshuadimarsky", "path": "pyproject.toml", "ref": "master", "repo": "bcpandas"}
 {"owner": "yezz123", "path": "pyproject.toml", "repo": "authx"}
 {"owner": "yezz123", "path": "pyproject.toml", "repo": "fastapi-class"}
+{"owner": "yiyi0724", "path": "pyproject.toml", "ref": "master", "repo": "langflow"}
+{"owner": "yrahul3910", "path": "pyproject.toml", "repo": "mk8d"}
 {"owner": "yukihiko-shinoda", "path": "pyproject.toml", "ref": "main", "repo": "invoke-lint"}
 {"owner": "yulachi", "path": "pyproject.toml", "ref": "master", "repo": "cats-fun-site"}
+{"owner": "yulqen", "path": "pyproject.toml", "ref": "master", "repo": "dmp"}
 {"owner": "yutto-dev", "path": "pyproject.toml", "ref": "main", "repo": "yutto"}
 {"owner": "z3z1ma", "path": "pyproject.toml", "ref": "main", "repo": "alto"}
 {"owner": "z3z1ma", "path": "pyproject.toml", "ref": "main", "repo": "dbt-core-interface"}
 {"owner": "zaccherinij", "path": "pyproject.toml", "ref": "master", "repo": "concrete-ml"}
 {"owner": "zacharyburnett", "path": "pyproject.toml", "repo": "TableCrow"}
 {"owner": "zama-ai", "path": "pyproject.toml", "ref": "master", "repo": "concrete-ml"}
+{"owner": "zama-ai", "path": "pyproject.toml", "ref": "main", "repo": "concrete-ml"}
 {"owner": "zama-ai", "path": "pyproject.toml", "ref": "main", "repo": "concrete-numpy"}
 {"owner": "zapier", "path": "pyproject.toml", "ref": "master", "repo": "langchain-nla-util"}
 {"owner": "zbigniewzolnierowicz", "path": "pyproject.toml", "ref": "master", "repo": "pawn"}
@@ -2492,6 +2925,7 @@
 {"owner": "zincware", "path": "pyproject.toml", "ref": "main", "repo": "aaargs"}
 {"owner": "zincware", "path": "pyproject.toml", "ref": "main", "repo": "dask4dvc"}
 {"owner": "zincware", "path": "pyproject.toml", "ref": "main", "repo": "znlib"}
+{"owner": "zpz", "path": "pyproject.toml", "repo": "bigdict"}
 {"owner": "zsoltkovacs", "path": "pyproject.toml", "ref": "master", "repo": "langchain"}
 {"owner": "zulip", "path": "pyproject.toml", "ref": "main", "repo": "zulip"}
 {"owner": "zulip", "path": "pyproject.toml", "repo": "zulip-terminal"}
