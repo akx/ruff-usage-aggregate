@@ -1,8 +1,8 @@
-DEPENDNAME := dependents-$(shell date "+%Y%m%d-%H%M%S")
+TS := $(shell date "+%Y%m%d-%H%M%S")
 KNOWN_GITHUB_TOMLS := data/known-github-tomls.jsonl
 DEP_NOT_FOUND := data/path-unknown.jsonl
 
-.PHONY: default scrape
+.PHONY: default scrape scrape-search scrape-dependents
 
 default: out/results.md out/results.json
 
@@ -16,9 +16,17 @@ out/results.md: tomls
 out/results.json: tomls
 	ruff-usage-aggregate scan-tomls -i $< -o json > $@
 
+scrape: scrape-search scrape-dependents
+
+scrape-search:
+	mkdir -p tmp
+	ruff-usage-aggregate scan-github-search -o tmp/$(TS)-search.jsonl
+	ruff-usage-aggregate combine $(KNOWN_GITHUB_TOMLS) tmp/$(TS)-search.jsonl > tmp/$(TS)-combined.jsonl
+	cp tmp/$(TS)-combined.jsonl $(KNOWN_GITHUB_TOMLS)
+
 scrape-dependents:
 	mkdir -p tmp
-	python3 aux/scrape_dependents.py > tmp/$(DEPENDNAME)-scrape.txt
-	python aux/guess_repo_name_to_jsonl.py --known-jsonl $(KNOWN_GITHUB_TOMLS) --known-json $(DEP_NOT_FOUND) < tmp/$(DEPENDNAME)-scrape.txt > tmp/$(DEPENDNAME)-out.jsonl
-	ruff-usage-aggregate combine $(KNOWN_GITHUB_TOMLS) tmp/$(DEPENDNAME)-out.jsonl > tmp/$(DEPENDNAME)-combined.jsonl
-	cp tmp/$(DEPENDNAME)-combined.jsonl $(KNOWN_GITHUB_TOMLS)
+	python3 aux/scrape_dependents.py > tmp/$(TS)-scrape.txt
+	python aux/guess_repo_name_to_jsonl.py --known-jsonl $(KNOWN_GITHUB_TOMLS) --known-json $(DEP_NOT_FOUND) < tmp/$(TS)-scrape.txt > tmp/$(TS)-out.jsonl
+	ruff-usage-aggregate combine $(KNOWN_GITHUB_TOMLS) tmp/$(TS)-out.jsonl > tmp/$(TS)-combined.jsonl
+	cp tmp/$(TS)-combined.jsonl $(KNOWN_GITHUB_TOMLS)
