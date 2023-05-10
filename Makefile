@@ -30,3 +30,6 @@ scrape-dependents:
 	python aux/guess_repo_name_to_jsonl.py --known-jsonl $(KNOWN_GITHUB_TOMLS) --known-json $(DEP_NOT_FOUND) < tmp/$(TS)-scrape.txt > tmp/$(TS)-out.jsonl
 	ruff-usage-aggregate combine $(KNOWN_GITHUB_TOMLS) tmp/$(TS)-out.jsonl > tmp/$(TS)-combined.jsonl
 	cp tmp/$(TS)-combined.jsonl $(KNOWN_GITHUB_TOMLS)
+
+gist:
+	cat out/results.md | gh gist create --public -d "ruff-usage-aggregate $(shell date +%Y-%m-%d)" -f results.md
