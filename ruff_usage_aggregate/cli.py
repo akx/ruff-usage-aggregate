@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import csv
 import json
 import logging
@@ -11,6 +12,7 @@ from typing import TextIO
 
 import click
 
+from ruff_usage_aggregate.actions.clean_with_repo_api import clean_with_repo_api_async
 from ruff_usage_aggregate.helpers.jsonl import read_jsonl, write_jsonl
 
 log = logging.getLogger(__name__)
@@ -150,3 +152,19 @@ def scan_tomls(input_directory: str, output_format: str):
         from ruff_usage_aggregate.format.markdown import format_markdown
 
         print(format_markdown(sr))
+
+
+@main.command()
+@click.pass_context
+@click.argument("known_github_tomls", type=click.Path(dir_okay=False, file_okay=True, exists=True))
+@click.argument("known_github_tomls_no_forks", type=click.Path(dir_okay=False, file_okay=True))
+@click.argument("repo_api_data", type=click.Path(dir_okay=False, file_okay=True, exists=True))
+def clean_with_repo_api(context: click.Context, known_github_tomls: str, known_github_tomls_no_forks: str, repo_api_data: str):
+    """
+    Remove the forks from known-github-tomls.jsonl by querying the GitHub api and writing the result to
+    known-github-tomls-clean.jsonl. The GitHub api results are saved to repo_api_data.jsonl to avoid the rate limit.
+    """
+    github_token = context.obj["github_token"]
+    asyncio.run(
+        clean_with_repo_api_async(Path(known_github_tomls), Path(known_github_tomls_no_forks), Path(repo_api_data), github_token)
+    )
