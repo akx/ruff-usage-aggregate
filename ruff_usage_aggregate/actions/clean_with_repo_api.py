@@ -9,7 +9,6 @@ from asyncio import Semaphore
 from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
-from typing import Optional
 
 from httpx import AsyncClient, HTTPError
 from tqdm import tqdm
@@ -31,7 +30,7 @@ class RepoInfo:
     owner: str
     repo: str
     path: str
-    ref: Optional[str]
+    ref: str | None
     status: RepoStatus
 
 
@@ -56,7 +55,12 @@ async def query_github(owner: str, repo: str, path: str, client: AsyncClient, gi
 
 
 async def query_github_slow(
-    owner: str, repo: str, path: str, client: AsyncClient, github_token: str, slow_down: Semaphore
+    owner: str,
+    repo: str,
+    path: str,
+    client: AsyncClient,
+    github_token: str,
+    slow_down: Semaphore,
 ) -> RepoInfo | tuple[str, str, HTTPError]:
     # There is an actual ratelimit with github (5000 requests per hour), but we still want 3k parallel requests,
     # so we slow it down to 50 (see below) at the same time here
@@ -69,7 +73,10 @@ async def query_github_slow(
 
 
 async def clean_with_repo_api_async(
-    known_github_tomls: Path, known_github_tomls_no_forks: Path, repo_api_data: Path, github_token: str
+    known_github_tomls: Path,
+    known_github_tomls_no_forks: Path,
+    repo_api_data: Path,
+    github_token: str,
 ):
     repos = list(read_jsonl(known_github_tomls))
     paths = {}
@@ -90,9 +97,14 @@ async def clean_with_repo_api_async(
                     tasks.append(
                         asyncio.create_task(
                             query_github_slow(
-                                repo["owner"], repo["repo"], repo["path"], client, github_token, slow_down
-                            )
-                        )
+                                repo["owner"],
+                                repo["repo"],
+                                repo["path"],
+                                client,
+                                github_token,
+                                slow_down,
+                            ),
+                        ),
                     )
             for completed in tqdm(asyncio.as_completed(tasks), total=len(tasks)):
                 repo_info = await completed
